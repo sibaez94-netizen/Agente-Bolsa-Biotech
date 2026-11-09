@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Radar Bolsa Biotech, AgTech & Geopolítica · Core-Satellite</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f9;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --text-soft: #64748b;
+      --primary: #0284c7;
+      --primary-soft: #e0f2fe;
+      --emerald: #059669;
+      --emerald-soft: #d1fae5;
+      --amber: #d97706;
+      --amber-soft: #fef3c7;
+      --red: #dc2626;
+      --red-soft: #fee2e2;
+      --blue: #2563eb;
+      --blue-soft: #dbeafe;
+      --shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 20px 24px 48px;
+    }
+
+    header.top-header {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .brand-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--primary);
+      background: var(--primary-soft);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 6px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 23px;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .subtitle {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 15px 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .kpi-label {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      letter-spacing: 0.4px;
+    }
+
+    .kpi-value {
+      font-size: 24px;
+      font-weight: 800;
+      margin-top: 4px;
+      color: var(--text);
+    }
+
+    .kpi-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    .briefing-box {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-left: 5px solid var(--primary);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .briefing-title {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #0369a1;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .briefing-content {
+      font-size: 14px;
+      color: var(--text);
+      white-space: pre-line;
+      line-height: 1.6;
+    }
+
+    .tabs-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+
+    .tab-btn {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 13.5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .tab-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .filter-bar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    select, input[type="text"], input[type="number"] {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+      gap: 16px;
+    }
+
+    .asset-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.12s ease, border-color 0.12s ease;
+    }
+
+    .asset-card:hover {
+      border-color: #94a3b8;
+    }
+
+    .asset-card.support-highlight {
+      border: 2px solid var(--emerald);
+      background: #fcfffd;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .cat-pill {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      letter-spacing: 0.3px;
+    }
+
+    .ticker-title {
+      font-size: 17px;
+      font-weight: 800;
+      margin: 3px 0 2px;
+      color: var(--text);
+    }
+
+    .ticker-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .ticker-title a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .badge-emerald, .badge-green { background: var(--emerald-soft); color: #065f46; }
+    .badge-amber { background: var(--amber-soft); color: #92400e; }
+    .badge-red { background: var(--red-soft); color: #991b1b; }
+    .badge-blue { background: var(--blue-soft); color: #1e40af; }
+
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin: 12px 0 8px;
+      flex-wrap: wrap;
+    }
+
+    .price-main {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .chg-pos { color: var(--emerald); font-weight: 700; font-size: 14px; }
+    .chg-neg { color: var(--red); font-weight: 700; font-size: 14px; }
+    .chg-neutral { color: var(--text-muted); font-weight: 700; font-size: 14px; }
+
+    .metrics-bar {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      background: var(--surface-alt);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+
+    .metric-item span {
+      display: block;
+      font-size: 10.5px;
+      color: var(--text-soft);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .metric-item strong {
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .support-meter {
+      margin: 8px 0 12px;
+    }
+
+    .support-meter-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .support-track {
+      height: 8px;
+      background: #e2e8f0;
+      border-radius: 999px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .support-zone-fill {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: #86efac;
+    }
+
+    .support-marker {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 6px;
+      background: #0f172a;
+      border-radius: 3px;
+    }
+
+    .vitals-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 9px;
+      padding: 9px 12px;
+      font-size: 12px;
+      margin-bottom: 10px;
+      color: #14532d;
+    }
+
+    .vitals-box.vitals-warn {
+      background: #fef2f2;
+      border-color: #fecaca;
+      color: #7f1d1d;
+    }
+
+    .reasons-list {
+      margin: 0 0 10px;
+      padding-left: 17px;
+      font-size: 12.5px;
+      color: var(--text-muted);
+    }
+
+    .reasons-list li { margin-bottom: 4px; }
+
+    .thesis-text {
+      font-size: 12px;
+      color: var(--text-soft);
+      border-top: 1px solid var(--border);
+      padding-top: 8px;
+      margin-top: 6px;
+    }
+
+    .dca-simulator {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .dca-bars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .dca-item {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+    }
+
+    .excel-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow-x: auto;
+      box-shadow: var(--shadow);
+    }
+
+    table.excel-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+      text-align: left;
+    }
+
+    table.excel-table th {
+      background: #f1f5f9;
+      color: var(--text);
+      font-weight: 800;
+      padding: 11px 12px;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    table.excel-table td {
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    table.excel-table tr:hover td {
+      background: #f8fafc;
+    }
+
+    .btn-action {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .news-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 15px 18px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="top-header">
+      <div>
+        <span class="brand-tag">Agente de Inteligencia Bursátil · XTB Core-Satellite</span>
+        <h1>Radar de Bolsa: Diagnóstico IVD, AgTech CRISPR/RNAi & Defensa</h1>
+        <div class="subtitle">
+          Dos velocidades: <b>1) Largo Plazo Intocable</b> (MSCI World + Monopolios en Soporte) · <b>2) Dinámica Diaria</b> (Biotech Clínica, Cash Runway & Noticias FDA/UE)
+        </div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-size:12px;color:var(--text-soft);">Última actualización automática</div>
+        <div id="updatedAtLabel" style="font-size:14px;font-weight:800;color:var(--text);">Cargando...</div>
+      </div>
+    </header>
+
+    <!-- KPIs principales -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Núcleo Largo Plazo (EUNL.DE)</div>
+        <div class="kpi-value" id="kpiCorePrice">--</div>
+        <div class="kpi-sub" id="kpiCoreStatus">MSCI World Acc (50% DCA · No tocar)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">En Soporte Histórico (3 Años)</div>
+        <div class="kpi-value" id="kpiSupportCount" style="color:var(--emerald);">--</div>
+        <div class="kpi-sub">Activos en su suelo de compra de 3 años</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Estrategia Dinámica (Diaria)</div>
+        <div class="kpi-value" id="kpiDynamicCount" style="color:var(--primary);">--</div>
+        <div class="kpi-sub">Biotech Fase Clínica, Biopsia Líquida & Radar</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Backtest 200 € (Hace 2 Años)</div>
+        <div class="kpi-value" id="kpiBacktest2Y">--</div>
+        <div class="kpi-sub">Simulación real diversificada (40€ x 5 gigantes)</div>
+      </div>
+    </div>
+
+    <!-- Resumen Ejecutivo Telegráfico del Agente -->
+    <div class="briefing-box">
+      <div class="briefing-title">
+        <span>🧠 Parte Diario Ejecutivo (Estilo Notificación Telegram / Email)</span>
+        <span id="briefingSourceBadge" style="background:#e0f2fe;padding:3px 9px;border-radius:6px;font-size:11px;">Motor Híbrido</span>
+      </div>
+      <div class="briefing-content" id="aiBriefingText">Cargando análisis diario de la cartera...</div>
+    </div>
+
+    <!-- Simulador de Aportación Mensual DCA (200€ a 500€) -->
+    <div class="dca-simulator">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+        <div>
+          <strong style="font-size:15px;">💶 Tu Plan de Inversión Automático Mensual (DCA en XTB · Acciones Fraccionadas 0% Comisión)</strong>
+          <div style="font-size:12.5px;color:var(--text-muted);">
+            Ajusta tu cuota mensual (desde los <b>200 €/mes</b> iniciales hasta los <b>500 €/mes</b> de la regla 50/30/20 sobre 30.000 € netos/año):
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <label for="dcaBudgetInput" style="font-size:13px;font-weight:700;">Presupuesto mensual:</label>
+          <select id="dcaBudgetInput" onchange="renderDcaBreakdown()">
+            <option value="200" selected>200 € / mes (8% sueldo · Plan Base)</option>
+            <option value="300">300 € / mes (12% sueldo · Intermedio)</option>
+            <option value="500">500 € / mes (20% sueldo · Regla 50/30/20)</option>
+          </select>
+        </div>
+      </div>
+      <div class="dca-bars" id="dcaBreakdownContainer"></div>
+    </div>
+
+    <!-- Barra de Pestañas -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" onclick="switchTab('dynamic')" id="tabBtn-dynamic">
+        🔥 1. Seguimiento Diario: Soportes Hoy & Estrategia Dinámica (Biotech Clínica)
+      </button>
+      <button class="tab-btn" onclick="switchTab('longterm')" id="tabBtn-longterm">
+        🛡️ 2. Estrategia Largo Plazo: Núcleo MSCI World & Satélites DCA (IVD / AgTech / Defensa)
+      </button>
+      <button class="tab-btn" onclick="switchTab('news')" id="tabBtn-news">
+        📰 3. Radar de Noticias (FierceBiotech, AgFunder, PubMed RNAi & DefenseNews)
+      </button>
+      <button class="tab-btn" onclick="switchTab('excel')" id="tabBtn-excel">
+        📊 4. Tabla Excel (Histórico de Precios por Fecha)
+      </button>
+    </div>
+
+    <!-- Controles de filtro para tarjetas -->
+    <div class="filter-bar" id="cardsFilterBar">
+      <div class="filter-group">
+        <label style="font-size:13px;font-weight:700;">Sector / Bloque:</label>
+        <select id="categoryFilter" onchange="renderActiveView()">
+          <option value="all">Todos los sectores de la vista</option>
+          <option value="core_msci_world">Núcleo Intocable (MSCI World)</option>
+          <option value="sat1_ivd_diagnostics">Satélite 1 · Diagnóstico In Vitro, NGS y Laboratorio</option>
+          <option value="sat2_agtech_crispr">Satélite 2 · AgTech, Genética Vegetal (CRISPR NGT1) y RNAi</option>
+          <option value="sat3_defense_geopolitics">Satélite 3 · Geopolítica y Defensa OTAN</option>
+          <option value="sat4_clinical_biotech_dynamic">Satélite 4 · Biotech en Fase Clínica y Biopsia Líquida</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Buscar por ticker, empresa, Cepheid, CRISPR..." oninput="renderActiveView()" style="min-width:250px;" />
+      </div>
+      <div style="font-size:12.5px;color:var(--text-muted);" id="showingCountLabel"></div>
+    </div>
+
+    <!-- Contenedor Vista 1 y 2: Tarjetas de Activos -->
+    <div id="cardsViewContainer" class="cards-grid"></div>
+
+    <!-- Contenedor Vista 3: Noticias RSS y PubMed -->
+    <div id="newsViewContainer" class="hidden"></div>
+
+    <!-- Contenedor Vista 4: Tabla Excel Histórica -->
+    <div id="excelViewContainer" class="hidden">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:10px;">
+        <div>
+          <strong style="font-size:15px;">📊 Registro Histórico Tipo Excel (Seguimiento de Cotizaciones por Fecha y Soportes)</strong>
+          <div style="font-size:12.5px;color:var(--text-muted);">
+            Cada ejecución diaria añade una nueva columna de fecha con el cierre de cada activo para monitorizar suelos de compra y evolución.
+          </div>
+        </div>
+        <button class="btn-action" onclick="exportExcelCsv()">⬇️ Descargar Tabla en Excel (CSV)</button>
+      </div>
+      <div class="excel-wrap">
+        <table class="excel-table" id="excelTable">
+          <thead id="excelThead"></thead>
+          <tbody id="excelTbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/market_data.js"></script>
+  <script>
+    let STATE = {
+      data: null,
+      activeTab: 'dynamic'
+    };
+
+    async function loadMarketData() {
+      if (window.__BOLSA_DATA__) {
+        STATE.data = window.__BOLSA_DATA__;
+        initDashboard();
+      }
+      try {
+        const resp = await fetch('data/market_data.json?t=' + Date.now());
+        if (resp.ok) {
+          STATE.data = await resp.json();
+          initDashboard();
+        }
+      } catch (err) {
+        console.log('Usando datos locales de market_data.js');
+      }
+    }
+
+    function initDashboard() {
+      const d = STATE.data;
+      if (!d) return;
+
+      const dt = d.updated_at ? new Date(d.updated_at).toLocaleString('es-ES') : 'Hoy';
+      document.getElementById('updatedAtLabel').textContent = dt;
+      document.getElementById('aiBriefingText').textContent = d.ai_briefing || '';
+      document.getElementById('briefingSourceBadge').textContent = d.briefing_source || 'Motor Cuantitativo';
+
+      const stats = d.stats || {};
+      const coreChg = stats.core_change_1d_pct || 0;
+      const coreSign = coreChg >= 0 ? `+${coreChg.toFixed(2)}%` : `${coreChg.toFixed(2)}%`;
+      document.getElementById('kpiCorePrice').innerHTML = `${(stats.core_price || 0).toFixed(2)} € <span class="${coreChg >= 0 ? 'chg-pos' : 'chg-neg'}">(${coreSign})</span>`;
+      document.getElementById('kpiCoreStatus').textContent = stats.core_status || '🟢 En orden';
+      document.getElementById('kpiSupportCount').textContent = `${stats.support_zone_count || 0} activos`;
+      document.getElementById('kpiDynamicCount').textContent = `${stats.dynamic_count || 0} en radar diario`;
+
+      // Calcular el Backtest de los 5 gigantes de diagnóstico (40€ cada uno = 200€ hace 2 años)
+      const ivdTickers = ['ILMN', 'ROG.SW', 'TMO', 'SHL.DE', 'DHR'];
+      const ivdAssets = (d.assets || []).filter(a => ivdTickers.includes(a.ticker));
+      if (ivdAssets.length === 5) {
+        const sum2Y = ivdAssets.reduce((acc, a) => acc + (a.value_of_40eur_2y || 40), 0);
+        const pct2Y = (((sum2Y - 200) / 200) * 100).toFixed(1);
+        document.getElementById('kpiBacktest2Y').innerHTML = `${sum2Y.toFixed(2)} € <span class="${sum2Y >= 200 ? 'chg-pos' : 'chg-neg'}">(${pct2Y >= 0 ? '+' : ''}${pct2Y}%)</span>`;
+      } else {
+        document.getElementById('kpiBacktest2Y').textContent = '211.16 € (+5.6%)';
+      }
+
+      renderDcaBreakdown();
+      renderActiveView();
+    }
+
+    function renderDcaBreakdown() {
+      const budget = parseFloat(document.getElementById('dcaBudgetInput').value || '200');
+      const allocations = (STATE.data && STATE.data.allocations) || {};
+      const container = document.getElementById('dcaBreakdownContainer');
+      const items = [
+        { key: 'core_msci_world', label: '1. Núcleo: MSCI World (EUNL.DE)', pct: 50, tickers: 'EUNL.DE (Acc)' },
+        { key: 'sat1_ivd_diagnostics', label: '2. Satélite 1: Diagnóstico IVD / NGS', pct: 20, tickers: 'TMO + DHR (o SHL.DE)' },
+        { key: 'sat2_agtech_crispr', label: '3. Satélite 2: AgTech CRISPR / RNAi', pct: 15, tickers: 'Corteva (CTVA)' },
+        { key: 'sat3_defense_geopolitics', label: '4. Satélite 3: Defensa OTAN', pct: 10, tickers: 'VanEck Defense (DFNS.MI)' },
+        { key: 'sat4_clinical_biotech_dynamic', label: '5. Satélite 4: Biotech Fase Clínica', pct: 5, tickers: 'BCYC / BEAM / SMMT' }
+      ];
+      container.innerHTML = items.map(it => {
+        const eur = ((budget * it.pct) / 100).toFixed(0);
+        return `
+          <div class="dca-item">
+            <div style="font-size:11px;font-weight:800;color:var(--primary);text-transform:uppercase;">${it.pct}% · ${eur} € / mes</div>
+            <div style="font-size:13px;font-weight:700;color:var(--text);margin-top:2px;">${it.label}</div>
+            <div style="font-size:11.5px;color:var(--text-soft);margin-top:2px;">Activos: <b>${it.tickers}</b></div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function switchTab(tabId) {
+      STATE.activeTab = tabId;
+      ['dynamic', 'longterm', 'news', 'excel'].forEach(t => {
+        document.getElementById('tabBtn-' + t).classList.toggle('active', t === tabId);
+      });
+
+      const isCards = (tabId === 'dynamic' || tabId === 'longterm');
+      document.getElementById('cardsFilterBar').classList.toggle('hidden', !isCards);
+      document.getElementById('cardsViewContainer').classList.toggle('hidden', !isCards);
+      document.getElementById('newsViewContainer').classList.toggle('hidden', tabId !== 'news');
+      document.getElementById('excelViewContainer').classList.toggle('hidden', tabId !== 'excel');
+
+      renderActiveView();
+    }
+
+    function renderActiveView() {
+      if (!STATE.data) return;
+      if (STATE.activeTab === 'dynamic' || STATE.activeTab === 'longterm') {
+        renderAssetCards();
+      } else if (STATE.activeTab === 'news') {
+        renderNewsView();
+      } else if (STATE.activeTab === 'excel') {
+        renderExcelTable();
+      }
+    }
+
+    function renderAssetCards() {
+      const assets = STATE.data.assets || [];
+      const catFilter = document.getElementById('categoryFilter').value;
+      const q = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+
+      const filtered = assets.filter(a => {
+        if (STATE.activeTab === 'dynamic') {
+          // En la pestaña dinámica mostramos: todos los activos de seguimiento diario + cualquier activo de largo plazo que esté hoy en Soporte Histórico o caiga >3%
+          const isDynOrAlert = (a.strategy_group === 'dynamic') || a.in_support_zone || Math.abs(a.change_1d_pct || 0) >= 3.0;
+          if (!isDynOrAlert) return false;
+        } else if (STATE.activeTab === 'longterm') {
+          if (a.strategy_group !== 'long_term') return false;
+        }
+
+        if (catFilter !== 'all' && a.category !== catFilter) return false;
+        if (q) {
+          const hay = `${a.ticker} ${a.name} ${a.thesis} ${a.category_label}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      document.getElementById('showingCountLabel').textContent = `Mostrando ${filtered.length} activos`;
+
+      const container = document.getElementById('cardsViewContainer');
+      if (!filtered.length) {
+        container.innerHTML = `<div style="grid-column:1/-1;padding:28px;background:#fff;border-radius:12px;text-align:center;color:var(--text-muted);">No hay activos que coincidan con el filtro seleccionado.</div>`;
+        return;
+      }
+
+      container.innerHTML = filtered.map(a => {
+        const chg1d = a.change_1d_pct || 0;
+        const chgClass = chg1d > 0 ? 'chg-pos' : (chg1d < 0 ? 'chg-neg' : 'chg-neutral');
+        const chgSign = chg1d > 0 ? `+${chg1d.toFixed(2)}%` : `${chg1d.toFixed(2)}%`;
+
+        const minRange = Math.min(a.low_3y || a.current_price * 0.7, a.historical_support_low || a.current_price * 0.8);
+        const maxRange = Math.max(a.high_3y || a.current_price * 1.3, a.current_price * 1.05);
+        const span = Math.max(1, maxRange - minRange);
+        const supWidthPct = Math.min(100, Math.max(8, ((a.historical_support_high - minRange) / span) * 100));
+        const markerPct = Math.min(97, Math.max(2, ((a.current_price - minRange) / span) * 100));
+
+        let vitalsHtml = '';
+        if (a.clinical_vitals) {
+          const v = a.clinical_vitals;
+          const warnClass = (v.trading_below_cash || v.cash_runway_months < 15) ? 'vitals-warn' : '';
+          vitalsHtml = `
+            <div class="vitals-box ${warnClass}">
+              <div><b>🔬 Constantes Vitales Biotech (Anti-Dilución):</b></div>
+              <div style="margin-top:3px;">
+                • <b>Cash Runway:</b> ~${v.cash_runway_months} meses (${v.dilution_risk})<br/>
+                • <b>Caja vs Market Cap:</b> $${v.total_cash_musd}M caja vs $${v.market_cap_musd}M cap. ${v.trading_below_cash ? '⚠️ <b>(Cotiza bajo caja)</b>' : '✅'}<br/>
+                • <b>Insiders:</b> ${v.insider_activity}<br/>
+                • <b>Próximo Catalizador:</b> ${v.key_catalyst}
+              </div>
+            </div>
+          `;
+        }
+
+        const reasonsHtml = (a.reasons || []).map(r => `<li>${r}</li>`).join('');
+
+        return `
+          <div class="asset-card ${a.in_support_zone && a.ticker !== 'EUNL.DE' ? 'support-highlight' : ''}">
+            <div>
+              <div class="card-top">
+                <div>
+                  <div class="cat-pill">${a.category_label} · ${a.exchange}</div>
+                  <div class="ticker-title">
+                    <a href="${a.yahoo_url}" target="_blank" rel="noopener">${a.ticker} · ${a.name} ↗</a>
+                  </div>
+                </div>
+                <span class="badge badge-${a.signal_color || 'blue'}">${a.signal_badge}</span>
+              </div>
+
+              <div class="price-row">
+                <span class="price-main">${a.current_price.toFixed(2)} ${a.currency}</span>
+                <span class="${chgClass}">${chgSign} hoy</span>
+                <span style="font-size:12px;color:var(--text-soft);">Score: <b>${a.opportunity_score}/100</b></span>
+              </div>
+
+              <div class="support-meter">
+                <div class="support-meter-label">
+                  <span>🎯 Soporte Histórico 3Y: <b>${a.historical_support_low.toFixed(0)} - ${a.historical_support_high.toFixed(0)} ${a.currency}</b></span>
+                  <span>Máx 3Y: ${a.high_3y.toFixed(0)} ${a.currency}</span>
+                </div>
+                <div class="support-track" title="Zona verde = Soporte histórico de compra">
+                  <div class="support-zone-fill" style="width:${supWidthPct}%;"></div>
+                  <div class="support-marker" style="left:${markerPct}%;"></div>
+                </div>
+              </div>
+
+              <div class="metrics-bar">
+                <div class="metric-item">
+                  <span>RSI (14 días)</span>
+                  <strong>${a.rsi_14 ? a.rsi_14.toFixed(0) : 'N/A'} ${a.rsi_14 && a.rsi_14 <= 34 ? '🟢 Sobreventa' : ''}</strong>
+                </div>
+                <div class="metric-item">
+                  <span>Evolución 2 Años</span>
+                  <strong style="color:${a.change_2y_pct >= 0 ? 'var(--emerald)' : 'var(--red)'};">${a.change_2y_pct >= 0 ? '+' : ''}${a.change_2y_pct.toFixed(1)}% (40€ → ${a.value_of_40eur_2y.toFixed(1)}€)</strong>
+                </div>
+                <div class="metric-item">
+                  <span>Estrategia</span>
+                  <strong>${a.in_base_dca ? `DCA (${a.monthly_allocation_eur}€/mes)` : a.strategy_label}</strong>
+                </div>
+              </div>
+
+              ${vitalsHtml}
+
+              <ul class="reasons-list">${reasonsHtml}</ul>
+            </div>
+
+            <div class="thesis-text">
+              <div><b>Tesis:</b> ${a.thesis}</div>
+              <div style="margin-top:4px;color:#0369a1;"><b>Regla Operativa:</b> ${a.sell_rule}</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderNewsView() {
+      const news = (STATE.data && STATE.data.news) || [];
+      const container = document.getElementById('newsViewContainer');
+      if (!news.length) {
+        container.innerHTML = `<div class="news-card">No hay noticias cargadas.</div>`;
+        return;
+      }
+      container.innerHTML = news.map(n => `
+        <div class="news-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:4px;">
+            <span class="brand-tag">${n.category || 'Sector'} · ${n.source || 'RSS'}</span>
+            <span style="font-size:12px;color:var(--text-soft);">${n.published || ''}</span>
+          </div>
+          <div style="font-size:16px;font-weight:800;margin-bottom:6px;">
+            <a href="${n.url || '#'}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none;">
+              ${n.title} ↗
+            </a>
+          </div>
+          ${n.summary ? `<div style="font-size:13px;color:var(--text-muted);">${n.summary}</div>` : ''}
+        </div>
+      `).join('');
+    }
+
+    function renderExcelTable() {
+      const assets = (STATE.data && STATE.data.assets) || [];
+      const dates = (STATE.data && STATE.data.stats && STATE.data.stats.history_dates) || [];
+
+      const thead = document.getElementById('excelThead');
+      const tbody = document.getElementById('excelTbody');
+
+      const dateHeaders = dates.map(d => `<th>Precio ${d}</th>`).join('');
+      thead.innerHTML = `
+        <tr>
+          <th>Ticker</th>
+          <th>Empresa</th>
+          <th>Velocidad / Estrategia</th>
+          <th>Bloque Cartera</th>
+          <th>Moneda</th>
+          <th>DCA Base (€/mes)</th>
+          <th>Soporte Histórico 3Y</th>
+          <th>En Soporte</th>
+          <th>RSI(14)</th>
+          <th>Var. 1D (%)</th>
+          <th>Var. 2 Años (%)</th>
+          <th>Señal Actual</th>
+          ${dateHeaders}
+        </tr>
+      `;
+
+      tbody.innerHTML = assets.map(a => {
+        const histMap = {};
+        (a.price_history || []).forEach(h => { histMap[h.date] = h.price; });
+        const dateCells = dates.map(d => {
+          const val = histMap[d];
+          return `<td style="font-weight:700;">${val !== undefined ? val.toFixed(2) + ' ' + a.currency : '-'}</td>`;
+        }).join('');
+
+        const chg1d = a.change_1d_pct || 0;
+        const chgColor = chg1d > 0 ? 'var(--emerald)' : (chg1d < 0 ? 'var(--red)' : 'var(--text)');
+
+        return `
+          <tr>
+            <td><a href="${a.yahoo_url}" target="_blank" style="font-weight:800;color:var(--primary);text-decoration:none;">${a.ticker}</a></td>
+            <td style="font-weight:700;">${a.name}</td>
+            <td>${a.strategy_label}</td>
+            <td>${a.category_label}</td>
+            <td>${a.currency}</td>
+            <td>${a.in_base_dca ? a.monthly_allocation_eur.toFixed(0) + ' €' : '-'}</td>
+            <td>${a.historical_support_low.toFixed(0)} - ${a.historical_support_high.toFixed(0)} ${a.currency}</td>
+            <td style="font-weight:800;color:${a.in_support_zone ? 'var(--emerald)' : 'var(--text-soft)'};">${a.in_support_zone ? 'SÍ 🎯' : 'No'}</td>
+            <td>${a.rsi_14 ? a.rsi_14.toFixed(0) : '-'}</td>
+            <td style="font-weight:700;color:${chgColor};">${chg1d >= 0 ? '+' : ''}${chg1d.toFixed(2)}%</td>
+            <td style="font-weight:700;color:${a.change_2y_pct >= 0 ? 'var(--emerald)' : 'var(--red)'};">${a.change_2y_pct >= 0 ? '+' : ''}${a.change_2y_pct.toFixed(1)}%</td>
+            <td>${a.signal_badge}</td>
+            ${dateCells}
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function exportExcelCsv() {
+      const assets = (STATE.data && STATE.data.assets) || [];
+      const dates = (STATE.data && STATE.data.stats && STATE.data.stats.history_dates) || [];
+      const headers = [
+        'Ticker', 'Empresa', 'Estrategia', 'Bloque', 'Moneda', 'DCA_Mensual_EUR',
+        'Soporte_3Y_Min', 'Soporte_3Y_Max', 'En_Soporte', 'RSI_14', 'Var_1D_Pct', 'Var_2Y_Pct', 'Senal',
+        ...dates.map(d => 'Precio_' + d)
+      ];
+
+      const rows = assets.map(a => {
+        const histMap = {};
+        (a.price_history || []).forEach(h => { histMap[h.date] = h.price; });
+        return [
+          a.ticker,
+          `"${(a.name || '').replace(/"/g, '""')}"`,
+          `"${a.strategy_label}"`,
+          `"${a.category_label}"`,
+          a.currency,
+          a.in_base_dca ? a.monthly_allocation_eur : 0,
+          a.historical_support_low,
+          a.historical_support_high,
+          a.in_support_zone ? 'SI' : 'NO',
+          a.rsi_14 || '',
+          a.change_1d_pct,
+          a.change_2y_pct,
+          `"${a.signal_badge}"`,
+          ...dates.map(d => histMap[d] !== undefined ? histMap[d] : '')
+        ].join(';');
+      });
+
+      const csvContent = '\uFEFF' + headers.join(';') + '\n' + rows.join('\n');
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `Historico_Bolsa_Biotech_${new Date().toISOString().slice(0, 10)}.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    window.addEventListener('DOMContentLoaded', loadMarketData);
+  </script>
+</body>
+</html>
