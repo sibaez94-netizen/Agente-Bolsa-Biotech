@@ -1,0 +1,47 @@
+name: Radar Diario Bolsa Biotech, AgTech & Defensa
+
+on:
+  schedule:
+    # Se ejecuta de lunes a viernes a las 17:30 UTC (18:30 hora peninsular española, tras cierre europeo y media sesión EE.UU.)
+    - cron: '30 17 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-market-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Market Intelligence Agent
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '465' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
+
+      - name: Commit and push updated market database and web dashboard
+        run: |
+          git config user.name "Agente Bolsa Bot"
+          git config user.email "bot@radar-bolsa.local"
+          git add data/ docs/data/ docs/last_email_preview.html
+          git diff --staged --quiet || (git commit -m "chore(bolsa): actualización diaria de cotizaciones, soportes y noticias" && git pull --rebase -X theirs origin main && git push)

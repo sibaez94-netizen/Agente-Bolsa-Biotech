@@ -1,0 +1,369 @@
+{
+  "project_name": "Radar Bolsa Biotech, AgTech & Geopolítica (Core-Satellite)",
+  "investor_profile": {
+    "monthly_dca_budget_eur": 200,
+    "recommended_50_30_20_budget_eur": 500,
+    "net_annual_salary_eur": 30000,
+    "base_currency": "EUR",
+    "broker": "XTB (Acciones Fraccionadas, 0% comisión hasta 100k€/mes, reporte automático Hacienda España)"
+  },
+  "alert_thresholds": {
+    "core_major_drop_daily_pct": -4.0,
+    "core_major_drawdown_pct": -10.0,
+    "satellite_opportunity_drop_daily_pct": -3.5,
+    "dynamic_spike_or_drop_daily_pct": 4.5,
+    "support_proximity_pct": 5.0,
+    "min_safe_cash_runway_months": 15
+  },
+  "allocations": {
+    "core_msci_world": {
+      "name": "Núcleo Intocable (MSCI World Acc)",
+      "strategy_mode": "long_term",
+      "weight_pct": 50,
+      "monthly_eur": 100,
+      "review_frequency": "Anual (No tocar salvo alerta gorda)",
+      "description": "Base térmica darwiniana (1.500 mayores empresas del mundo desarrollado). Acumulación automática de dividendos sin peaje fiscal."
+    },
+    "sat1_ivd_diagnostics": {
+      "name": "Satélite 1 · Diagnóstico In Vitro, NGS y Laboratorio",
+      "strategy_mode": "long_term_tactical",
+      "weight_pct": 20,
+      "monthly_eur": 40,
+      "review_frequency": "Trimestral / Compras en Soporte Histórico",
+      "description": "Monopolios hospitalarios de secuenciación masiva (NGS tumor sólido), PCR rápida (Cepheid), bioquímica (Core Labs) y consumibles."
+    },
+    "sat2_agtech_crispr": {
+      "name": "Satélite 2 · AgTech, Genética Vegetal (CRISPR NGT1) y RNAi",
+      "strategy_mode": "long_term_tactical",
+      "weight_pct": 15,
+      "monthly_eur": 30,
+      "review_frequency": "Trimestral / Catalizadores regulatorios UE 2028",
+      "description": "Semillas editadas con CRISPR sin transgén (normativa europea NGT1 aprobada en 2026 para 2028), biopesticidas dsRNA (RNAi) y microbioma agrícola."
+    },
+    "sat3_defense_geopolitics": {
+      "name": "Satélite 3 · Escudo Geopolítico y Defensa OTAN",
+      "strategy_mode": "long_term_tactical",
+      "weight_pct": 10,
+      "monthly_eur": 20,
+      "review_frequency": "Semestral / Presupuestos OTAN y UE",
+      "description": "Rearme europeo y occidental (objetivo 2%-3% PIB OTAN), munición, ciberseguridad militar y sistemas antiaéreos."
+    },
+    "sat4_clinical_biotech_dynamic": {
+      "name": "Satélite 4 · Dinámica Diaria (Biotech Fase Clínica y Biopsia Líquida)",
+      "strategy_mode": "dynamic_daily",
+      "weight_pct": 5,
+      "monthly_eur": 10,
+      "review_frequency": "Diaria (Catalizadores FDA/EMA, Cash Runway e Insiders)",
+      "description": "Capital riesgo científico para buscar asimetrías (péptidos bicíclicos, edición de bases, anticuerpos biespecíficos, biopsia líquida ctDNA) vigilando la dilución."
+    }
+  },
+  "assets": [
+    {
+      "ticker": "EUNL.DE",
+      "name": "iShares Core MSCI World UCITS ETF (Acc)",
+      "category": "core_msci_world",
+      "strategy_mode": "long_term",
+      "currency": "EUR",
+      "exchange": "Xetra (Alemania)",
+      "in_base_dca": true,
+      "monthly_allocation_eur": 100,
+      "historical_support_low": 82.0,
+      "historical_support_high": 88.0,
+      "thesis": "Organismo autolimpiable (selección natural de las 1.500 mayores empresas globales). ETF de Acumulación (Acc): reinvierte dividendos internamente haciendo interés compuesto sin pasar por Hacienda.",
+      "sell_rule": "NUNCA vender por pánico ni intentar Market Timing (evitar peaje del 19%-21% en Hacienda y no romper la bola de nieve). Solo tocar en jubilación o compra de vivienda."
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "USD",
+      "exchange": "NYSE (EE. UU.)",
+      "in_base_dca": true,
+      "monthly_allocation_eur": 20,
+      "historical_support_low": 480.0,
+      "historical_support_high": 510.0,
+      "thesis": "El 'Amazon' de los laboratorios: domina desde el plástico de pipetas y medios de cultivo hasta secuenciación masiva (NGS Ion Torrent) para tumor sólido en hospitales españoles.",
+      "sell_rule": "Mantener a largo plazo. Sobreponderar o lanzar orden limitada si corrige hacia el soporte histórico de 480$-510$."
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher Corporation (Matriz de Cepheid, Beckman y Leica)",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "USD",
+      "exchange": "NYSE (EE. UU.)",
+      "in_base_dca": true,
+      "monthly_allocation_eur": 20,
+      "historical_support_low": 190.0,
+      "historical_support_high": 205.0,
+      "thesis": "Dueña de Cepheid (GeneXpert, estándar de oro en PCR rápida hospitalaria), Beckman Coulter (core-labs), Leica Biosystems (anatomía patológica) y Radiometer (gasometrías UCI). Castigada temporalmente por el destocking post-COVID y frenazo en China.",
+      "sell_rule": "En zona de soporte histórico (190$-205$) es compra prioritaria para promediar a la baja antes del fin del invierno biotech."
+    },
+    {
+      "ticker": "SHL.DE",
+      "name": "Siemens Healthineers AG",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "EUR",
+      "exchange": "Xetra (Alemania)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 39.0,
+      "historical_support_high": 43.0,
+      "thesis": "Ganando cuota masiva en cadenas automatizadas de bioquímica (Atellica Core-Labs) en hospitales públicos españoles frente a Roche, más liderazgo en radioterapia oncológica (Varian). Cotiza en euros (0% comisión de cambio de divisa).",
+      "sell_rule": "Vigilar soporte histórico de 39€-43€ (penalizada por controles de precios en China y logística de Varian)."
+    },
+    {
+      "ticker": "ROG.SW",
+      "name": "Roche Holding AG",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "CHF",
+      "exchange": "SIX (Suiza)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 215.0,
+      "historical_support_high": 235.0,
+      "thesis": "Coloso mundial de Diagnóstico In Vitro (cobas) respaldado por su gigantesca división farmacéutica en oncología y recortes de costes que impulsan márgenes globales.",
+      "sell_rule": "Suerte de 'reloj suizo' defensivo; mejor punto de entrada táctico si retrocede hacia 220-235 CHF."
+    },
+    {
+      "ticker": "ILMN",
+      "name": "Illumina Inc.",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "USD",
+      "exchange": "NASDAQ (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 105.0,
+      "historical_support_high": 120.0,
+      "thesis": "Estándar histórico en plataformas de secuenciación masiva (NGS) de alto rendimiento, en fase de recuperación tras su reestructuración y escisión de GRAIL.",
+      "sell_rule": "Vigilar competencia con Thermo Fisher en NGS hospitalario y recompras en caídas fuertes."
+    },
+    {
+      "ticker": "ONT.L",
+      "name": "Oxford Nanopore Technologies",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "dynamic_daily",
+      "currency": "GBp",
+      "exchange": "London Stock Exchange (Reino Unido)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 110.0,
+      "historical_support_high": 135.0,
+      "thesis": "Secuenciación de ADN/ARN de tercera generación por nanoporos en tiempo real y lectura larga, accesible desde brókers europeos.",
+      "sell_rule": "Seguimiento táctico de adopción clínica y márgenes de reactivos."
+    },
+    {
+      "ticker": "KURE",
+      "name": "KraneShares MSCI All China Health Care ETF (Incluye Mindray)",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "USD",
+      "exchange": "NYSE Arca / UCITS",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 13.0,
+      "historical_support_high": 15.0,
+      "thesis": "Vehículo institucional para invertir en Shenzhen Mindray Bio-Medical (~4.5% del fondo), el gigante chino de diagnóstico in vitro e instrumentación médica inaccesible por compra directa en Shenzhen.",
+      "sell_rule": "Alternativa táctica cuando el mercado chino de salud cotiza en mínimos."
+    },
+    {
+      "ticker": "NDIA.L",
+      "name": "iShares MSCI India UCITS ETF (Exposición India)",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "USD",
+      "exchange": "LSE / Xetra (UCITS)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 8.0,
+      "historical_support_high": 9.0,
+      "thesis": "Puerta de entrada regulada UCITS al boom demográfico, farmacéutico y de diagnóstico de la India (ante la restricción de compra directa de micro-caps indias como 3B Blackbio DX).",
+      "sell_rule": "Acumulación a largo plazo por tendencia de 'Friendshoring' e infraestructura sanitaria india."
+    },
+    {
+      "ticker": "3BBLACKBIO.BO",
+      "name": "3B Blackbio DX Ltd (Kilpest India - Radar Directo BSE)",
+      "category": "sat1_ivd_diagnostics",
+      "strategy_mode": "dynamic_daily",
+      "currency": "INR",
+      "exchange": "BSE / NSE (India - Solo Radar)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 1000.0,
+      "historical_support_high": 1200.0,
+      "thesis": "Referencia directa en kits de diagnóstico molecular PCR/qPCR (TRUPCR) en India. Aunque no es comprable directamente en XTB por restricción del mercado indio, el agente la monitoriza como termómetro del sector IVD indio.",
+      "sell_rule": "Indicador sectorial de referencia para tu conocimiento directo de fabricante qPCR."
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva Agriscience",
+      "category": "sat2_agtech_crispr",
+      "strategy_mode": "long_term_tactical",
+      "currency": "USD",
+      "exchange": "NYSE (EE. UU.)",
+      "in_base_dca": true,
+      "monthly_allocation_eur": 30,
+      "historical_support_low": 50.0,
+      "historical_support_high": 56.0,
+      "thesis": "Pure-Play 100% agrícola (nacida de DowDuPont, sin el lastre judicial del glifosato de Bayer). Líder mundial en semillas editadas con CRISPR (lista para la entrada en vigor de la ley europea NGT1 en 2028) y pionera comercial en maíz con RNAi (SmartStax PRO) y esprays de dsRNA.",
+      "sell_rule": "Si cae por ventas trimestrales de químicos tradicionales (destocking de pesticidas) mientras la división de semillas/CRISPR mantiene EBITDA, es OPORTUNIDAD CLARA DE COMPRA."
+    },
+    {
+      "ticker": "NSIS-B.CO",
+      "name": "Novonesis (Novozymes + Chr. Hansen)",
+      "category": "sat2_agtech_crispr",
+      "strategy_mode": "long_term_tactical",
+      "currency": "DKK",
+      "exchange": "Nasdaq Copenhagen",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 380.0,
+      "historical_support_high": 410.0,
+      "thesis": "Líder mundial en microbioma agrícola, enzimas y biosoluciones (fijación biológica de nitrógeno en raíz y biofungicidas), con alianza estratégica con Corteva.",
+      "sell_rule": "Complemento defensivo de biotecnología industrial y agrícola."
+    },
+    {
+      "ticker": "BAYN.DE",
+      "name": "Bayer AG (Monsanto CRISPR/RNAi - Radar Comparativo)",
+      "category": "sat2_agtech_crispr",
+      "strategy_mode": "dynamic_daily",
+      "currency": "EUR",
+      "exchange": "Xetra (Alemania)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 24.0,
+      "historical_support_high": 27.0,
+      "thesis": "Heredera de las patentes CRISPR y RNAi de Monsanto, pero lastrada por los litigios multimillonarios de Roundup (glifosato) en EE. UU. y su división farma.",
+      "sell_rule": "Solo en vigilancia comparativa frente a Corteva (CTVA)."
+    },
+    {
+      "ticker": "DFNS.MI",
+      "name": "VanEck Defense UCITS ETF (Acc)",
+      "category": "sat3_defense_geopolitics",
+      "strategy_mode": "long_term_tactical",
+      "currency": "EUR",
+      "exchange": "Borsa Italiana / Xetra (UCITS)",
+      "in_base_dca": true,
+      "monthly_allocation_eur": 20,
+      "historical_support_low": 34.0,
+      "historical_support_high": 38.0,
+      "thesis": "Cesta diversificada de defensa, ciberseguridad e IA militar aliada (Palantir, Thales, Rheinmetall, Leonardo, Booz Allen). Captura la subida obligatoria del gasto militar OTAN (2%-3% PIB) sin depender de un único contrato gubernamental.",
+      "sell_rule": "Mantener mientras continúe el ciclo de rearme europeo y tensiones en Indo-Pacífico / Oriente Medio."
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall AG",
+      "category": "sat3_defense_geopolitics",
+      "strategy_mode": "dynamic_daily",
+      "currency": "EUR",
+      "exchange": "Xetra (Alemania)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 460.0,
+      "historical_support_high": 510.0,
+      "thesis": "Coloso alemán del rearme terrestre europeo: munición de artillería de 155 mm, carros Leopard y defensa antiaérea.",
+      "sell_rule": "Indicador adelantado de contratos de defensa de la UE y Alemania."
+    },
+    {
+      "ticker": "BCYC",
+      "name": "Bicycle Therapeutics (Fase Clínica · Péptidos Bicíclicos)",
+      "category": "sat4_clinical_biotech_dynamic",
+      "strategy_mode": "dynamic_daily",
+      "currency": "USD",
+      "exchange": "NASDAQ (EE. UU.)",
+      "in_base_dca": true,
+      "monthly_allocation_eur": 10,
+      "historical_support_low": 13.5,
+      "historical_support_high": 16.5,
+      "thesis": "Alternativa disruptiva a los ADCs en tumores sólidos mediante péptidos bicíclicos sintéticos de bajo peso molecular que penetran profundamente en el tumor y se eliminan rápido por vía renal. Alianzas estratégicas con Novartis y Bayer que respaldan su Cash Runway.",
+      "sell_rule": "Vender rápido si: 1) Fracasa ensayo Fase II/III o hay Clinical Hold de la FDA, 2) Cash Runway baja de 12 meses con anuncio de dilución, o 3) Sube >150%-200% tras hito clínico (recoger beneficios)."
+    },
+    {
+      "ticker": "BEAM",
+      "name": "Beam Therapeutics (Fase Clínica · Base Editing 2.0)",
+      "category": "sat4_clinical_biotech_dynamic",
+      "strategy_mode": "dynamic_daily",
+      "currency": "USD",
+      "exchange": "NASDAQ (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 20.0,
+      "historical_support_high": 24.0,
+      "thesis": "Edición genética de bases (Base Editing): convierte químicamente una letra del ADN en otra (ej. A por G) sin cortar la doble hélice como hacía CRISPR-Cas9 de 1ª generación. Ensayos en anemia falciforme e hígado.",
+      "sell_rule": "Vigilar Cash Runway (>18 meses), Market Cap vs Total Cash e Insider Buying/Selling antes de resultados clínicos."
+    },
+    {
+      "ticker": "SMMT",
+      "name": "Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab)",
+      "category": "sat4_clinical_biotech_dynamic",
+      "strategy_mode": "dynamic_daily",
+      "currency": "USD",
+      "exchange": "NASDAQ (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 14.0,
+      "historical_support_high": 18.0,
+      "thesis": "Anticuerpo biespecífico Ivonescimab (bloqueo simultáneo PD-1 y VEGF) que ha desafiado a Keytruda en ensayos de cáncer de pulmón.",
+      "sell_rule": "Altísima volatilidad binaria: vigilar caja necesaria para comercialización global y decisiones FDA."
+    },
+    {
+      "ticker": "DNA",
+      "name": "Ginkgo Bioworks (Biología Sintética y AgTech)",
+      "category": "sat4_clinical_biotech_dynamic",
+      "strategy_mode": "dynamic_daily",
+      "currency": "USD",
+      "exchange": "NYSE (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 6.0,
+      "historical_support_high": 8.5,
+      "thesis": "Foundry de biología sintética, diseño de cepas para agricultura celular y microbioma agrícola (acuerdo con Bayer/Corteva). Alto riesgo de quema de caja.",
+      "sell_rule": "Estricto control anti-dilución (Market Cap vs Cash y Cash Burn)."
+    },
+    {
+      "ticker": "GH",
+      "name": "Guardant Health (Radar Biopsia Líquida ctDNA)",
+      "category": "sat4_clinical_biotech_dynamic",
+      "strategy_mode": "dynamic_daily",
+      "currency": "USD",
+      "exchange": "NASDAQ (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0,
+      "historical_support_low": 22.0,
+      "historical_support_high": 26.0,
+      "thesis": "Pure-player en biopsia líquida oncológica (Guardant360 y test en sangre Shield para cribado colorrectal aprobado por FDA). Termómetro de adopción de biopsia líquida frente a biopsia sólida tradicional.",
+      "sell_rule": "En observación (en España la biopsia líquida aún choca con los circuitos hospitalarios entre Anatomía Patológica y Análisis Clínicos/Biología Molecular)."
+    }
+  ],
+  "rss_feeds": [
+    {
+      "name": "FierceBiotech",
+      "category": "Biotech & FDA",
+      "url": "https://www.fiercebiotech.com/rss/xml"
+    },
+    {
+      "name": "AgFunderNews (AgTech & CRISPR)",
+      "category": "AgTech & Genética Vegetal",
+      "url": "https://agfundernews.com/feed"
+    },
+    {
+      "name": "Defense News",
+      "category": "Geopolítica & Defensa",
+      "url": "https://www.defensenews.com/arc/outboundfeeds/rss/"
+    },
+    {
+      "name": "Breaking Defense",
+      "category": "Geopolítica & Defensa",
+      "url": "https://breakingdefense.com/feed/"
+    },
+    {
+      "name": "PubMed Central (RNAi & CRISPR AgTech)",
+      "category": "Literatura Científica (PubMed)",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(RNAi+biopesticide+OR+dsRNA+spray+OR+CRISPR+crop+NGT)+AND+2025:2027[dp]&retmode=json&retmax=5"
+    }
+  ]
+}

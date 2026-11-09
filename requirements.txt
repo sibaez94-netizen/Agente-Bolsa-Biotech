@@ -1,0 +1,2 @@
+# El proyecto utiliza la librería estándar de Python (urllib, sqlite3, xml, json)
+# para garantizar cero fallos en local y en GitHub Actions.
