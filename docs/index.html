@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Radar Bolsa Biotech, AgTech & Geopolítica · Core-Satellite</title>
+  <title>Mentor de Bolsa Biotech, AgTech & Geopolítica · Con Memoria Histórica</title>
   <style>
     :root {
       --bg: #f8fafc;
@@ -11,7 +11,7 @@
       --surface-alt: #f1f5f9;
       --border: #e2e8f0;
       --text: #0f172a;
-      --text-muted: #475569;
+      --text-muted: #334155;
       --text-soft: #64748b;
       --primary: #0284c7;
       --primary-soft: #e0f2fe;
@@ -32,11 +32,11 @@
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
-      line-height: 1.5;
+      line-height: 1.55;
     }
 
     .container {
-      max-width: 1380px;
+      max-width: 1400px;
       margin: 0 auto;
       padding: 20px 24px 48px;
     }
@@ -83,7 +83,7 @@
 
     .kpi-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 12px;
       margin-bottom: 18px;
     }
@@ -117,32 +117,40 @@
       margin-top: 3px;
     }
 
-    .briefing-box {
-      background: #f0f9ff;
-      border: 1px solid #bae6fd;
-      border-left: 5px solid var(--primary);
-      border-radius: 12px;
-      padding: 16px 20px;
+    .mentor-section-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
       margin-bottom: 20px;
       box-shadow: var(--shadow);
     }
 
-    .briefing-title {
-      font-size: 12px;
-      font-weight: 800;
-      text-transform: uppercase;
-      color: #0369a1;
-      margin-bottom: 8px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 8px;
+    .mentor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+      gap: 14px;
+      margin-top: 12px;
     }
 
-    .briefing-content {
+    .mentor-block {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-left: 4px solid var(--primary);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .mentor-block-title {
       font-size: 14px;
+      font-weight: 800;
       color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .mentor-block-body {
+      font-size: 13px;
+      color: var(--text-muted);
       white-space: pre-line;
       line-height: 1.6;
     }
@@ -160,9 +168,9 @@
       border: 1px solid var(--border);
       background: var(--surface);
       color: var(--text-muted);
-      padding: 10px 16px;
+      padding: 10px 15px;
       border-radius: 10px;
-      font-size: 13.5px;
+      font-size: 13px;
       font-weight: 700;
       cursor: pointer;
       transition: all 0.15s ease;
@@ -211,7 +219,7 @@
 
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
       gap: 16px;
     }
 
@@ -224,11 +232,6 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: transform 0.12s ease, border-color 0.12s ease;
-    }
-
-    .asset-card:hover {
-      border-color: #94a3b8;
     }
 
     .asset-card.support-highlight {
@@ -308,7 +311,7 @@
       border-radius: 10px;
       padding: 10px 12px;
       font-size: 12px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .metric-item span {
@@ -361,6 +364,16 @@
       border-radius: 3px;
     }
 
+    .pedagogical-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 9px;
+      padding: 10px 12px;
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
     .vitals-box {
       background: #f0fdf4;
       border: 1px solid #bbf7d0;
@@ -376,15 +389,6 @@
       border-color: #fecaca;
       color: #7f1d1d;
     }
-
-    .reasons-list {
-      margin: 0 0 10px;
-      padding-left: 17px;
-      font-size: 12.5px;
-      color: var(--text-muted);
-    }
-
-    .reasons-list li { margin-bottom: 4px; }
 
     .thesis-text {
       font-size: 12px;
@@ -462,10 +466,6 @@
       font-size: 13px;
       font-weight: 700;
       cursor: pointer;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
     }
 
     .news-card {
@@ -484,14 +484,14 @@
   <div class="container">
     <header class="top-header">
       <div>
-        <span class="brand-tag">Agente de Inteligencia Bursátil · XTB Core-Satellite</span>
+        <span class="brand-tag">Mentor Bursátil con Memoria Histórica · Estrategia Core-Satellite</span>
         <h1>Radar de Bolsa: Diagnóstico IVD, AgTech CRISPR/RNAi & Defensa</h1>
         <div class="subtitle">
-          Dos velocidades: <b>1) Largo Plazo Intocable</b> (MSCI World + Monopolios en Soporte) · <b>2) Dinámica Diaria</b> (Biotech Clínica, Cash Runway & Noticias FDA/UE)
+          Explicación profunda e intuitiva paso a paso · <b>Chequeo diario de Memoria (`data/bolsa.db`) antes de recomendar</b>
         </div>
       </div>
       <div style="text-align:right;">
-        <div style="font-size:12px;color:var(--text-soft);">Última actualización automática</div>
+        <div style="font-size:12px;color:var(--text-soft);">Última sesión guardada en Memoria</div>
         <div id="updatedAtLabel" style="font-size:14px;font-weight:800;color:var(--text);">Cargando...</div>
       </div>
     </header>
@@ -504,14 +504,14 @@
         <div class="kpi-sub" id="kpiCoreStatus">MSCI World Acc (50% DCA · No tocar)</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-label">En Soporte Histórico (3 Años)</div>
+        <div class="kpi-label">En Suelo Histórico (3 Años)</div>
         <div class="kpi-value" id="kpiSupportCount" style="color:var(--emerald);">--</div>
-        <div class="kpi-sub">Activos en su suelo de compra de 3 años</div>
+        <div class="kpi-sub">Empresas sanas hoy en precio de rebajas</div>
       </div>
       <div class="kpi-card">
-        <div class="kpi-label">Estrategia Dinámica (Diaria)</div>
-        <div class="kpi-value" id="kpiDynamicCount" style="color:var(--primary);">--</div>
-        <div class="kpi-sub">Biotech Fase Clínica, Biopsia Líquida & Radar</div>
+        <div class="kpi-label">Memoria Acumulada (SQLite)</div>
+        <div class="kpi-value" id="kpiMemoryDays" style="color:var(--primary);">--</div>
+        <div class="kpi-sub">Sesiones comparadas antes de responder</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Backtest 200 € (Hace 2 Años)</div>
@@ -520,13 +520,18 @@
       </div>
     </div>
 
-    <!-- Resumen Ejecutivo Telegráfico del Agente -->
-    <div class="briefing-box">
-      <div class="briefing-title">
-        <span>🧠 Parte Diario Ejecutivo (Estilo Notificación Telegram / Email)</span>
-        <span id="briefingSourceBadge" style="background:#e0f2fe;padding:3px 9px;border-radius:6px;font-size:11px;">Motor Híbrido</span>
+    <!-- Informe Guiado Profundo en 6 Bloques -->
+    <div class="mentor-section-wrap">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+        <div>
+          <strong style="font-size:17px;">🎓 Informe Guiado del Día (Explicado desde Cero y Comparado con Sesiones Anteriores)</strong>
+          <div style="font-size:12.5px;color:var(--text-soft);">
+            Lee estos 6 bloques como si charlaras con tu analista de cabecera: primero revisamos qué ha cambiado en memoria y luego cada bloque de tu cartera.
+          </div>
+        </div>
+        <span id="briefingSourceBadge" class="brand-tag">Mentor Pedagógico</span>
       </div>
-      <div class="briefing-content" id="aiBriefingText">Cargando análisis diario de la cartera...</div>
+      <div class="mentor-grid" id="mentorBlocksContainer"></div>
     </div>
 
     <!-- Simulador de Aportación Mensual DCA (200€ a 500€) -->
@@ -535,7 +540,7 @@
         <div>
           <strong style="font-size:15px;">💶 Tu Plan de Inversión Automático Mensual (DCA en XTB · Acciones Fraccionadas 0% Comisión)</strong>
           <div style="font-size:12.5px;color:var(--text-muted);">
-            Ajusta tu cuota mensual (desde los <b>200 €/mes</b> iniciales hasta los <b>500 €/mes</b> de la regla 50/30/20 sobre 30.000 € netos/año):
+            Simula cómo se reparte tu transferencia mensual entre tu Núcleo Intocable y tus 4 Satélites expertos:
           </div>
         </div>
         <div style="display:flex;align-items:center;gap:8px;">
@@ -553,16 +558,19 @@
     <!-- Barra de Pestañas -->
     <div class="tabs-bar">
       <button class="tab-btn active" onclick="switchTab('dynamic')" id="tabBtn-dynamic">
-        🔥 1. Seguimiento Diario: Soportes Hoy & Estrategia Dinámica (Biotech Clínica)
+        🔥 1. Seguimiento Diario: Rebajas Hoy & Estrategia Dinámica (Biotech Clínica)
       </button>
       <button class="tab-btn" onclick="switchTab('longterm')" id="tabBtn-longterm">
-        🛡️ 2. Estrategia Largo Plazo: Núcleo MSCI World & Satélites DCA (IVD / AgTech / Defensa)
+        🛡️ 2. Estrategia Largo Plazo: Núcleo MSCI World & Gigantes DCA (IVD / AgTech / Defensa)
       </button>
       <button class="tab-btn" onclick="switchTab('news')" id="tabBtn-news">
-        📰 3. Radar de Noticias (FierceBiotech, AgFunder, PubMed RNAi & DefenseNews)
+        📰 3. Noticias Explicadas en Español (FierceBiotech, AgFunder, PubMed RNAi & Defensa)
       </button>
       <button class="tab-btn" onclick="switchTab('excel')" id="tabBtn-excel">
         📊 4. Tabla Excel (Histórico de Precios por Fecha)
+      </button>
+      <button class="tab-btn" onclick="switchTab('memory')" id="tabBtn-memory">
+        🧠 5. Diario de Memoria & Glosario para Aprender
       </button>
     </div>
 
@@ -593,9 +601,9 @@
     <div id="excelViewContainer" class="hidden">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:10px;">
         <div>
-          <strong style="font-size:15px;">📊 Registro Histórico Tipo Excel (Seguimiento de Cotizaciones por Fecha y Soportes)</strong>
+          <strong style="font-size:15px;">📊 Registro Histórico Tipo Excel (Memoria de Cotizaciones por Fecha y Soportes)</strong>
           <div style="font-size:12.5px;color:var(--text-muted);">
-            Cada ejecución diaria añade una nueva columna de fecha con el cierre de cada activo para monitorizar suelos de compra y evolución.
+            Cada ronda diaria guarda los precios en <code>data/bolsa.db</code> y añade una columna nueva para que el agente tenga memoria real de cada empresa.
           </div>
         </div>
         <button class="btn-action" onclick="exportExcelCsv()">⬇️ Descargar Tabla en Excel (CSV)</button>
@@ -607,6 +615,9 @@
         </table>
       </div>
     </div>
+
+    <!-- Contenedor Vista 5: Diario de Memoria y Glosario -->
+    <div id="memoryViewContainer" class="hidden"></div>
   </div>
 
   <script src="data/market_data.js"></script>
@@ -638,18 +649,16 @@
 
       const dt = d.updated_at ? new Date(d.updated_at).toLocaleString('es-ES') : 'Hoy';
       document.getElementById('updatedAtLabel').textContent = dt;
-      document.getElementById('aiBriefingText').textContent = d.ai_briefing || '';
-      document.getElementById('briefingSourceBadge').textContent = d.briefing_source || 'Motor Cuantitativo';
+      document.getElementById('briefingSourceBadge').textContent = d.briefing_source || 'Mentor Pedagógico';
 
       const stats = d.stats || {};
       const coreChg = stats.core_change_1d_pct || 0;
       const coreSign = coreChg >= 0 ? `+${coreChg.toFixed(2)}%` : `${coreChg.toFixed(2)}%`;
       document.getElementById('kpiCorePrice').innerHTML = `${(stats.core_price || 0).toFixed(2)} € <span class="${coreChg >= 0 ? 'chg-pos' : 'chg-neg'}">(${coreSign})</span>`;
       document.getElementById('kpiCoreStatus').textContent = stats.core_status || '🟢 En orden';
-      document.getElementById('kpiSupportCount').textContent = `${stats.support_zone_count || 0} activos`;
-      document.getElementById('kpiDynamicCount').textContent = `${stats.dynamic_count || 0} en radar diario`;
+      document.getElementById('kpiSupportCount').textContent = `${stats.support_zone_count || 0} empresas`;
+      document.getElementById('kpiMemoryDays').textContent = `${stats.memory_days_count || 1} sesiones`;
 
-      // Calcular el Backtest de los 5 gigantes de diagnóstico (40€ cada uno = 200€ hace 2 años)
       const ivdTickers = ['ILMN', 'ROG.SW', 'TMO', 'SHL.DE', 'DHR'];
       const ivdAssets = (d.assets || []).filter(a => ivdTickers.includes(a.ticker));
       if (ivdAssets.length === 5) {
@@ -657,23 +666,43 @@
         const pct2Y = (((sum2Y - 200) / 200) * 100).toFixed(1);
         document.getElementById('kpiBacktest2Y').innerHTML = `${sum2Y.toFixed(2)} € <span class="${sum2Y >= 200 ? 'chg-pos' : 'chg-neg'}">(${pct2Y >= 0 ? '+' : ''}${pct2Y}%)</span>`;
       } else {
-        document.getElementById('kpiBacktest2Y').textContent = '211.16 € (+5.6%)';
+        document.getElementById('kpiBacktest2Y').textContent = '— (faltan datos de algún valor hoy)';
       }
 
+      renderMentorBlocks();
       renderDcaBreakdown();
       renderActiveView();
     }
 
+    function renderMentorBlocks() {
+      const sections = (STATE.data && STATE.data.briefing_sections) || [];
+      const container = document.getElementById('mentorBlocksContainer');
+      const warnings = (STATE.data && STATE.data.data_warnings) || [];
+      const warningsHtml = warnings.map(w => `
+        <div class="mentor-block" style="border-left:4px solid #f59e0b;background:#fffbeb;">
+          <div class="mentor-block-body" style="color:#92400e;">⚠️ ${w}</div>
+        </div>`).join('');
+      if (!sections.length) {
+        container.innerHTML = warningsHtml + `<div class="mentor-block"><div class="mentor-block-body">${(STATE.data && STATE.data.ai_briefing) || ''}</div></div>`;
+        return;
+      }
+      container.innerHTML = warningsHtml + sections.map(s => `
+        <div class="mentor-block">
+          <div class="mentor-block-title">${s.icon || '📌'} ${s.title || ''}</div>
+          <div class="mentor-block-body">${s.body || ''}</div>
+        </div>
+      `).join('');
+    }
+
     function renderDcaBreakdown() {
       const budget = parseFloat(document.getElementById('dcaBudgetInput').value || '200');
-      const allocations = (STATE.data && STATE.data.allocations) || {};
       const container = document.getElementById('dcaBreakdownContainer');
       const items = [
-        { key: 'core_msci_world', label: '1. Núcleo: MSCI World (EUNL.DE)', pct: 50, tickers: 'EUNL.DE (Acc)' },
-        { key: 'sat1_ivd_diagnostics', label: '2. Satélite 1: Diagnóstico IVD / NGS', pct: 20, tickers: 'TMO + DHR (o SHL.DE)' },
-        { key: 'sat2_agtech_crispr', label: '3. Satélite 2: AgTech CRISPR / RNAi', pct: 15, tickers: 'Corteva (CTVA)' },
-        { key: 'sat3_defense_geopolitics', label: '4. Satélite 3: Defensa OTAN', pct: 10, tickers: 'VanEck Defense (DFNS.MI)' },
-        { key: 'sat4_clinical_biotech_dynamic', label: '5. Satélite 4: Biotech Fase Clínica', pct: 5, tickers: 'BCYC / BEAM / SMMT' }
+        { label: '1. Núcleo: MSCI World (EUNL.DE)', pct: 50, tickers: 'EUNL.DE (Acc · Interés Compuesto)' },
+        { label: '2. Satélite 1: Diagnóstico IVD / NGS', pct: 20, tickers: 'TMO + DHR (o SHL.DE)' },
+        { label: '3. Satélite 2: AgTech CRISPR / RNAi', pct: 15, tickers: 'Vylor (VYLR)' },
+        { label: '4. Satélite 3: Defensa OTAN', pct: 10, tickers: 'VanEck Defense (DFNS.MI)' },
+        { label: '5. Satélite 4: Biotech Fase Clínica', pct: 5, tickers: 'BCYC / BEAM / SMMT' }
       ];
       container.innerHTML = items.map(it => {
         const eur = ((budget * it.pct) / 100).toFixed(0);
@@ -689,7 +718,7 @@
 
     function switchTab(tabId) {
       STATE.activeTab = tabId;
-      ['dynamic', 'longterm', 'news', 'excel'].forEach(t => {
+      ['dynamic', 'longterm', 'news', 'excel', 'memory'].forEach(t => {
         document.getElementById('tabBtn-' + t).classList.toggle('active', t === tabId);
       });
 
@@ -698,6 +727,7 @@
       document.getElementById('cardsViewContainer').classList.toggle('hidden', !isCards);
       document.getElementById('newsViewContainer').classList.toggle('hidden', tabId !== 'news');
       document.getElementById('excelViewContainer').classList.toggle('hidden', tabId !== 'excel');
+      document.getElementById('memoryViewContainer').classList.toggle('hidden', tabId !== 'memory');
 
       renderActiveView();
     }
@@ -710,6 +740,8 @@
         renderNewsView();
       } else if (STATE.activeTab === 'excel') {
         renderExcelTable();
+      } else if (STATE.activeTab === 'memory') {
+        renderMemoryAndGlossaryView();
       }
     }
 
@@ -720,7 +752,6 @@
 
       const filtered = assets.filter(a => {
         if (STATE.activeTab === 'dynamic') {
-          // En la pestaña dinámica mostramos: todos los activos de seguimiento diario + cualquier activo de largo plazo que esté hoy en Soporte Histórico o caiga >3%
           const isDynOrAlert = (a.strategy_group === 'dynamic') || a.in_support_zone || Math.abs(a.change_1d_pct || 0) >= 3.0;
           if (!isDynOrAlert) return false;
         } else if (STATE.activeTab === 'longterm') {
@@ -735,7 +766,7 @@
         return true;
       });
 
-      document.getElementById('showingCountLabel').textContent = `Mostrando ${filtered.length} activos`;
+      document.getElementById('showingCountLabel').textContent = `Mostrando ${filtered.length} empresas explicadas`;
 
       const container = document.getElementById('cardsViewContainer');
       if (!filtered.length) {
@@ -755,23 +786,26 @@
         const markerPct = Math.min(97, Math.max(2, ((a.current_price - minRange) / span) * 100));
 
         let vitalsHtml = '';
-        if (a.clinical_vitals) {
-          const v = a.clinical_vitals;
-          const warnClass = (v.trading_below_cash || v.cash_runway_months < 15) ? 'vitals-warn' : '';
+        const v = a.clinical_vitals || null;
+        if (v && v.available) {
+          const bad = v.trading_below_cash || (!v.cash_flow_positive && v.cash_runway_months != null && v.cash_runway_months < 15);
+          const runwayTxt = v.cash_flow_positive
+            ? 'flujo de caja operativo positivo (no quema caja)'
+            : (v.cash_runway_months != null ? `~${v.cash_runway_months} meses (quema ~$${v.annual_burn_musd}M/año · riesgo ${v.dilution_risk})` : 'sin dato de quema de caja');
+          const capTxt = v.market_cap_musd != null ? `$${v.market_cap_musd}M` : 'no disponible';
           vitalsHtml = `
-            <div class="vitals-box ${warnClass}">
-              <div><b>🔬 Constantes Vitales Biotech (Anti-Dilución):</b></div>
-              <div style="margin-top:3px;">
-                • <b>Cash Runway:</b> ~${v.cash_runway_months} meses (${v.dilution_risk})<br/>
-                • <b>Caja vs Market Cap:</b> $${v.total_cash_musd}M caja vs $${v.market_cap_musd}M cap. ${v.trading_below_cash ? '⚠️ <b>(Cotiza bajo caja)</b>' : '✅'}<br/>
-                • <b>Insiders:</b> ${v.insider_activity}<br/>
-                • <b>Próximo Catalizador:</b> ${v.key_catalyst}
+            <div class="vitals-box ${bad ? 'vitals-warn' : ''}">
+              <div><b>🔬 Constantes vitales (SEC EDGAR, balance a ${v.balance_date}):</b></div>
+              <div style="margin-top:4px;line-height:1.5;">
+                • <b>Cash runway:</b> ${runwayTxt}<br/>
+                • <b>Caja e inversiones vs valor en bolsa:</b> $${v.total_cash_musd}M frente a ${capTxt} ${v.trading_below_cash ? '⚠️ <b>(cotiza bajo caja)</b>' : ''}<br/>
+                • <b>Directivos:</b> ${v.insider_activity || 'sin datos'}
               </div>
             </div>
           `;
+        } else if (v) {
+          vitalsHtml = `<div class="vitals-box">🔬 Constantes vitales: ${v.reason || 'sin datos'}</div>`;
         }
-
-        const reasonsHtml = (a.reasons || []).map(r => `<li>${r}</li>`).join('');
 
         return `
           <div class="asset-card ${a.in_support_zone && a.ticker !== 'EUNL.DE' ? 'support-highlight' : ''}">
@@ -789,15 +823,15 @@
               <div class="price-row">
                 <span class="price-main">${a.current_price.toFixed(2)} ${a.currency}</span>
                 <span class="${chgClass}">${chgSign} hoy</span>
-                <span style="font-size:12px;color:var(--text-soft);">Score: <b>${a.opportunity_score}/100</b></span>
+                <span style="font-size:12px;color:var(--text-soft);">Puntuación: <b>${a.opportunity_score}/100</b></span>
               </div>
 
               <div class="support-meter">
                 <div class="support-meter-label">
-                  <span>🎯 Soporte Histórico 3Y: <b>${a.historical_support_low.toFixed(0)} - ${a.historical_support_high.toFixed(0)} ${a.currency}</b></span>
-                  <span>Máx 3Y: ${a.high_3y.toFixed(0)} ${a.currency}</span>
+                  <span>🎯 Suelo Histórico 3Y: <b>${a.historical_support_low.toFixed(1)} - ${a.historical_support_high.toFixed(1)} ${a.currency}</b></span>
+                  <span>Techo 3Y: ${a.high_3y.toFixed(1)} ${a.currency}</span>
                 </div>
-                <div class="support-track" title="Zona verde = Soporte histórico de compra">
+                <div class="support-track" title="Franja verde = Suelo histórico de compra de los últimos 3 años">
                   <div class="support-zone-fill" style="width:${supWidthPct}%;"></div>
                   <div class="support-marker" style="left:${markerPct}%;"></div>
                 </div>
@@ -805,27 +839,31 @@
 
               <div class="metrics-bar">
                 <div class="metric-item">
-                  <span>RSI (14 días)</span>
-                  <strong>${a.rsi_14 ? a.rsi_14.toFixed(0) : 'N/A'} ${a.rsi_14 && a.rsi_14 <= 34 ? '🟢 Sobreventa' : ''}</strong>
+                  <span>Termómetro RSI(14)</span>
+                  <strong>${a.rsi_14 ? a.rsi_14.toFixed(0) + '/100' : 'N/A'}</strong>
                 </div>
                 <div class="metric-item">
-                  <span>Evolución 2 Años</span>
-                  <strong style="color:${a.change_2y_pct >= 0 ? 'var(--emerald)' : 'var(--red)'};">${a.change_2y_pct >= 0 ? '+' : ''}${a.change_2y_pct.toFixed(1)}% (40€ → ${a.value_of_40eur_2y.toFixed(1)}€)</strong>
+                  <span>Hace 2 Años (40 €)</span>
+                  <strong style="color:${a.change_2y_pct >= 0 ? 'var(--emerald)' : 'var(--red)'};">${a.change_2y_pct >= 0 ? '+' : ''}${a.change_2y_pct.toFixed(1)}% (hoy ${a.value_of_40eur_2y.toFixed(1)}€)</strong>
                 </div>
                 <div class="metric-item">
-                  <span>Estrategia</span>
+                  <span>Tu Plan Mensual</span>
                   <strong>${a.in_base_dca ? `DCA (${a.monthly_allocation_eur}€/mes)` : a.strategy_label}</strong>
                 </div>
               </div>
 
-              ${vitalsHtml}
+              <div class="pedagogical-box">
+                <div style="margin-bottom:5px;color:#0f172a;font-weight:600;">${a.memory_note || ''}</div>
+                <div style="margin-bottom:5px;">📍 <b>¿Está cara o barata hoy?:</b> ${a.support_explanation || ''}</div>
+                <div>🌡️ <b>¿Qué dice el termómetro RSI?:</b> ${a.rsi_explanation || ''}</div>
+              </div>
 
-              <ul class="reasons-list">${reasonsHtml}</ul>
+              ${vitalsHtml}
             </div>
 
             <div class="thesis-text">
-              <div><b>Tesis:</b> ${a.thesis}</div>
-              <div style="margin-top:4px;color:#0369a1;"><b>Regla Operativa:</b> ${a.sell_rule}</div>
+              <div><b>Por qué invertimos aquí (Tu ventaja científica):</b> ${a.thesis}</div>
+              <div style="margin-top:4px;color:#0369a1;"><b>Cuándo comprar o vender:</b> ${a.sell_rule}</div>
             </div>
           </div>
         `;
@@ -842,7 +880,7 @@
       container.innerHTML = news.map(n => `
         <div class="news-card">
           <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:4px;">
-            <span class="brand-tag">${n.category || 'Sector'} · ${n.source || 'RSS'}</span>
+            <span class="brand-tag">${n.is_new_today ? '🆕 NUEVA HOY' : '📌 En Memoria (' + (n.first_seen_date || '') + ')'} · ${n.category || 'Sector'} · ${n.source || 'RSS'}</span>
             <span style="font-size:12px;color:var(--text-soft);">${n.published || ''}</span>
           </div>
           <div style="font-size:16px;font-weight:800;margin-bottom:6px;">
@@ -850,7 +888,9 @@
               ${n.title} ↗
             </a>
           </div>
-          ${n.summary ? `<div style="font-size:13px;color:var(--text-muted);">${n.summary}</div>` : ''}
+          <div style="font-size:13.5px;color:#0f172a;background:#f0f9ff;padding:10px 12px;border-radius:8px;border-left:3px solid var(--primary);">
+            ${n.explanation_es || n.summary || ''}
+          </div>
         </div>
       `).join('');
     }
@@ -875,6 +915,7 @@
           <th>En Soporte</th>
           <th>RSI(14)</th>
           <th>Var. 1D (%)</th>
+          <th>Desde Día 1 Memoria (%)</th>
           <th>Var. 2 Años (%)</th>
           <th>Señal Actual</th>
           ${dateHeaders}
@@ -891,6 +932,7 @@
 
         const chg1d = a.change_1d_pct || 0;
         const chgColor = chg1d > 0 ? 'var(--emerald)' : (chg1d < 0 ? 'var(--red)' : 'var(--text)');
+        const chgMem = a.change_since_first_tracked_pct || 0;
 
         return `
           <tr>
@@ -900,10 +942,11 @@
             <td>${a.category_label}</td>
             <td>${a.currency}</td>
             <td>${a.in_base_dca ? a.monthly_allocation_eur.toFixed(0) + ' €' : '-'}</td>
-            <td>${a.historical_support_low.toFixed(0)} - ${a.historical_support_high.toFixed(0)} ${a.currency}</td>
+            <td>${a.historical_support_low.toFixed(1)} - ${a.historical_support_high.toFixed(1)} ${a.currency}</td>
             <td style="font-weight:800;color:${a.in_support_zone ? 'var(--emerald)' : 'var(--text-soft)'};">${a.in_support_zone ? 'SÍ 🎯' : 'No'}</td>
             <td>${a.rsi_14 ? a.rsi_14.toFixed(0) : '-'}</td>
             <td style="font-weight:700;color:${chgColor};">${chg1d >= 0 ? '+' : ''}${chg1d.toFixed(2)}%</td>
+            <td style="font-weight:700;color:${chgMem >= 0 ? 'var(--emerald)' : 'var(--red)'};">${chgMem >= 0 ? '+' : ''}${chgMem.toFixed(2)}%</td>
             <td style="font-weight:700;color:${a.change_2y_pct >= 0 ? 'var(--emerald)' : 'var(--red)'};">${a.change_2y_pct >= 0 ? '+' : ''}${a.change_2y_pct.toFixed(1)}%</td>
             <td>${a.signal_badge}</td>
             ${dateCells}
@@ -912,12 +955,72 @@
       }).join('');
     }
 
+    function renderMemoryAndGlossaryView() {
+      const journal = (STATE.data && STATE.data.memory_journal) || [];
+      const container = document.getElementById('memoryViewContainer');
+
+      const journalHtml = journal.map(j => `
+        <div class="news-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span class="brand-tag">🧠 Sesión Guardada: ${j.run_date}</span>
+            <span style="font-size:12.5px;font-weight:700;">Núcleo EUNL.DE: ${(j.core_price || 0).toFixed(2)} € · ${j.alerts_summary || ''}</span>
+          </div>
+          <div style="font-size:13.5px;font-weight:700;margin-top:6px;color:var(--text);">
+            Cambios detectados respecto a la sesión previa: ${j.key_changes_vs_prev || ''}
+          </div>
+          <div style="font-size:13px;color:var(--text-muted);margin-top:4px;">
+            ${j.briefing_excerpt || ''}
+          </div>
+        </div>
+      `).join('');
+
+      container.innerHTML = `
+        <div style="margin-bottom:24px;">
+          <h2 style="font-size:18px;margin:0 0 8px;">🧠 Diario de Memoria Episódica del Agente (Sesiones Registradas en SQLite)</h2>
+          <p style="font-size:13px;color:var(--text-muted);margin:0 0 12px;">
+            Cada día que se ejecuta el agente (en GitHub Actions o en tu PC), primero lee esta tabla en <code>data/bolsa.db</code> para recordar qué precios y alertas hubo en días anteriores antes de darte su recomendación de hoy.
+          </p>
+          ${journalHtml || '<div class="news-card">Inaugurando memoria hoy.</div>'}
+        </div>
+
+        <div>
+          <h2 style="font-size:18px;margin:0 0 10px;">📚 Glosario de Bolsillo (Para Aprender Bolsa con Analogías Científicas)</h2>
+          <div class="mentor-grid">
+            <div class="mentor-block">
+              <div class="mentor-block-title">1. DCA (Compras Periódicas Mensuales)</div>
+              <div class="mentor-block-body">Invertir tus 200 € el mismo día de cada mes sin intentar adivinar si la bolsa está cara o barata. Cuando una acción baja, tus 200 € compran más cantidad de acciones; cuando sube, compran menos. A largo plazo promedias el precio de entrada sin estrés.</div>
+            </div>
+            <div class="mentor-block">
+              <div class="mentor-block-title">2. ETF de Acumulación (Acc) e Interés Compuesto</div>
+              <div class="mentor-block-body">Un ETF es un paquete que agrupa cientos de empresas y cotiza como una sola acción. Que sea 'Acc' (Acumulación, como tu EUNL.DE) significa que los dividendos que pagan esas empresas se reinvierten automáticamente dentro del fondo sin pasar por tu cuenta bancaria, haciendo crecer la bola de nieve sin pagar el 19% a Hacienda.</div>
+            </div>
+            <div class="mentor-block">
+              <div class="mentor-block-title">3. Soporte Histórico de 3 Años y Orden Limitada</div>
+              <div class="mentor-block-body">El 'Soporte' es el precio suelo donde, en los últimos 3 años, una acción ha dejado de caer y ha rebotado porque los grandes fondos la ven muy barata. Una 'Orden Limitada' en XTB consiste en dejar programado: "Solo compra Thermo Fisher si algún día baja a X dólares".</div>
+            </div>
+            <div class="mentor-block">
+              <div class="mentor-block-title">4. Termómetro RSI (14 días)</div>
+              <div class="mentor-block-body">Va de 0 a 100 y mide la velocidad de compras y ventas de las últimas 2 semanas. Si baja de 32 ('Sobreventa'), la gente ha vendido con pánico y suele estar muy barata. Si supera 70 ('Sobrecompra'), ha subido demasiado rápido y conviene no perseguirla ese día.</div>
+            </div>
+            <div class="mentor-block">
+              <div class="mentor-block-title">5. Cash Runway y Dilución (El peligro tipo Biocartis)</div>
+              <div class="mentor-block-body">Las biotecnológicas pequeñas en Fase Clínica gastan millones cada mes en ensayos de la FDA. El 'Cash Runway' son los meses de vida que les quedan dividiendo el dinero que tienen en el banco entre lo que queman al mes. Si les quedan menos de 12-15 meses, emiten millones de acciones nuevas ('dilución') y hunden el valor de tus acciones.</div>
+            </div>
+            <div class="mentor-block">
+              <div class="mentor-block-title">6. Cotizar bajo Caja (Trading Below Cash)</div>
+              <div class="mentor-block-body">Ocurre cuando toda la empresa en bolsa (Market Cap) vale menos que el dinero en efectivo que tiene en su cuenta bancaria (como pasa en Ginkgo Bioworks - DNA). No es un chollo: significa que Wall Street teme que la directiva queme ese dinero en ensayos sin futuro.</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
     function exportExcelCsv() {
       const assets = (STATE.data && STATE.data.assets) || [];
       const dates = (STATE.data && STATE.data.stats && STATE.data.stats.history_dates) || [];
       const headers = [
         'Ticker', 'Empresa', 'Estrategia', 'Bloque', 'Moneda', 'DCA_Mensual_EUR',
-        'Soporte_3Y_Min', 'Soporte_3Y_Max', 'En_Soporte', 'RSI_14', 'Var_1D_Pct', 'Var_2Y_Pct', 'Senal',
+        'Soporte_3Y_Min', 'Soporte_3Y_Max', 'En_Soporte', 'RSI_14', 'Var_1D_Pct', 'Var_Desde_Inicio_Memoria_Pct', 'Var_2Y_Pct', 'Senal',
         ...dates.map(d => 'Precio_' + d)
       ];
 
@@ -936,6 +1039,7 @@
           a.in_support_zone ? 'SI' : 'NO',
           a.rsi_14 || '',
           a.change_1d_pct,
+          a.change_since_first_tracked_pct || 0,
           a.change_2y_pct,
           `"${a.signal_badge}"`,
           ...dates.map(d => histMap[d] !== undefined ? histMap[d] : '')

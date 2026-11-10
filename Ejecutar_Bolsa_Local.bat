@@ -1,12 +1,12 @@
 @echo off
-chcp 65001 >nul
+chcp 65001 > nul
+title Radar Inteligente de Bolsa: Biotech, IVD, AgTech y Defensa
+echo ============================================================================
+echo   INICIANDO AGENTE DE BOLSA CORE-SATELLITE (CON MEMORIA Y MODO MENTOR)
+echo ============================================================================
 cd /d "%~dp0"
-echo ============================================================================
-echo   RADAR DE BOLSA BIOTECH, AGTECH (CRISPR/RNAi) Y DEFENSA (CORE-SATELLITE)
-echo ============================================================================
-echo.
 python main.py
 echo.
-echo [OK] Abriendo el Panel Web Interactivo en tu navegador...
-start "" "%~dp0docs\index.html"
+echo Abriendo Panel Web Interactivo...
+start "" "docs\index.html"
 pause

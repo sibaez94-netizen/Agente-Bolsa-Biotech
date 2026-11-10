@@ -2,12 +2,16 @@ name: Radar Diario Bolsa Biotech, AgTech & Defensa
 
 on:
   schedule:
-    # Se ejecuta de lunes a viernes a las 17:30 UTC (18:30 hora peninsular española, tras cierre europeo y media sesión EE.UU.)
-    - cron: '30 17 * * 1-5'
+    # Lunes a Viernes a las 07:30 UTC (08:30 en invierno / 09:30 en verano, hora peninsular)
+    - cron: '30 7 * * 1-5'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: radar-bolsa
+  cancel-in-progress: false
 
 jobs:
   run-market-radar:
@@ -16,32 +20,40 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.12
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -r requirements.txt
 
-      - name: Run Market Intelligence Agent
+      - name: Run Market Intelligence Agent (with Episodic Memory)
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
           SMTP_PORT: ${{ secrets.SMTP_PORT || '465' }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+          # Acepta el nombre nuevo (NOTIFY_EMAIL) y el antiguo (EMAIL_TO); si no hay ninguno, se envía al propio SMTP_USER
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL || secrets.EMAIL_TO || secrets.SMTP_USER }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python main.py
-
-      - name: Commit and push updated market database and web dashboard
         run: |
-          git config user.name "Agente Bolsa Bot"
-          git config user.email "bot@radar-bolsa.local"
+          # Si no hay secreto DASHBOARD_URL, se construye la URL de GitHub Pages de este mismo repositorio
+          if [ -z "$DASHBOARD_URL" ]; then
+            export DASHBOARD_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          fi
+          python main.py
+
+      - name: Commit and Push Updated Data & Episodic Memory (SQLite + JSON/JS)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add data/ docs/data/ docs/last_email_preview.html
-          git diff --staged --quiet || (git commit -m "chore(bolsa): actualización diaria de cotizaciones, soportes y noticias" && git pull --rebase -X theirs origin main && git push)
+          git diff --staged --quiet || (git commit -m "chore(memory): actualización diaria de cotizaciones, diario de memoria y alertas ($(date +'%Y-%m-%d'))" && git pull --rebase -X theirs origin main && git push)

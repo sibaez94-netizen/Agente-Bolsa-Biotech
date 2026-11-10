@@ -1,2 +1,4 @@
-# El proyecto utiliza la librería estándar de Python (urllib, sqlite3, xml, json)
-# para garantizar cero fallos en local y en GitHub Actions.
+requests>=2.31.0
+feedparser>=6.0.10
+beautifulsoup4>=4.12.2
+python-dotenv>=1.0.0
