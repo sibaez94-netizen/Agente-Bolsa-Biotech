@@ -768,27 +768,15 @@ class PortfolioAnalyzer:
 
     @staticmethod
     def _call_gemini_api(api_key: str, user_prompt: str) -> Optional[str]:
-        for model_name in ("gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"):
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
-            payload = {
-                "system_instruction": {"parts": [{"text": GEMINI_MASTER_SYSTEM_PROMPT}]},
-                "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1800},
-            }
-            try:
-                req = urllib.request.Request(
-                    url,
-                    data=json.dumps(payload).encode("utf-8"),
-                    headers={"Content-Type": "application/json"},
-                    method="POST",
-                )
-                with urllib.request.urlopen(req, timeout=18) as resp:
-                    data = json.loads(resp.read().decode("utf-8", errors="ignore"))
-                    candidates = data.get("candidates") or []
-                    if candidates:
-                        parts = candidates[0].get("content", {}).get("parts") or []
-                        if parts and parts[0].get("text"):
-                            return parts[0]["text"]
-            except Exception:
-                continue
-        return None
+        from src.ai_client import call_gemini
+
+        return call_gemini(
+            user_prompt,
+            api_key=api_key,
+            system_instruction=GEMINI_MASTER_SYSTEM_PROMPT,
+            preferred_model=os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash",
+            fallback_models=("gemini-2.5-flash", "gemini-flash-latest", "gemini-flash-lite-latest"),
+            temperature=0.3,
+            max_output_tokens=1800,
+            timeout=60,
+        )
