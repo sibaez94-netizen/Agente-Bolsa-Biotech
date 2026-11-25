@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T19:00:57Z",
+  "updated_at": "2026-11-25T18:06:23Z",
   "investor_profile": {
     "monthly_dca_budget_eur": 200,
     "recommended_50_30_20_budget_eur": 500,
@@ -55,10 +55,9 @@
     "dynamic_count": 10,
     "support_zone_count": 6,
     "core_status": "🟢 PILOTO AUTOMÁTICO (INTOCABLE)",
-    "core_change_1d_pct": -1.64,
-    "core_price": 124.56,
+    "core_change_1d_pct": -1.87,
+    "core_price": 122.24,
     "history_dates": [
-      "2026-11-11",
       "2026-11-12",
       "2026-11-13",
       "2026-11-16",
@@ -67,45 +66,62 @@
       "2026-11-19",
       "2026-11-20",
       "2026-11-23",
-      "2026-11-24"
+      "2026-11-24",
+      "2026-11-25"
     ],
     "memory_days_count": 10
   },
-  "ai_briefing": "🧠 1. MEMORIA DEL AGENTE: ¿QUÉ HA CAMBIADO RESPECTO A LOS DÍAS ANTERIORES?\nAntes de analizar el mercado de hoy, he chequeado nuestra base de datos histórica (`data/bolsa.db`), donde ya acumulamos 20 sesiones registradas desde el 2026-10-27 y 14 titulares nuevos hoy:\n• 📊 EUNL.DE: acumula un -5.4% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 124.56 EUR).\n• 📊 ILMN: acumula un -26.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 206.76 USD).\n• 📊 ONT.L: acumula un -17.1% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 194.90 GBp).\n• 📊 KURE: acumula un -3.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.99 USD).\n• 📈 NDIA.L ha rebotado desde su soporte histórico hasta 9.38 USD (+14.0% desde el inicio del seguimiento).\n\n📌 Recordatorio de nuestra última anotación en el Diario (2026-11-23): El núcleo EUNL.DE marcaba 126.64 € y teníamos en vigilancia de suelo histórico: 7 activos en suelo histórico (VYLR, CTVA, BEAM, SMMT, SHL.DE, NDIA.L, DNA).\n\n🧭 2. TU BRÚJULA DE HOY: ¿TENGO QUE HACER ALGO EN EL BRÓKER?\nHoy tu cartera de largo plazo está tranquila, pero el radar ha detectado que tienes en 'zona de rebajas históricas' (suelo de los últimos 3 años) a: Corteva Inc. (Solo División Agroquímicos Post-Escisión · Radar) (CTVA, a 8.19 USD), Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, a 7.46 USD), Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, a 24.34 USD), Siemens Healthineers AG (SHL.DE, a 43.30 EUR), Vylor Inc. (Spin-Off Puro Semillas Pioneer & CRISPR/Cas9) (VYLR, a 69.00 USD), Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, a 10.78 USD). ¿Qué significa esto en la práctica? Que si este mes vas a meter tus 200 € en XTB, además de tu reparto habitual, estas empresas están en la franja de precio donde históricamente los grandes fondos dejan de vender y empiezan a comprar porque las ven muy baratas. En el resto de la cartera no tienes que tocar ni vender absolutamente nada.\n\n🛡️ 3. ESTRATEGIA LARGO PLAZO · EL NÚCLEO INTOCABLE (MSCI WORLD · 50% DE TU CARTERA)\nTu Núcleo es el ETF iShares Core MSCI World (EUNL.DE), donde va la mitad de tu presupuesto (100 € de cada 200 €). Hoy cotiza a 124.56 € (-1.64% en el día) y acumula una subida del +19.0% en los últimos 2 años (-5.44% desde nuestro primer registro en base de datos). Piensa en este fondo como en la 'selección natural de Darwin' aplicada a la economía: dentro lleva trocitos de las 1.500 empresas más grandes de los países desarrollados (Apple, Microsoft, Nvidia, farmacéuticas, bancos...). Si una empresa se queda obsoleta, el índice la expulsa sola y mete a la nueva ganadora. Además, como elegimos la versión 'Acc' (Acumulación), todos los dividendos que reparten esas 1.500 empresas se reinvierten solos por dentro comprando más acciones sin pasar por tu cuenta bancaria: así hace magia el interés compuesto (ganas beneficios sobre los beneficios anteriores) sin pagar ni un euro a Hacienda hasta dentro de 15 o 20 años.\n\n🎯 4. TUS SATÉLITES ESTRUCTURALES: DIAGNÓSTICO IVD, GENÉTICA VEGETAL (CRISPR/RNAI) Y DEFENSA\n• Diagnóstico de Laboratorio y Hospitales (20% -> 40 €/mes): Thermo Fisher (TMO, 697.95 USD, +1.43% hoy) y Danaher (DHR, matriz de Cepheid/GeneXpert, Beckman Coulter y Leica, a 229.07 USD, +1.51% hoy) son los que venden 'los picos y las palas' (reactivos, plásticos, secuenciadores NGS de tumor sólido y PCR rápida) a todos los hospitales. Por su parte, Siemens Healthineers (SHL.DE, a 43.30 EUR, +0.42% hoy) está dentro de su zona baja de 3 años (39-43 €).\n\n• Tu Tesis Doctoral en Agricultura y Genética Vegetal (15% -> 30 €/mes): Vylor Inc. (VYLR, hoy a 69.00 USD, +1.48% hoy) es la compañía 100% pura de Semillas Avanzadas (Pioneer, Brevant), germoplasma y edición genética CRISPR/Cas9 nacida tras separarse de Corteva (mientras que la antigua CTVA, hoy a 8.19 USD, se quedó solo con la división de agroquímicos/pesticidas tras la escisión y ya la tenemos marcada con 0 € para no tocarla). Con la nueva legislación europea sobre semillas editadas con CRISPR/Cas sin transgén (NGT1, rumbo a 2028), VYLR te permite invertir exclusivamente en la genética vegetal de alto margen sin comerte el lastre de los agroquímicos tradicionales.\n\n• Escudo Geopolítico y Rearme OTAN (10% -> 20 €/mes): Tu ETF de Defensa VanEck (DFNS.MI, hoy a 47.70 EUR, +0.39% hoy) agrupa a los gigantes del armamento, radares y ciberseguridad militar (como Rheinmetall, Thales o Palantir). En vez de jugártela a adivinar qué fabricante ganará el próximo contrato del Ministerio de Defensa, compras toda la cesta de golpe.\n\n🔬 5. ESTRATEGIA DINÁMICA (SEGUIMIENTO DIARIO): BIOTECH EN FASE CLÍNICA Y CHEQUEO ANTI-DILUCIÓN\nAquí dedicamos solo el 5% del presupuesto (10 €/mes de 'capital riesgo científico'), pero es la parte que vigilamos todos los días porque las biotecnológicas pequeñas en fase clínica pueden multiplicarse si un ensayo sale bien o hundirse si fracasa o se quedan sin dinero.\n\nChequeo anti-dilución con datos oficiales de la SEC (último 10-Q/10-K y Form 4 de directivos):\n1) Bicycle Therapeutics (Fase Clínica · Péptidos Bicíclicos) (BCYC, 3.27 USD, +7.21% hoy): ⚠️ COTIZA POR DEBAJO DE SU CAJA. Caja e inversiones $469.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$175.2M/año), capitalización ~$98.2M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $0.06M (12 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n2) Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, 7.46 USD, -3.81% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $84.5M (balance a 2026-09-30), ~6 meses de runway (quema ~$167.0M/año), capitalización ~$481.1M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.38M (8 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n3) Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, 24.34 USD, +6.47% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1043.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$388.6M/año), capitalización ~$2519.1M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.19M (3 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n4) Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, 10.78 USD, +4.46% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $629.8M (balance a 2026-09-30), ~14 meses de runway (quema ~$525.2M/año), capitalización ~$8621.5M. Directivos: Sin compras ni ventas en mercado abierto en 90 días (6 Form 4 revisados: concesiones, opciones, etc.).\n5) Guardant Health (Radar Biopsia Líquida ctDNA) (GH, 157.52 USD, +2.17% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1026.8M (balance a 2026-09-30), ~71 meses de runway (quema ~$173.5M/año), capitalización ~$21310.2M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $3.35M (11 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n\n📰 6. RADAR DE NOTICIAS DEL DÍA (TRADUCIDAS Y CONECTADAS CON TUS EMPRESAS)\n1. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/diamedica-shares-signs-drug-extends-pregnancy-fetal-growth-restriction-trial\" hreflang=\"en\">DiaMedica shares signs that drug extends pregnancy in fetal growth restriction trial</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n2. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/research/iambic-ceo-says-they-have-holy-grail-cdk-inhibitors-cancer-therapies\" hreflang=\"en\">Why Iambic’s CEO believes preclinical cancer therapy could be ‘holy grail’ for CDK inhibitors</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n3. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/vyriad-tells-fierce-how-it-manages-quietly-attract-big-pharmas\" hreflang=\"en\">‘We’ve been a quiet company’: Why viral biotech Vyriad attracts Big Pharmas despite low profile</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n4. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test\" hreflang=\"en\">FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.",
+  "ai_briefing": "🧠 1. MEMORIA DEL AGENTE: ¿QUÉ HA CAMBIADO RESPECTO A LOS DÍAS ANTERIORES?\nAntes de analizar el mercado de hoy, he chequeado nuestra base de datos histórica (`data/bolsa.db`), donde ya acumulamos 21 sesiones registradas desde el 2026-10-27 y 14 titulares nuevos hoy:\n• 📊 EUNL.DE: acumula un -7.2% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 122.24 EUR).\n• 📊 ILMN: acumula un -27.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 201.47 USD).\n• 📊 ONT.L: acumula un -16.9% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 195.30 GBp).\n• 📊 KURE: acumula un -4.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.96 USD).\n• 📊 NDIA.L: acumula un +14.5% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (8.23 -> 9.42 USD).\n\n📌 Recordatorio de nuestra última anotación en el Diario (2026-11-24): El núcleo EUNL.DE marcaba 124.56 € y teníamos en vigilancia de suelo histórico: 6 activos en suelo histórico (VYLR, CTVA, DNA, BEAM, SHL.DE, SMMT).\n\n🧭 2. TU BRÚJULA DE HOY: ¿TENGO QUE HACER ALGO EN EL BRÓKER?\nHoy tu cartera de largo plazo está tranquila, pero el radar ha detectado que tienes en 'zona de rebajas históricas' (suelo de los últimos 3 años) a: Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, a 23.26 USD), Siemens Healthineers AG (SHL.DE, a 42.91 EUR), Corteva Inc. (Solo División Agroquímicos Post-Escisión · Radar) (CTVA, a 8.16 USD), Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, a 7.06 USD), Vylor Inc. (Spin-Off Puro Semillas Pioneer & CRISPR/Cas9) (VYLR, a 69.39 USD), Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, a 10.42 USD). ¿Qué significa esto en la práctica? Que si este mes vas a meter tus 200 € en XTB, además de tu reparto habitual, estas empresas están en la franja de precio donde históricamente los grandes fondos dejan de vender y empiezan a comprar porque las ven muy baratas. En el resto de la cartera no tienes que tocar ni vender absolutamente nada.\n\n🛡️ 3. ESTRATEGIA LARGO PLAZO · EL NÚCLEO INTOCABLE (MSCI WORLD · 50% DE TU CARTERA)\nTu Núcleo es el ETF iShares Core MSCI World (EUNL.DE), donde va la mitad de tu presupuesto (100 € de cada 200 €). Hoy cotiza a 122.24 € (-1.87% en el día) y acumula una subida del +16.6% en los últimos 2 años (-7.20% desde nuestro primer registro en base de datos). Piensa en este fondo como en la 'selección natural de Darwin' aplicada a la economía: dentro lleva trocitos de las 1.500 empresas más grandes de los países desarrollados (Apple, Microsoft, Nvidia, farmacéuticas, bancos...). Si una empresa se queda obsoleta, el índice la expulsa sola y mete a la nueva ganadora. Además, como elegimos la versión 'Acc' (Acumulación), todos los dividendos que reparten esas 1.500 empresas se reinvierten solos por dentro comprando más acciones sin pasar por tu cuenta bancaria: así hace magia el interés compuesto (ganas beneficios sobre los beneficios anteriores) sin pagar ni un euro a Hacienda hasta dentro de 15 o 20 años.\n\n🎯 4. TUS SATÉLITES ESTRUCTURALES: DIAGNÓSTICO IVD, GENÉTICA VEGETAL (CRISPR/RNAI) Y DEFENSA\n• Diagnóstico de Laboratorio y Hospitales (20% -> 40 €/mes): Thermo Fisher (TMO, 686.25 USD, -1.35% hoy) y Danaher (DHR, matriz de Cepheid/GeneXpert, Beckman Coulter y Leica, a 229.20 USD, +0.05% hoy) son los que venden 'los picos y las palas' (reactivos, plásticos, secuenciadores NGS de tumor sólido y PCR rápida) a todos los hospitales. Por su parte, Siemens Healthineers (SHL.DE, a 42.91 EUR, -0.90% hoy) está dentro de su zona baja de 3 años (39-43 €).\n\n• Tu Tesis Doctoral en Agricultura y Genética Vegetal (15% -> 30 €/mes): Vylor Inc. (VYLR, hoy a 69.39 USD, +1.20% hoy) es la compañía 100% pura de Semillas Avanzadas (Pioneer, Brevant), germoplasma y edición genética CRISPR/Cas9 nacida tras separarse de Corteva (mientras que la antigua CTVA, hoy a 8.16 USD, se quedó solo con la división de agroquímicos/pesticidas tras la escisión y ya la tenemos marcada con 0 € para no tocarla). Con la nueva legislación europea sobre semillas editadas con CRISPR/Cas sin transgén (NGT1, rumbo a 2028), VYLR te permite invertir exclusivamente en la genética vegetal de alto margen sin comerte el lastre de los agroquímicos tradicionales.\n\n• Escudo Geopolítico y Rearme OTAN (10% -> 20 €/mes): Tu ETF de Defensa VanEck (DFNS.MI, hoy a 46.91 EUR, -1.65% hoy) agrupa a los gigantes del armamento, radares y ciberseguridad militar (como Rheinmetall, Thales o Palantir). En vez de jugártela a adivinar qué fabricante ganará el próximo contrato del Ministerio de Defensa, compras toda la cesta de golpe.\n\n🔬 5. ESTRATEGIA DINÁMICA (SEGUIMIENTO DIARIO): BIOTECH EN FASE CLÍNICA Y CHEQUEO ANTI-DILUCIÓN\nAquí dedicamos solo el 5% del presupuesto (10 €/mes de 'capital riesgo científico'), pero es la parte que vigilamos todos los días porque las biotecnológicas pequeñas en fase clínica pueden multiplicarse si un ensayo sale bien o hundirse si fracasa o se quedan sin dinero.\n\nChequeo anti-dilución con datos oficiales de la SEC (último 10-Q/10-K y Form 4 de directivos):\n1) Bicycle Therapeutics (Fase Clínica · Péptidos Bicíclicos) (BCYC, 3.17 USD, -1.71% hoy): ⚠️ COTIZA POR DEBAJO DE SU CAJA. Caja e inversiones $469.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$175.2M/año), capitalización ~$95.2M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $0.06M (12 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n2) Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, 23.26 USD, -4.12% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1043.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$388.6M/año), capitalización ~$2407.3M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.19M (3 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n3) Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, 7.06 USD, -6.12% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $84.5M (balance a 2026-09-30), ~6 meses de runway (quema ~$167.0M/año), capitalización ~$455.3M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.38M (8 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n4) Guardant Health (Radar Biopsia Líquida ctDNA) (GH, 152.43 USD, -3.53% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1026.8M (balance a 2026-09-30), ~71 meses de runway (quema ~$173.5M/año), capitalización ~$20621.6M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $3.35M (11 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n5) Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, 10.42 USD, -0.76% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $629.8M (balance a 2026-09-30), ~14 meses de runway (quema ~$525.2M/año), capitalización ~$8333.5M. Directivos: Sin compras ni ventas en mercado abierto en 90 días (6 Form 4 revisados: concesiones, opciones, etc.).\n\n📰 6. RADAR DE NOTICIAS DEL DÍA (TRADUCIDAS Y CONECTADAS CON TUS EMPRESAS)\n1. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/bayer-becomes-latest-big-pharma-head-hansoh-33b-deal-phase-1-adc\" hreflang=\"en\">Bayer becomes latest Big Pharma to head to Hansoh in $3.3B deal for phase 1 ADC</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n2. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m\" hreflang=\"en\">Schrödinger signs €22M biologics collab with sequencing automation outfit Enpicom</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n3. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/fda-issues-noncompliance-letters-biotechs-over-lack-trial-data-reporting\" hreflang=\"en\">FDA issues noncompliance letters to 2 biotechs over lack of trial data reporting</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n4. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/desentum-delivers-durable-symptom-relief-phase-2-birch-pollen-allergy-trial\" hreflang=\"en\">Finnish biotech delivers durable symptom relief in phase 2 birch pollen allergy trial</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.",
   "briefing_sections": [
     {
       "icon": "🧠",
       "title": "1. Memoria del Agente: ¿Qué ha cambiado respecto a los días anteriores?",
-      "body": "Antes de analizar el mercado de hoy, he chequeado nuestra base de datos histórica (`data/bolsa.db`), donde ya acumulamos 20 sesiones registradas desde el 2026-10-27 y 14 titulares nuevos hoy:\n• 📊 EUNL.DE: acumula un -5.4% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 124.56 EUR).\n• 📊 ILMN: acumula un -26.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 206.76 USD).\n• 📊 ONT.L: acumula un -17.1% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 194.90 GBp).\n• 📊 KURE: acumula un -3.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.99 USD).\n• 📈 NDIA.L ha rebotado desde su soporte histórico hasta 9.38 USD (+14.0% desde el inicio del seguimiento).\n\n📌 Recordatorio de nuestra última anotación en el Diario (2026-11-23): El núcleo EUNL.DE marcaba 126.64 € y teníamos en vigilancia de suelo histórico: 7 activos en suelo histórico (VYLR, CTVA, BEAM, SMMT, SHL.DE, NDIA.L, DNA)."
+      "body": "Antes de analizar el mercado de hoy, he chequeado nuestra base de datos histórica (`data/bolsa.db`), donde ya acumulamos 21 sesiones registradas desde el 2026-10-27 y 14 titulares nuevos hoy:\n• 📊 EUNL.DE: acumula un -7.2% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 122.24 EUR).\n• 📊 ILMN: acumula un -27.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 201.47 USD).\n• 📊 ONT.L: acumula un -16.9% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 195.30 GBp).\n• 📊 KURE: acumula un -4.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.96 USD).\n• 📊 NDIA.L: acumula un +14.5% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (8.23 -> 9.42 USD).\n\n📌 Recordatorio de nuestra última anotación en el Diario (2026-11-24): El núcleo EUNL.DE marcaba 124.56 € y teníamos en vigilancia de suelo histórico: 6 activos en suelo histórico (VYLR, CTVA, DNA, BEAM, SHL.DE, SMMT)."
     },
     {
       "icon": "🧭",
       "title": "2. Tu Brújula de Hoy: ¿Tengo que hacer algo en el bróker?",
-      "body": "Hoy tu cartera de largo plazo está tranquila, pero el radar ha detectado que tienes en 'zona de rebajas históricas' (suelo de los últimos 3 años) a: Corteva Inc. (Solo División Agroquímicos Post-Escisión · Radar) (CTVA, a 8.19 USD), Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, a 7.46 USD), Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, a 24.34 USD), Siemens Healthineers AG (SHL.DE, a 43.30 EUR), Vylor Inc. (Spin-Off Puro Semillas Pioneer & CRISPR/Cas9) (VYLR, a 69.00 USD), Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, a 10.78 USD). ¿Qué significa esto en la práctica? Que si este mes vas a meter tus 200 € en XTB, además de tu reparto habitual, estas empresas están en la franja de precio donde históricamente los grandes fondos dejan de vender y empiezan a comprar porque las ven muy baratas. En el resto de la cartera no tienes que tocar ni vender absolutamente nada."
+      "body": "Hoy tu cartera de largo plazo está tranquila, pero el radar ha detectado que tienes en 'zona de rebajas históricas' (suelo de los últimos 3 años) a: Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, a 23.26 USD), Siemens Healthineers AG (SHL.DE, a 42.91 EUR), Corteva Inc. (Solo División Agroquímicos Post-Escisión · Radar) (CTVA, a 8.16 USD), Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, a 7.06 USD), Vylor Inc. (Spin-Off Puro Semillas Pioneer & CRISPR/Cas9) (VYLR, a 69.39 USD), Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, a 10.42 USD). ¿Qué significa esto en la práctica? Que si este mes vas a meter tus 200 € en XTB, además de tu reparto habitual, estas empresas están en la franja de precio donde históricamente los grandes fondos dejan de vender y empiezan a comprar porque las ven muy baratas. En el resto de la cartera no tienes que tocar ni vender absolutamente nada."
     },
     {
       "icon": "🛡️",
       "title": "3. Estrategia Largo Plazo · El Núcleo Intocable (MSCI World · 50% de tu cartera)",
-      "body": "Tu Núcleo es el ETF iShares Core MSCI World (EUNL.DE), donde va la mitad de tu presupuesto (100 € de cada 200 €). Hoy cotiza a 124.56 € (-1.64% en el día) y acumula una subida del +19.0% en los últimos 2 años (-5.44% desde nuestro primer registro en base de datos). Piensa en este fondo como en la 'selección natural de Darwin' aplicada a la economía: dentro lleva trocitos de las 1.500 empresas más grandes de los países desarrollados (Apple, Microsoft, Nvidia, farmacéuticas, bancos...). Si una empresa se queda obsoleta, el índice la expulsa sola y mete a la nueva ganadora. Además, como elegimos la versión 'Acc' (Acumulación), todos los dividendos que reparten esas 1.500 empresas se reinvierten solos por dentro comprando más acciones sin pasar por tu cuenta bancaria: así hace magia el interés compuesto (ganas beneficios sobre los beneficios anteriores) sin pagar ni un euro a Hacienda hasta dentro de 15 o 20 años."
+      "body": "Tu Núcleo es el ETF iShares Core MSCI World (EUNL.DE), donde va la mitad de tu presupuesto (100 € de cada 200 €). Hoy cotiza a 122.24 € (-1.87% en el día) y acumula una subida del +16.6% en los últimos 2 años (-7.20% desde nuestro primer registro en base de datos). Piensa en este fondo como en la 'selección natural de Darwin' aplicada a la economía: dentro lleva trocitos de las 1.500 empresas más grandes de los países desarrollados (Apple, Microsoft, Nvidia, farmacéuticas, bancos...). Si una empresa se queda obsoleta, el índice la expulsa sola y mete a la nueva ganadora. Además, como elegimos la versión 'Acc' (Acumulación), todos los dividendos que reparten esas 1.500 empresas se reinvierten solos por dentro comprando más acciones sin pasar por tu cuenta bancaria: así hace magia el interés compuesto (ganas beneficios sobre los beneficios anteriores) sin pagar ni un euro a Hacienda hasta dentro de 15 o 20 años."
     },
     {
       "icon": "🎯",
       "title": "4. Tus Satélites Estructurales: Diagnóstico IVD, Genética Vegetal (CRISPR/RNAi) y Defensa",
-      "body": "• Diagnóstico de Laboratorio y Hospitales (20% -> 40 €/mes): Thermo Fisher (TMO, 697.95 USD, +1.43% hoy) y Danaher (DHR, matriz de Cepheid/GeneXpert, Beckman Coulter y Leica, a 229.07 USD, +1.51% hoy) son los que venden 'los picos y las palas' (reactivos, plásticos, secuenciadores NGS de tumor sólido y PCR rápida) a todos los hospitales. Por su parte, Siemens Healthineers (SHL.DE, a 43.30 EUR, +0.42% hoy) está dentro de su zona baja de 3 años (39-43 €).\n\n• Tu Tesis Doctoral en Agricultura y Genética Vegetal (15% -> 30 €/mes): Vylor Inc. (VYLR, hoy a 69.00 USD, +1.48% hoy) es la compañía 100% pura de Semillas Avanzadas (Pioneer, Brevant), germoplasma y edición genética CRISPR/Cas9 nacida tras separarse de Corteva (mientras que la antigua CTVA, hoy a 8.19 USD, se quedó solo con la división de agroquímicos/pesticidas tras la escisión y ya la tenemos marcada con 0 € para no tocarla). Con la nueva legislación europea sobre semillas editadas con CRISPR/Cas sin transgén (NGT1, rumbo a 2028), VYLR te permite invertir exclusivamente en la genética vegetal de alto margen sin comerte el lastre de los agroquímicos tradicionales.\n\n• Escudo Geopolítico y Rearme OTAN (10% -> 20 €/mes): Tu ETF de Defensa VanEck (DFNS.MI, hoy a 47.70 EUR, +0.39% hoy) agrupa a los gigantes del armamento, radares y ciberseguridad militar (como Rheinmetall, Thales o Palantir). En vez de jugártela a adivinar qué fabricante ganará el próximo contrato del Ministerio de Defensa, compras toda la cesta de golpe."
+      "body": "• Diagnóstico de Laboratorio y Hospitales (20% -> 40 €/mes): Thermo Fisher (TMO, 686.25 USD, -1.35% hoy) y Danaher (DHR, matriz de Cepheid/GeneXpert, Beckman Coulter y Leica, a 229.20 USD, +0.05% hoy) son los que venden 'los picos y las palas' (reactivos, plásticos, secuenciadores NGS de tumor sólido y PCR rápida) a todos los hospitales. Por su parte, Siemens Healthineers (SHL.DE, a 42.91 EUR, -0.90% hoy) está dentro de su zona baja de 3 años (39-43 €).\n\n• Tu Tesis Doctoral en Agricultura y Genética Vegetal (15% -> 30 €/mes): Vylor Inc. (VYLR, hoy a 69.39 USD, +1.20% hoy) es la compañía 100% pura de Semillas Avanzadas (Pioneer, Brevant), germoplasma y edición genética CRISPR/Cas9 nacida tras separarse de Corteva (mientras que la antigua CTVA, hoy a 8.16 USD, se quedó solo con la división de agroquímicos/pesticidas tras la escisión y ya la tenemos marcada con 0 € para no tocarla). Con la nueva legislación europea sobre semillas editadas con CRISPR/Cas sin transgén (NGT1, rumbo a 2028), VYLR te permite invertir exclusivamente en la genética vegetal de alto margen sin comerte el lastre de los agroquímicos tradicionales.\n\n• Escudo Geopolítico y Rearme OTAN (10% -> 20 €/mes): Tu ETF de Defensa VanEck (DFNS.MI, hoy a 46.91 EUR, -1.65% hoy) agrupa a los gigantes del armamento, radares y ciberseguridad militar (como Rheinmetall, Thales o Palantir). En vez de jugártela a adivinar qué fabricante ganará el próximo contrato del Ministerio de Defensa, compras toda la cesta de golpe."
     },
     {
       "icon": "🔬",
       "title": "5. Estrategia Dinámica (Seguimiento Diario): Biotech en Fase Clínica y Chequeo Anti-Dilución",
-      "body": "Aquí dedicamos solo el 5% del presupuesto (10 €/mes de 'capital riesgo científico'), pero es la parte que vigilamos todos los días porque las biotecnológicas pequeñas en fase clínica pueden multiplicarse si un ensayo sale bien o hundirse si fracasa o se quedan sin dinero.\n\nChequeo anti-dilución con datos oficiales de la SEC (último 10-Q/10-K y Form 4 de directivos):\n1) Bicycle Therapeutics (Fase Clínica · Péptidos Bicíclicos) (BCYC, 3.27 USD, +7.21% hoy): ⚠️ COTIZA POR DEBAJO DE SU CAJA. Caja e inversiones $469.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$175.2M/año), capitalización ~$98.2M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $0.06M (12 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n2) Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, 7.46 USD, -3.81% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $84.5M (balance a 2026-09-30), ~6 meses de runway (quema ~$167.0M/año), capitalización ~$481.1M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.38M (8 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n3) Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, 24.34 USD, +6.47% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1043.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$388.6M/año), capitalización ~$2519.1M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.19M (3 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n4) Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, 10.78 USD, +4.46% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $629.8M (balance a 2026-09-30), ~14 meses de runway (quema ~$525.2M/año), capitalización ~$8621.5M. Directivos: Sin compras ni ventas en mercado abierto en 90 días (6 Form 4 revisados: concesiones, opciones, etc.).\n5) Guardant Health (Radar Biopsia Líquida ctDNA) (GH, 157.52 USD, +2.17% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1026.8M (balance a 2026-09-30), ~71 meses de runway (quema ~$173.5M/año), capitalización ~$21310.2M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $3.35M (11 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
+      "body": "Aquí dedicamos solo el 5% del presupuesto (10 €/mes de 'capital riesgo científico'), pero es la parte que vigilamos todos los días porque las biotecnológicas pequeñas en fase clínica pueden multiplicarse si un ensayo sale bien o hundirse si fracasa o se quedan sin dinero.\n\nChequeo anti-dilución con datos oficiales de la SEC (último 10-Q/10-K y Form 4 de directivos):\n1) Bicycle Therapeutics (Fase Clínica · Péptidos Bicíclicos) (BCYC, 3.17 USD, -1.71% hoy): ⚠️ COTIZA POR DEBAJO DE SU CAJA. Caja e inversiones $469.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$175.2M/año), capitalización ~$95.2M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $0.06M (12 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n2) Beam Therapeutics (Fase Clínica · Base Editing 2.0) (BEAM, 23.26 USD, -4.12% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1043.9M (balance a 2026-09-30), ~32 meses de runway (quema ~$388.6M/año), capitalización ~$2407.3M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.19M (3 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n3) Ginkgo Bioworks (Biología Sintética y AgTech) (DNA, 7.06 USD, -6.12% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $84.5M (balance a 2026-09-30), ~6 meses de runway (quema ~$167.0M/año), capitalización ~$455.3M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.38M (8 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n4) Guardant Health (Radar Biopsia Líquida ctDNA) (GH, 152.43 USD, -3.53% hoy): ✅ CAJA HOLGADA. Caja e inversiones $1026.8M (balance a 2026-09-30), ~71 meses de runway (quema ~$173.5M/año), capitalización ~$20621.6M. Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $3.35M (11 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte.\n5) Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab) (SMMT, 10.42 USD, -0.76% hoy): ⚠️ CAJA JUSTA. Caja e inversiones $629.8M (balance a 2026-09-30), ~14 meses de runway (quema ~$525.2M/año), capitalización ~$8333.5M. Directivos: Sin compras ni ventas en mercado abierto en 90 días (6 Form 4 revisados: concesiones, opciones, etc.)."
     },
     {
       "icon": "📰",
       "title": "6. Radar de Noticias del Día (Traducidas y Conectadas con tus Empresas)",
-      "body": "1. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/diamedica-shares-signs-drug-extends-pregnancy-fetal-growth-restriction-trial\" hreflang=\"en\">DiaMedica shares signs that drug extends pregnancy in fetal growth restriction trial</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n2. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/research/iambic-ceo-says-they-have-holy-grail-cdk-inhibitors-cancer-therapies\" hreflang=\"en\">Why Iambic’s CEO believes preclinical cancer therapy could be ‘holy grail’ for CDK inhibitors</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n3. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/vyriad-tells-fierce-how-it-manages-quietly-attract-big-pharmas\" hreflang=\"en\">‘We’ve been a quiet company’: Why viral biotech Vyriad attracts Big Pharmas despite low profile</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n4. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test\" hreflang=\"en\">FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual."
+      "body": "1. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/bayer-becomes-latest-big-pharma-head-hansoh-33b-deal-phase-1-adc\" hreflang=\"en\">Bayer becomes latest Big Pharma to head to Hansoh in $3.3B deal for phase 1 ADC</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n2. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m\" hreflang=\"en\">Schrödinger signs €22M biologics collab with sequencing automation outfit Enpicom</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n3. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/fda-issues-noncompliance-letters-biotechs-over-lack-trial-data-reporting\" hreflang=\"en\">FDA issues noncompliance letters to 2 biotechs over lack of trial data reporting</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual.\n\n4. [🆕 NUEVA HOY · FierceBiotech] \"<a href=\"https://www.fiercebiotech.com/biotech/desentum-delivers-durable-symptom-relief-phase-2-birch-pollen-allergy-trial\" hreflang=\"en\">Finnish biotech delivers durable symptom relief in phase 2 birch pollen allergy trial</a>\"\n   👉 Qué significa para ti: 🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual."
     }
   ],
-  "memory_comparison_summary": "📊 EUNL.DE: acumula un -5.4% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 124.56 EUR). | 📊 ILMN: acumula un -26.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 206.76 USD). | 📊 ONT.L: acumula un -17.1% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 194.90 GBp). | 📊 KURE: acumula un -3.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.99 USD).",
+  "memory_comparison_summary": "📊 EUNL.DE: acumula un -7.2% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 122.24 EUR). | 📊 ILMN: acumula un -27.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 201.47 USD). | 📊 ONT.L: acumula un -16.9% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 195.30 GBp). | 📊 KURE: acumula un -4.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.96 USD).",
   "memory_journal": [
+    {
+      "run_date": "2026-11-25",
+      "created_at": "2026-11-25T18:06:23Z",
+      "core_price": 122.24,
+      "support_tickers": [
+        "VYLR",
+        "BEAM",
+        "SHL.DE",
+        "CTVA",
+        "DNA",
+        "SMMT"
+      ],
+      "alerts_summary": "6 activos en suelo histórico (VYLR, BEAM, SHL.DE, CTVA, DNA, SMMT)",
+      "key_changes_vs_prev": "📊 EUNL.DE: acumula un -7.2% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 122.24 EUR). | 📊 ILMN: acumula un -27.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 201.47 USD). | 📊 ONT.L: acumula un -16.9% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (235.00 -> 195.30 GBp). | 📊 KURE: acumula un -4.0% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (17.67 -> 16.96 USD).",
+      "briefing_excerpt": "Antes de analizar el mercado de hoy, he chequeado nuestra base de datos histórica (`data/bolsa.db`), donde ya acumulamos 21 sesiones registradas desde el 2026-10-27 y 14 titulares nuevos hoy:\n• 📊 EUNL.DE: acumula un -7.2% desde que nuestro agente empezó a monitorizarla el 2026-10-28 (131.72 -> 122.24 EUR).\n• 📊 ILMN: acumula un -27.9% desde que nuestro agente empezó a monitorizarla el 2026-10-27 (279.47 -> 201.47 USD).\n• 📊 ONT.L: acumula un -16.9% desde que nuestro agente empezó a monitorizarla e"
+    },
     {
       "run_date": "2026-11-24",
       "created_at": "2026-11-24T19:00:57Z",
@@ -291,42 +307,41 @@
       "exchange": "NYSE (EE. UU.)",
       "in_base_dca": true,
       "monthly_allocation_eur": 30.0,
-      "current_price": 69.0,
-      "prev_close": 68.0,
-      "change_1d_pct": 1.48,
-      "change_5d_pct": -1.72,
-      "change_1m_pct": -6.67,
-      "change_1y_pct": 1.09,
-      "change_2y_pct": 1.09,
-      "change_since_first_tracked_pct": -4.25,
-      "streak_days": 2,
+      "current_price": 69.39,
+      "prev_close": 68.57,
+      "change_1d_pct": 1.2,
+      "change_5d_pct": -0.62,
+      "change_1m_pct": -3.71,
+      "change_1y_pct": 1.66,
+      "change_2y_pct": 1.66,
+      "change_since_first_tracked_pct": -3.71,
+      "streak_days": 1,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -4.25% (anterior cierre registrado 68.28 USD el 2026-11-23, +1.05%) · Encadena 2 sesiones seguidas subiendo.",
-      "value_of_40eur_2y": 40.44,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -3.71% (anterior cierre registrado 69.00 USD el 2026-11-24, +0.57%)",
+      "value_of_40eur_2y": 40.66,
       "low_3y": 67.26,
       "high_3y": 76.94,
-      "drawdown_3y_pct": -10.31,
-      "sma_50": 71.92,
-      "sma_200": 71.92,
-      "rsi_14": 41.9,
-      "rsi_explanation": "RSI 42/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
-      "historical_support_low": 68.09,
-      "historical_support_high": 70.14,
+      "drawdown_3y_pct": -9.81,
+      "sma_50": 71.84,
+      "sma_200": 71.84,
+      "rsi_14": 53.7,
+      "rsi_explanation": "RSI 54/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
+      "historical_support_low": 68.26,
+      "historical_support_high": 69.82,
       "in_support_zone": true,
-      "dist_to_support_pct": -1.6,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 69.00 USD, que está en el 18% más bajo de todo su recorrido de los últimos 3 años (suelo entre 68.1 y 70.1 USD, frente a un máximo de 76.9 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'. ⚠️ Ojo: solo hay 39 sesiones de cotización, así que este 'suelo' se calcula con menos de un año de historia y es poco fiable.",
+      "dist_to_support_pct": -0.6,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 69.39 USD, que está en el 22% más bajo de todo su recorrido de los últimos 3 años (suelo entre 68.3 y 69.8 USD, frente a un máximo de 76.9 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'. ⚠️ Ojo: solo hay 40 sesiones de cotización, así que este 'suelo' se calcula con menos de un año de historia y es poco fiable.",
       "opportunity_score": 81,
       "signal_badge": "🎯 EN SUELO HISTÓRICO (OPORTUNIDAD)",
       "signal_color": "emerald",
       "alert_level": "high",
       "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (68.1 - 70.1 USD vs precio actual 69.00 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota."
+        "🎯 En Suelo Histórico de 3 Años (68.3 - 69.8 USD vs precio actual 69.39 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota."
       ],
       "thesis": "JOYA DE TU TESIS DOCTORAL: Compañía 100% pura de Semillas Avanzadas (Pioneer, Brevant), germoplasma y edición genética CRISPR/Cas9 nacida tras la escisión de Corteva (libre del lastre de los agroquímicos tradicionales que se quedaron en CTVA). Posicionada de lleno para capturar la nueva legislación europea sobre semillas editadas CRISPR/Cas (NGT1) y rasgos de resistencia por RNAi.",
       "sell_rule": "Mantener a largo plazo hacia la apertura comercial de semillas NGT1 en la UE (2028). Cotiza solo desde el 1 de octubre de 2026: su 'suelo' se calcula con la poca historia disponible y hay que tomarlo con cautela.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 72.1,
         "2026-11-12": 72.06,
         "2026-11-13": 72.54,
         "2026-11-16": 71.8,
@@ -335,11 +350,12 @@
         "2026-11-19": 67.77,
         "2026-11-20": 68.09,
         "2026-11-23": 68.0,
-        "2026-11-24": 69.0
+        "2026-11-24": 68.57,
+        "2026-11-25": 69.39
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
-      "history_sessions": 39,
+      "last_session_date": "2026-11-25",
+      "history_sessions": 40,
       "yahoo_url": "https://finance.yahoo.com/quote/VYLR",
       "price_history": [
         {
@@ -424,7 +440,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 69.0
+          "price": 68.57
+        },
+        {
+          "date": "2026-11-25",
+          "price": 69.39
         }
       ]
     },
@@ -440,43 +460,42 @@
       "exchange": "Xetra (Alemania)",
       "in_base_dca": true,
       "monthly_allocation_eur": 100.0,
-      "current_price": 124.56,
-      "prev_close": 126.64,
-      "change_1d_pct": -1.64,
-      "change_5d_pct": -1.98,
-      "change_1m_pct": -4.53,
-      "change_1y_pct": 13.46,
-      "change_2y_pct": 19.04,
-      "change_since_first_tracked_pct": -5.44,
-      "streak_days": 1,
+      "current_price": 122.24,
+      "prev_close": 124.57,
+      "change_1d_pct": -1.87,
+      "change_5d_pct": -3.83,
+      "change_1m_pct": -7.11,
+      "change_1y_pct": 10.02,
+      "change_2y_pct": 16.63,
+      "change_since_first_tracked_pct": -7.2,
+      "streak_days": -1,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada -5.44% (anterior cierre registrado 126.64 EUR el 2026-11-23, -1.64%)",
-      "value_of_40eur_2y": 47.62,
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada -7.20% (anterior cierre registrado 124.56 EUR el 2026-11-24, -1.86%)",
+      "value_of_40eur_2y": 46.65,
       "low_3y": 78.52,
       "high_3y": 132.25,
-      "drawdown_3y_pct": -5.81,
-      "sma_50": 129.42,
-      "sma_200": 122.74,
-      "rsi_14": 36.8,
+      "drawdown_3y_pct": -7.57,
+      "sma_50": 129.34,
+      "sma_200": 122.79,
+      "rsi_14": 37.4,
       "rsi_explanation": "RSI 37/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
       "historical_support_low": 82.0,
       "historical_support_high": 88.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 41.5,
-      "support_explanation": "Cotizando cerca de sus máximos de 3 años (86% del rango entre 78.5 y 132.2 EUR). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
+      "dist_to_support_pct": 38.9,
+      "support_explanation": "Cotizando cerca de sus máximos de 3 años (81% del rango entre 78.5 y 132.2 EUR). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
       "opportunity_score": 68,
       "signal_badge": "🟢 PILOTO AUTOMÁTICO (INTOCABLE)",
       "signal_color": "green",
       "alert_level": "low",
       "reasons": [
         "Tu fondo índice de las 1.500 mayores empresas del mundo sigue creciendo en piloto automático. Al ser de Acumulación (Acc), cobra los dividendos de Apple, Microsoft, etc. y los reinvierte dentro del fondo sin que tengas que hacer nada ni pagar impuestos hoy.",
-        "Cotización hoy: 124.56 EUR (-1.64% en el día)."
+        "Cotización hoy: 122.24 EUR (-1.87% en el día)."
       ],
       "thesis": "Organismo autolimpiable (selección natural de las 1.500 mayores empresas globales). ETF de Acumulación (Acc): reinvierte dividendos internamente haciendo interés compuesto sin pasar por Hacienda.",
       "sell_rule": "NUNCA vender por pánico ni intentar Market Timing (evitar peaje del 19%-21% en Hacienda y no romper la bola de nieve). Solo tocar en jubilación o compra de vivienda.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 130.96,
         "2026-11-12": 131.63,
         "2026-11-13": 130.44,
         "2026-11-16": 129.98,
@@ -485,10 +504,11 @@
         "2026-11-19": 126.79,
         "2026-11-20": 122.71,
         "2026-11-23": 126.64,
-        "2026-11-24": 124.56
+        "2026-11-24": 124.57,
+        "2026-11-25": 122.24
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 759,
       "yahoo_url": "https://finance.yahoo.com/quote/EUNL.DE",
       "price_history": [
@@ -570,7 +590,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 124.56
+          "price": 124.57
+        },
+        {
+          "date": "2026-11-25",
+          "price": 122.24
         }
       ]
     },
@@ -586,37 +610,37 @@
       "exchange": "NASDAQ (EE. UU.)",
       "in_base_dca": true,
       "monthly_allocation_eur": 10.0,
-      "current_price": 3.27,
-      "prev_close": 3.05,
-      "change_1d_pct": 7.21,
-      "change_5d_pct": 2.19,
-      "change_1m_pct": -10.41,
-      "change_1y_pct": -51.48,
-      "change_2y_pct": -83.94,
-      "change_since_first_tracked_pct": -13.49,
-      "streak_days": 1,
+      "current_price": 3.17,
+      "prev_close": 3.22,
+      "change_1d_pct": -1.71,
+      "change_5d_pct": 1.77,
+      "change_1m_pct": -16.27,
+      "change_1y_pct": -53.93,
+      "change_2y_pct": -84.38,
+      "change_since_first_tracked_pct": -16.14,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -13.49% (anterior cierre registrado 3.08 USD el 2026-11-23, +6.17%)",
-      "value_of_40eur_2y": 6.42,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -16.14% (anterior cierre registrado 3.27 USD el 2026-11-24, -3.06%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 6.25,
       "low_3y": 2.9,
       "high_3y": 27.51,
-      "drawdown_3y_pct": -88.11,
-      "sma_50": 3.58,
-      "sma_200": 4.31,
-      "rsi_14": 37.6,
-      "rsi_explanation": "RSI 38/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -88.5,
+      "sma_50": 3.57,
+      "sma_200": 4.29,
+      "rsi_14": 39.9,
+      "rsi_explanation": "RSI 40/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
       "historical_support_low": 13.5,
       "historical_support_high": 16.5,
       "in_support_zone": true,
-      "dist_to_support_pct": -80.2,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 3.27 USD, que está en el 2% más bajo de todo su recorrido de los últimos 3 años (suelo entre 13.5 y 16.5 USD, frente a un máximo de 27.5 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
+      "dist_to_support_pct": -80.8,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 3.17 USD, que está en el 1% más bajo de todo su recorrido de los últimos 3 años (suelo entre 13.5 y 16.5 USD, frente a un máximo de 27.5 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
       "opportunity_score": 56,
       "signal_badge": "⚠️ RIESGO DILUCIÓN / BAJO CAJA",
       "signal_color": "red",
       "alert_level": "high",
       "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (13.5 - 16.5 USD vs precio actual 3.27 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
-        "⚠️ ALERTA ANTI-DILUCIÓN: toda la empresa vale en bolsa $98.2M, menos que los $469.9M de caja e inversiones que declaró a la SEC (2026-09-30). El mercado duda de que esa caja se convierta en valor; no meter dinero aquí sin un catalizador claro."
+        "🎯 En Suelo Histórico de 3 Años (13.5 - 16.5 USD vs precio actual 3.17 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "⚠️ ALERTA ANTI-DILUCIÓN: toda la empresa vale en bolsa $95.2M, menos que los $469.9M de caja e inversiones que declaró a la SEC (2026-09-30). El mercado duda de que esa caja se convierta en valor; no meter dinero aquí sin un catalizador claro."
       ],
       "thesis": "Alternativa disruptiva a los ADCs en tumores sólidos mediante péptidos bicíclicos sintéticos de bajo peso molecular que penetran profundamente en el tumor y se eliminan rápido por vía renal. Alianzas estratégicas con Novartis y Bayer que respaldan su Cash Runway.",
       "sell_rule": "Vender rápido si: 1) Fracasa ensayo Fase II/III o hay Clinical Hold de la FDA, 2) Cash Runway baja de 12 meses con anuncio de dilución, o 3) Sube >150%-200% tras hito clínico (recoger beneficios).",
@@ -631,7 +655,7 @@
         "cash_flow_positive": false,
         "cash_runway_months": 32,
         "shares_outstanding": 30043486.0,
-        "market_cap_musd": 98.2,
+        "market_cap_musd": 95.2,
         "trading_below_cash": true,
         "dilution_risk": "Bajo",
         "insiders": {
@@ -646,7 +670,6 @@
         "insider_activity": "Últimos 90 días: compras $0.00M (0 op.) · ventas $0.06M (12 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
       },
       "recent_history": {
-        "2026-11-11": 3.69,
         "2026-11-12": 3.45,
         "2026-11-13": 3.37,
         "2026-11-16": 3.18,
@@ -655,10 +678,11 @@
         "2026-11-19": 3.05,
         "2026-11-20": 2.9,
         "2026-11-23": 3.05,
-        "2026-11-24": 3.27
+        "2026-11-24": 3.22,
+        "2026-11-25": 3.17
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
       "yahoo_url": "https://finance.yahoo.com/quote/BCYC",
       "price_history": [
@@ -744,7 +768,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 3.27
+          "price": 3.22
+        },
+        {
+          "date": "2026-11-25",
+          "price": 3.17
         }
       ]
     },
@@ -760,30 +788,30 @@
       "exchange": "NYSE (EE. UU.)",
       "in_base_dca": true,
       "monthly_allocation_eur": 20.0,
-      "current_price": 697.95,
-      "prev_close": 688.08,
-      "change_1d_pct": 1.43,
-      "change_5d_pct": 1.62,
-      "change_1m_pct": 1.91,
-      "change_1y_pct": 19.09,
-      "change_2y_pct": 36.1,
-      "change_since_first_tracked_pct": 0.71,
-      "streak_days": 1,
+      "current_price": 686.25,
+      "prev_close": 695.62,
+      "change_1d_pct": -1.35,
+      "change_5d_pct": -0.94,
+      "change_1m_pct": -0.98,
+      "change_1y_pct": 14.8,
+      "change_2y_pct": 32.97,
+      "change_since_first_tracked_pct": -0.98,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada +0.71% (anterior cierre registrado 689.66 USD el 2026-11-23, +1.20%)",
-      "value_of_40eur_2y": 54.44,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -0.98% (anterior cierre registrado 697.95 USD el 2026-11-24, -1.68%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 53.19,
       "low_3y": 390.26,
       "high_3y": 721.63,
-      "drawdown_3y_pct": -3.28,
-      "sma_50": 681.11,
-      "sma_200": 559.81,
-      "rsi_14": 47.6,
-      "rsi_explanation": "RSI 48/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
+      "drawdown_3y_pct": -4.9,
+      "sma_50": 681.82,
+      "sma_200": 560.53,
+      "rsi_14": 53.2,
+      "rsi_explanation": "RSI 53/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 480.0,
       "historical_support_high": 510.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 36.9,
-      "support_explanation": "Cotizando cerca de sus máximos de 3 años (93% del rango entre 390.3 y 721.6 USD). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
+      "dist_to_support_pct": 34.6,
+      "support_explanation": "Cotizando cerca de sus máximos de 3 años (89% del rango entre 390.3 y 721.6 USD). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
       "opportunity_score": 55,
       "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
       "signal_color": "green",
@@ -795,7 +823,6 @@
       "sell_rule": "Mantener a largo plazo. Sobreponderar o lanzar orden limitada si corrige hacia el soporte histórico de 480$-510$.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 717.71,
         "2026-11-12": 699.44,
         "2026-11-13": 700.22,
         "2026-11-16": 691.33,
@@ -804,10 +831,11 @@
         "2026-11-19": 688.75,
         "2026-11-20": 669.54,
         "2026-11-23": 688.08,
-        "2026-11-24": 697.95
+        "2026-11-24": 695.62,
+        "2026-11-25": 686.25
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
       "yahoo_url": "https://finance.yahoo.com/quote/TMO",
       "price_history": [
@@ -893,7 +921,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 697.95
+          "price": 695.62
+        },
+        {
+          "date": "2026-11-25",
+          "price": 686.25
         }
       ]
     },
@@ -909,29 +941,29 @@
       "exchange": "NYSE (EE. UU.)",
       "in_base_dca": true,
       "monthly_allocation_eur": 20.0,
-      "current_price": 229.07,
-      "prev_close": 225.66,
-      "change_1d_pct": 1.51,
-      "change_5d_pct": 1.46,
-      "change_1m_pct": -1.67,
-      "change_1y_pct": 0.92,
-      "change_2y_pct": -1.73,
-      "change_since_first_tracked_pct": -1.26,
-      "streak_days": 1,
+      "current_price": 229.2,
+      "prev_close": 229.09,
+      "change_1d_pct": 0.05,
+      "change_5d_pct": 0.27,
+      "change_1m_pct": -1.21,
+      "change_1y_pct": -0.68,
+      "change_2y_pct": -2.49,
+      "change_since_first_tracked_pct": -1.21,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -1.26% (anterior cierre registrado 227.09 USD el 2026-11-23, +0.87%)",
-      "value_of_40eur_2y": 39.31,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -1.21% (anterior cierre registrado 229.07 USD el 2026-11-24, +0.06%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 39.0,
       "low_3y": 161.91,
       "high_3y": 280.76,
-      "drawdown_3y_pct": -18.41,
-      "sma_50": 225.63,
-      "sma_200": 201.3,
-      "rsi_14": 44.2,
-      "rsi_explanation": "RSI 44/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
+      "drawdown_3y_pct": -18.36,
+      "sma_50": 226.04,
+      "sma_200": 201.34,
+      "rsi_14": 53.4,
+      "rsi_explanation": "RSI 53/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 190.0,
       "historical_support_high": 205.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 11.7,
+      "dist_to_support_pct": 11.8,
       "support_explanation": "En zona media-alta de los últimos 3 años (57% del recorrido entre 161.9 y 280.8 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 205.0 USD.",
       "opportunity_score": 55,
       "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
@@ -944,7 +976,6 @@
       "sell_rule": "En zona de soporte histórico (190$-205$) es compra prioritaria para promediar a la baja antes del fin del invierno biotech.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 235.31,
         "2026-11-12": 232.16,
         "2026-11-13": 233.02,
         "2026-11-16": 229.91,
@@ -953,10 +984,11 @@
         "2026-11-19": 227.56,
         "2026-11-20": 220.36,
         "2026-11-23": 225.66,
-        "2026-11-24": 229.07
+        "2026-11-24": 229.09,
+        "2026-11-25": 229.2
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
       "yahoo_url": "https://finance.yahoo.com/quote/DHR",
       "price_history": [
@@ -1042,7 +1074,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 229.07
+          "price": 229.09
+        },
+        {
+          "date": "2026-11-25",
+          "price": 229.2
         }
       ]
     },
@@ -1058,30 +1094,30 @@
       "exchange": "Borsa Italiana / Xetra (UCITS)",
       "in_base_dca": true,
       "monthly_allocation_eur": 20.0,
-      "current_price": 47.7,
-      "prev_close": 47.51,
-      "change_1d_pct": 0.39,
-      "change_5d_pct": -1.92,
-      "change_1m_pct": -8.14,
-      "change_1y_pct": -4.25,
-      "change_2y_pct": 32.19,
-      "change_since_first_tracked_pct": -8.74,
-      "streak_days": 1,
+      "current_price": 46.91,
+      "prev_close": 47.69,
+      "change_1d_pct": -1.65,
+      "change_5d_pct": -2.2,
+      "change_1m_pct": -10.44,
+      "change_1y_pct": -6.64,
+      "change_2y_pct": 32.09,
+      "change_since_first_tracked_pct": -10.25,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada -8.74% (anterior cierre registrado 47.52 EUR el 2026-11-23, +0.38%)",
-      "value_of_40eur_2y": 52.88,
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada -10.25% (anterior cierre registrado 47.70 EUR el 2026-11-24, -1.66%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 52.84,
       "low_3y": 22.68,
       "high_3y": 64.17,
-      "drawdown_3y_pct": -25.67,
-      "sma_50": 50.88,
-      "sma_200": 54.39,
-      "rsi_14": 38.9,
-      "rsi_explanation": "RSI 39/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -26.91,
+      "sma_50": 50.77,
+      "sma_200": 54.34,
+      "rsi_14": 42.6,
+      "rsi_explanation": "RSI 43/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 34.0,
       "historical_support_high": 38.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 25.5,
-      "support_explanation": "En zona media-alta de los últimos 3 años (60% del recorrido entre 22.7 y 64.2 EUR). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 38.0 EUR.",
+      "dist_to_support_pct": 23.4,
+      "support_explanation": "En zona media-alta de los últimos 3 años (58% del recorrido entre 22.7 y 64.2 EUR). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 38.0 EUR.",
       "opportunity_score": 55,
       "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
       "signal_color": "green",
@@ -1093,7 +1129,6 @@
       "sell_rule": "Mantener mientras continúe el ciclo de rearme europeo y tensiones en Indo-Pacífico / Oriente Medio.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 51.18,
         "2026-11-12": 50.45,
         "2026-11-13": 49.65,
         "2026-11-16": 49.51,
@@ -1102,10 +1137,11 @@
         "2026-11-19": 48.33,
         "2026-11-20": 46.52,
         "2026-11-23": 47.51,
-        "2026-11-24": 47.7
+        "2026-11-24": 47.69,
+        "2026-11-25": 46.91
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 757,
       "yahoo_url": "https://finance.yahoo.com/quote/DFNS.MI",
       "price_history": [
@@ -1187,334 +1223,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 47.7
-        }
-      ]
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva Inc. (Solo División Agroquímicos Post-Escisión · Radar)",
-      "category": "sat2_agtech_crispr",
-      "category_label": "Satélite 2 · AgTech, Genética Vegetal (CRISPR NGT1) y RNAi",
-      "strategy_mode": "dynamic_daily",
-      "strategy_group": "dynamic",
-      "strategy_label": "Dinámica (Seguimiento Diario)",
-      "currency": "USD",
-      "exchange": "NYSE (EE. UU.)",
-      "in_base_dca": false,
-      "monthly_allocation_eur": 0.0,
-      "current_price": 8.19,
-      "prev_close": 8.1,
-      "change_1d_pct": 1.05,
-      "change_5d_pct": -7.2,
-      "change_1m_pct": -31.51,
-      "change_1y_pct": -16.9,
-      "change_2y_pct": -7.2,
-      "change_since_first_tracked_pct": -29.58,
-      "streak_days": 1,
-      "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -29.58% (anterior cierre registrado 8.02 USD el 2026-11-23, +2.12%)",
-      "value_of_40eur_2y": 37.12,
-      "low_3y": 6.59,
-      "high_3y": 14.45,
-      "drawdown_3y_pct": -43.36,
-      "sma_50": 11.69,
-      "sma_200": 12.03,
-      "rsi_14": 14.2,
-      "rsi_explanation": "RSI 14/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
-      "historical_support_low": 7.94,
-      "historical_support_high": 8.34,
-      "in_support_zone": true,
-      "dist_to_support_pct": -1.8,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 8.19 USD, que está en el 20% más bajo de todo su recorrido de los últimos 3 años (suelo entre 7.9 y 8.3 USD, frente a un máximo de 14.4 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
-      "opportunity_score": 98,
-      "signal_badge": "🎯 EN SUELO HISTÓRICO (OPORTUNIDAD)",
-      "signal_color": "emerald",
-      "alert_level": "high",
-      "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (7.9 - 8.3 USD vs precio actual 8.19 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
-        "Retroceso acumulado de -7.20% en los últimos 5 días bursátiles (posible descuento a corto plazo).",
-        "Termómetro RSI en 14/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
-      ],
-      "thesis": "⚠️ OJO (NO INVERTIR TU DCA AQUÍ): Tras la separación de Corteva en dos empresas, el ticker CTVA se ha quedado únicamente con la división de Agroquímicos / Pesticidas químicos tradicionales (que sufre presión de márgenes y destocking). La división de Semillas Pioneer y genética CRISPR/Cas9 que tú buscas para la nueva ley europea NGT1 cotiza ahora por separado bajo el ticker VYLR (Vylor Inc.).",
-      "sell_rule": "Mantenida en el radar con 0 € solo para vigilar el sector químico frente al de semillas (VYLR).",
-      "clinical_vitals": null,
-      "recent_history": {
-        "2026-11-11": 12.14,
-        "2026-11-12": 9.19,
-        "2026-11-13": 9.43,
-        "2026-11-16": 9.04,
-        "2026-11-17": 8.82,
-        "2026-11-18": 8.36,
-        "2026-11-19": 8.12,
-        "2026-11-20": 7.89,
-        "2026-11-23": 8.1,
-        "2026-11-24": 8.19
-      },
-      "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
-      "history_sessions": 753,
-      "yahoo_url": "https://finance.yahoo.com/quote/CTVA",
-      "price_history": [
-        {
-          "date": "2026-10-27",
-          "price": 11.63
+          "price": 47.69
         },
         {
-          "date": "2026-10-28",
-          "price": 11.33
-        },
-        {
-          "date": "2026-10-29",
-          "price": 11.47
-        },
-        {
-          "date": "2026-10-30",
-          "price": 11.64
-        },
-        {
-          "date": "2026-11-02",
-          "price": 11.92
-        },
-        {
-          "date": "2026-11-03",
-          "price": 11.88
-        },
-        {
-          "date": "2026-11-04",
-          "price": 12.26
-        },
-        {
-          "date": "2026-11-05",
-          "price": 12.04
-        },
-        {
-          "date": "2026-11-06",
-          "price": 11.9
-        },
-        {
-          "date": "2026-11-09",
-          "price": 12.11
-        },
-        {
-          "date": "2026-11-10",
-          "price": 12.17
-        },
-        {
-          "date": "2026-11-11",
-          "price": 12.14
-        },
-        {
-          "date": "2026-11-12",
-          "price": 9.19
-        },
-        {
-          "date": "2026-11-13",
-          "price": 9.43
-        },
-        {
-          "date": "2026-11-16",
-          "price": 9.04
-        },
-        {
-          "date": "2026-11-17",
-          "price": 8.82
-        },
-        {
-          "date": "2026-11-18",
-          "price": 8.36
-        },
-        {
-          "date": "2026-11-19",
-          "price": 8.12
-        },
-        {
-          "date": "2026-11-20",
-          "price": 7.89
-        },
-        {
-          "date": "2026-11-23",
-          "price": 8.1
-        },
-        {
-          "date": "2026-11-24",
-          "price": 8.19
-        }
-      ]
-    },
-    {
-      "ticker": "DNA",
-      "name": "Ginkgo Bioworks (Biología Sintética y AgTech)",
-      "category": "sat4_clinical_biotech_dynamic",
-      "category_label": "Satélite 4 · Dinámica Diaria (Biotech Fase Clínica y Biopsia Líquida)",
-      "strategy_mode": "dynamic_daily",
-      "strategy_group": "dynamic",
-      "strategy_label": "Dinámica (Seguimiento Diario)",
-      "currency": "USD",
-      "exchange": "NYSE (EE. UU.)",
-      "in_base_dca": false,
-      "monthly_allocation_eur": 0.0,
-      "current_price": 7.46,
-      "prev_close": 7.75,
-      "change_1d_pct": -3.81,
-      "change_5d_pct": -10.4,
-      "change_1m_pct": -25.6,
-      "change_1y_pct": -13.41,
-      "change_2y_pct": 17.22,
-      "change_since_first_tracked_pct": -33.81,
-      "streak_days": 1,
-      "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -33.81% (anterior cierre registrado 7.83 USD el 2026-11-23, -4.73%)",
-      "value_of_40eur_2y": 46.89,
-      "low_3y": 5.36,
-      "high_3y": 71.6,
-      "drawdown_3y_pct": -89.59,
-      "sma_50": 10.45,
-      "sma_200": 8.6,
-      "rsi_14": 28.7,
-      "rsi_explanation": "RSI 29/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
-      "historical_support_low": 6.0,
-      "historical_support_high": 8.5,
-      "in_support_zone": true,
-      "dist_to_support_pct": -12.2,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 7.46 USD, que está en el 3% más bajo de todo su recorrido de los últimos 3 años (suelo entre 6.0 y 8.5 USD, frente a un máximo de 71.6 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
-      "opportunity_score": 91,
-      "signal_badge": "⚠️ VIGILAR CAJA (<15 MESES)",
-      "signal_color": "amber",
-      "alert_level": "high",
-      "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (6.0 - 8.5 USD vs precio actual 7.46 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
-        "📉 Caída fuerte hoy (-3.81%): Cuando una empresa sólida cae así en un solo día, suele ser una sobrerreacción de Wall Street que te permite comprar más acciones con los mismos euros.",
-        "Termómetro RSI en 29/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido.",
-        "⚠️ Cuidado con la caja: $84.5M a 2026-09-30 y quema ~$167.0M/año → unos 6 meses de vida. Riesgo de ampliación de capital que diluya tu participación."
-      ],
-      "thesis": "Foundry de biología sintética, diseño de cepas para agricultura celular y microbioma agrícola (acuerdo con Bayer/Corteva). Alto riesgo de quema de caja.",
-      "sell_rule": "Estricto control anti-dilución (Market Cap vs Cash y Cash Burn).",
-      "clinical_vitals": {
-        "available": true,
-        "source": "SEC EDGAR",
-        "cik": 1830214,
-        "balance_date": "2026-09-30",
-        "total_cash_musd": 84.5,
-        "annual_burn_musd": 167.0,
-        "burn_method": "TTM (anual + acumulado del año - mismo periodo anterior)",
-        "cash_flow_positive": false,
-        "cash_runway_months": 6,
-        "shares_outstanding": 64497031.0,
-        "market_cap_musd": 481.1,
-        "trading_below_cash": false,
-        "dilution_risk": "Alto",
-        "insiders": {
-          "buy_usd": 0.0,
-          "sell_usd": 1377787.256,
-          "buy_tx": 0,
-          "sell_tx": 8,
-          "filings": 6,
-          "errors": 0,
-          "window_days": 90
-        },
-        "insider_activity": "Últimos 90 días: compras $0.00M (0 op.) · ventas $1.38M (8 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
-      },
-      "recent_history": {
-        "2026-11-11": 10.25,
-        "2026-11-12": 10.23,
-        "2026-11-13": 9.61,
-        "2026-11-16": 8.5,
-        "2026-11-17": 8.32,
-        "2026-11-18": 8.44,
-        "2026-11-19": 8.2,
-        "2026-11-20": 7.46,
-        "2026-11-23": 7.75,
-        "2026-11-24": 7.46
-      },
-      "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
-      "history_sessions": 753,
-      "yahoo_url": "https://finance.yahoo.com/quote/DNA",
-      "price_history": [
-        {
-          "date": "2026-10-27",
-          "price": 11.27
-        },
-        {
-          "date": "2026-10-28",
-          "price": 13.32
-        },
-        {
-          "date": "2026-10-29",
-          "price": 12.74
-        },
-        {
-          "date": "2026-10-30",
-          "price": 11.21
-        },
-        {
-          "date": "2026-11-02",
-          "price": 9.85
-        },
-        {
-          "date": "2026-11-03",
-          "price": 10.76
-        },
-        {
-          "date": "2026-11-04",
-          "price": 11.65
-        },
-        {
-          "date": "2026-11-05",
-          "price": 9.96
-        },
-        {
-          "date": "2026-11-06",
-          "price": 11.29
-        },
-        {
-          "date": "2026-11-09",
-          "price": 12.37
-        },
-        {
-          "date": "2026-11-10",
-          "price": 12.01
-        },
-        {
-          "date": "2026-11-11",
-          "price": 10.25
-        },
-        {
-          "date": "2026-11-12",
-          "price": 10.23
-        },
-        {
-          "date": "2026-11-13",
-          "price": 9.61
-        },
-        {
-          "date": "2026-11-16",
-          "price": 8.5
-        },
-        {
-          "date": "2026-11-17",
-          "price": 8.32
-        },
-        {
-          "date": "2026-11-18",
-          "price": 8.44
-        },
-        {
-          "date": "2026-11-19",
-          "price": 8.2
-        },
-        {
-          "date": "2026-11-20",
-          "price": 7.46
-        },
-        {
-          "date": "2026-11-23",
-          "price": 7.75
-        },
-        {
-          "date": "2026-11-24",
-          "price": 7.46
+          "date": "2026-11-25",
+          "price": 46.91
         }
       ]
     },
@@ -1530,36 +1243,37 @@
       "exchange": "NASDAQ (EE. UU.)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 24.34,
-      "prev_close": 22.86,
-      "change_1d_pct": 6.47,
-      "change_5d_pct": 17.87,
-      "change_1m_pct": 2.31,
-      "change_1y_pct": 3.05,
-      "change_2y_pct": -0.61,
-      "change_since_first_tracked_pct": -2.25,
-      "streak_days": 1,
+      "current_price": 23.26,
+      "prev_close": 24.26,
+      "change_1d_pct": -4.12,
+      "change_5d_pct": 10.71,
+      "change_1m_pct": -6.59,
+      "change_1y_pct": -5.79,
+      "change_2y_pct": -1.36,
+      "change_since_first_tracked_pct": -6.59,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -2.25% (anterior cierre registrado 22.63 USD el 2026-11-23, +7.56%)",
-      "value_of_40eur_2y": 39.76,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -6.59% (anterior cierre registrado 24.34 USD el 2026-11-24, -4.44%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 39.46,
       "low_3y": 14.54,
       "high_3y": 45.07,
-      "drawdown_3y_pct": -46.0,
+      "drawdown_3y_pct": -48.39,
       "sma_50": 24.63,
-      "sma_200": 27.68,
-      "rsi_14": 38.2,
-      "rsi_explanation": "RSI 38/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "sma_200": 27.66,
+      "rsi_14": 40.5,
+      "rsi_explanation": "RSI 40/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 20.0,
       "historical_support_high": 24.0,
       "in_support_zone": true,
-      "dist_to_support_pct": 1.4,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 24.34 USD, que está en el 32% más bajo de todo su recorrido de los últimos 3 años (suelo entre 20.0 y 24.0 USD, frente a un máximo de 45.1 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
-      "opportunity_score": 87,
+      "dist_to_support_pct": -3.1,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 23.26 USD, que está en el 29% más bajo de todo su recorrido de los últimos 3 años (suelo entre 20.0 y 24.0 USD, frente a un máximo de 45.1 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
+      "opportunity_score": 98,
       "signal_badge": "🎯 EN SUELO HISTÓRICO (OPORTUNIDAD)",
       "signal_color": "emerald",
       "alert_level": "high",
       "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (20.0 - 24.0 USD vs precio actual 24.34 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "🎯 En Suelo Histórico de 3 Años (20.0 - 24.0 USD vs precio actual 23.26 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "📉 Caída fuerte hoy (-4.12%): Cuando una empresa sólida cae así en un solo día, suele ser una sobrerreacción de Wall Street que te permite comprar más acciones con los mismos euros.",
         "✅ Caja holgada: $1043.9M a 2026-09-30 frente a una quema de ~$388.6M/año → unos 32 meses de vida sin necesitar ampliar capital.",
         "👔 Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $1.19M (3 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
       ],
@@ -1576,7 +1290,7 @@
         "cash_flow_positive": false,
         "cash_runway_months": 32,
         "shares_outstanding": 103495644.0,
-        "market_cap_musd": 2519.1,
+        "market_cap_musd": 2407.3,
         "trading_below_cash": false,
         "dilution_risk": "Bajo",
         "insiders": {
@@ -1591,7 +1305,6 @@
         "insider_activity": "Últimos 90 días: compras $0.00M (0 op.) · ventas $1.19M (3 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
       },
       "recent_history": {
-        "2026-11-11": 25.81,
         "2026-11-12": 24.03,
         "2026-11-13": 22.83,
         "2026-11-16": 20.94,
@@ -1600,10 +1313,11 @@
         "2026-11-19": 20.94,
         "2026-11-20": 20.9,
         "2026-11-23": 22.86,
-        "2026-11-24": 24.34
+        "2026-11-24": 24.26,
+        "2026-11-25": 23.26
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
       "yahoo_url": "https://finance.yahoo.com/quote/BEAM",
       "price_history": [
@@ -1689,7 +1403,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 24.34
+          "price": 24.26
+        },
+        {
+          "date": "2026-11-25",
+          "price": 23.26
         }
       ]
     },
@@ -1705,42 +1423,42 @@
       "exchange": "Xetra (Alemania)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 43.3,
-      "prev_close": 43.12,
-      "change_1d_pct": 0.42,
-      "change_5d_pct": 0.0,
-      "change_1m_pct": 2.39,
-      "change_1y_pct": 2.22,
-      "change_2y_pct": -15.06,
-      "change_since_first_tracked_pct": 1.67,
-      "streak_days": 1,
+      "current_price": 42.91,
+      "prev_close": 43.3,
+      "change_1d_pct": -0.9,
+      "change_5d_pct": -2.12,
+      "change_1m_pct": 2.48,
+      "change_1y_pct": 0.4,
+      "change_2y_pct": -15.8,
+      "change_since_first_tracked_pct": 0.75,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada +1.67% (anterior cierre registrado 43.12 EUR el 2026-11-23, +0.42%)",
-      "value_of_40eur_2y": 33.98,
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada +0.75% (anterior cierre registrado 43.30 EUR el 2026-11-24, -0.90%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 33.68,
       "low_3y": 33.4,
       "high_3y": 58.0,
-      "drawdown_3y_pct": -25.34,
-      "sma_50": 40.99,
-      "sma_200": 37.99,
-      "rsi_14": 36.5,
-      "rsi_explanation": "RSI 36/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -26.02,
+      "sma_50": 41.08,
+      "sma_200": 38.0,
+      "rsi_14": 32.5,
+      "rsi_explanation": "RSI 32/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
       "historical_support_low": 39.0,
       "historical_support_high": 43.0,
       "in_support_zone": true,
-      "dist_to_support_pct": 0.7,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 43.30 EUR, que está en el 40% más bajo de todo su recorrido de los últimos 3 años (suelo entre 39.0 y 43.0 EUR, frente a un máximo de 58.0 EUR). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
-      "opportunity_score": 81,
+      "dist_to_support_pct": -0.2,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 42.91 EUR, que está en el 39% más bajo de todo su recorrido de los últimos 3 años (suelo entre 39.0 y 43.0 EUR, frente a un máximo de 58.0 EUR). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
+      "opportunity_score": 93,
       "signal_badge": "🎯 EN SUELO HISTÓRICO (OPORTUNIDAD)",
       "signal_color": "emerald",
       "alert_level": "high",
       "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (39.0 - 43.0 EUR vs precio actual 43.30 EUR): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota."
+        "🎯 En Suelo Histórico de 3 Años (39.0 - 43.0 EUR vs precio actual 42.91 EUR): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "Termómetro RSI en 32/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
       ],
       "thesis": "Ganando cuota masiva en cadenas automatizadas de bioquímica (Atellica Core-Labs) en hospitales públicos españoles frente a Roche, más liderazgo en radioterapia oncológica (Varian). Cotiza en euros (0% comisión de cambio de divisa).",
       "sell_rule": "Vigilar soporte histórico de 39€-43€ (penalizada por controles de precios en China y logística de Varian).",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 43.52,
         "2026-11-12": 43.8,
         "2026-11-13": 43.95,
         "2026-11-16": 44.0,
@@ -1749,10 +1467,11 @@
         "2026-11-19": 43.82,
         "2026-11-20": 42.96,
         "2026-11-23": 43.12,
-        "2026-11-24": 43.3
+        "2026-11-24": 43.3,
+        "2026-11-25": 42.91
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 761,
       "yahoo_url": "https://finance.yahoo.com/quote/SHL.DE",
       "price_history": [
@@ -1835,476 +1554,344 @@
         {
           "date": "2026-11-24",
           "price": 43.3
+        },
+        {
+          "date": "2026-11-25",
+          "price": 42.91
         }
       ]
     },
     {
-      "ticker": "SMMT",
-      "name": "Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab)",
+      "ticker": "CTVA",
+      "name": "Corteva Inc. (Solo División Agroquímicos Post-Escisión · Radar)",
+      "category": "sat2_agtech_crispr",
+      "category_label": "Satélite 2 · AgTech, Genética Vegetal (CRISPR NGT1) y RNAi",
+      "strategy_mode": "dynamic_daily",
+      "strategy_group": "dynamic",
+      "strategy_label": "Dinámica (Seguimiento Diario)",
+      "currency": "USD",
+      "exchange": "NYSE (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0.0,
+      "current_price": 8.16,
+      "prev_close": 8.16,
+      "change_1d_pct": 0.0,
+      "change_5d_pct": -2.39,
+      "change_1m_pct": -29.84,
+      "change_1y_pct": -17.66,
+      "change_2y_pct": -10.53,
+      "change_since_first_tracked_pct": -29.84,
+      "streak_days": 2,
+      "support_transition": "unchanged",
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -29.84% (anterior cierre registrado 8.19 USD el 2026-11-24, -0.37%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 35.79,
+      "low_3y": 6.59,
+      "high_3y": 14.45,
+      "drawdown_3y_pct": -43.53,
+      "sma_50": 11.61,
+      "sma_200": 12.02,
+      "rsi_14": 14.3,
+      "rsi_explanation": "RSI 14/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
+      "historical_support_low": 7.94,
+      "historical_support_high": 8.34,
+      "in_support_zone": true,
+      "dist_to_support_pct": -2.2,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 8.16 USD, que está en el 20% más bajo de todo su recorrido de los últimos 3 años (suelo entre 7.9 y 8.3 USD, frente a un máximo de 14.4 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
+      "opportunity_score": 93,
+      "signal_badge": "🎯 EN SUELO HISTÓRICO (OPORTUNIDAD)",
+      "signal_color": "emerald",
+      "alert_level": "high",
+      "reasons": [
+        "🎯 En Suelo Histórico de 3 Años (7.9 - 8.3 USD vs precio actual 8.16 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "Termómetro RSI en 14/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
+      ],
+      "thesis": "⚠️ OJO (NO INVERTIR TU DCA AQUÍ): Tras la separación de Corteva en dos empresas, el ticker CTVA se ha quedado únicamente con la división de Agroquímicos / Pesticidas químicos tradicionales (que sufre presión de márgenes y destocking). La división de Semillas Pioneer y genética CRISPR/Cas9 que tú buscas para la nueva ley europea NGT1 cotiza ahora por separado bajo el ticker VYLR (Vylor Inc.).",
+      "sell_rule": "Mantenida en el radar con 0 € solo para vigilar el sector químico frente al de semillas (VYLR).",
+      "clinical_vitals": null,
+      "recent_history": {
+        "2026-11-12": 9.19,
+        "2026-11-13": 9.43,
+        "2026-11-16": 9.04,
+        "2026-11-17": 8.82,
+        "2026-11-18": 8.36,
+        "2026-11-19": 8.12,
+        "2026-11-20": 7.89,
+        "2026-11-23": 8.1,
+        "2026-11-24": 8.16,
+        "2026-11-25": 8.16
+      },
+      "quote_source": "Yahoo Finance",
+      "last_session_date": "2026-11-25",
+      "history_sessions": 753,
+      "yahoo_url": "https://finance.yahoo.com/quote/CTVA",
+      "price_history": [
+        {
+          "date": "2026-10-27",
+          "price": 11.63
+        },
+        {
+          "date": "2026-10-28",
+          "price": 11.33
+        },
+        {
+          "date": "2026-10-29",
+          "price": 11.47
+        },
+        {
+          "date": "2026-10-30",
+          "price": 11.64
+        },
+        {
+          "date": "2026-11-02",
+          "price": 11.92
+        },
+        {
+          "date": "2026-11-03",
+          "price": 11.88
+        },
+        {
+          "date": "2026-11-04",
+          "price": 12.26
+        },
+        {
+          "date": "2026-11-05",
+          "price": 12.04
+        },
+        {
+          "date": "2026-11-06",
+          "price": 11.9
+        },
+        {
+          "date": "2026-11-09",
+          "price": 12.11
+        },
+        {
+          "date": "2026-11-10",
+          "price": 12.17
+        },
+        {
+          "date": "2026-11-11",
+          "price": 12.14
+        },
+        {
+          "date": "2026-11-12",
+          "price": 9.19
+        },
+        {
+          "date": "2026-11-13",
+          "price": 9.43
+        },
+        {
+          "date": "2026-11-16",
+          "price": 9.04
+        },
+        {
+          "date": "2026-11-17",
+          "price": 8.82
+        },
+        {
+          "date": "2026-11-18",
+          "price": 8.36
+        },
+        {
+          "date": "2026-11-19",
+          "price": 8.12
+        },
+        {
+          "date": "2026-11-20",
+          "price": 7.89
+        },
+        {
+          "date": "2026-11-23",
+          "price": 8.1
+        },
+        {
+          "date": "2026-11-24",
+          "price": 8.16
+        },
+        {
+          "date": "2026-11-25",
+          "price": 8.16
+        }
+      ]
+    },
+    {
+      "ticker": "DNA",
+      "name": "Ginkgo Bioworks (Biología Sintética y AgTech)",
       "category": "sat4_clinical_biotech_dynamic",
       "category_label": "Satélite 4 · Dinámica Diaria (Biotech Fase Clínica y Biopsia Líquida)",
       "strategy_mode": "dynamic_daily",
       "strategy_group": "dynamic",
       "strategy_label": "Dinámica (Seguimiento Diario)",
       "currency": "USD",
-      "exchange": "NASDAQ (EE. UU.)",
+      "exchange": "NYSE (EE. UU.)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 10.78,
-      "prev_close": 10.32,
-      "change_1d_pct": 4.46,
-      "change_5d_pct": 1.03,
-      "change_1m_pct": -25.66,
-      "change_1y_pct": -39.57,
-      "change_2y_pct": -42.11,
-      "change_since_first_tracked_pct": -29.68,
-      "streak_days": 1,
+      "current_price": 7.06,
+      "prev_close": 7.52,
+      "change_1d_pct": -6.12,
+      "change_5d_pct": -16.35,
+      "change_1m_pct": -37.36,
+      "change_1y_pct": -18.94,
+      "change_2y_pct": 7.13,
+      "change_since_first_tracked_pct": -37.36,
+      "streak_days": -1,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -29.68% (anterior cierre registrado 10.37 USD el 2026-11-23, +3.95%)",
-      "value_of_40eur_2y": 23.16,
-      "low_3y": 1.95,
-      "high_3y": 36.7,
-      "drawdown_3y_pct": -70.63,
-      "sma_50": 15.45,
-      "sma_200": 16.01,
-      "rsi_14": 31.4,
-      "rsi_explanation": "RSI 31/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
-      "historical_support_low": 14.0,
-      "historical_support_high": 18.0,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -37.36% (anterior cierre registrado 7.46 USD el 2026-11-24, -5.36%)",
+      "value_of_40eur_2y": 42.85,
+      "low_3y": 5.36,
+      "high_3y": 71.6,
+      "drawdown_3y_pct": -90.14,
+      "sma_50": 10.45,
+      "sma_200": 8.59,
+      "rsi_14": 33.0,
+      "rsi_explanation": "RSI 33/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "historical_support_low": 6.0,
+      "historical_support_high": 8.5,
       "in_support_zone": true,
-      "dist_to_support_pct": -40.1,
-      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 10.78 USD, que está en el 25% más bajo de todo su recorrido de los últimos 3 años (suelo entre 14.0 y 18.0 USD, frente a un máximo de 36.7 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
-      "opportunity_score": 75,
+      "dist_to_support_pct": -16.9,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 7.06 USD, que está en el 3% más bajo de todo su recorrido de los últimos 3 años (suelo entre 6.0 y 8.5 USD, frente a un máximo de 71.6 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
+      "opportunity_score": 91,
       "signal_badge": "⚠️ VIGILAR CAJA (<15 MESES)",
       "signal_color": "amber",
       "alert_level": "high",
       "reasons": [
-        "🎯 En Suelo Histórico de 3 Años (14.0 - 18.0 USD vs precio actual 10.78 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
-        "Termómetro RSI en 31/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido.",
-        "⚠️ Cuidado con la caja: $629.8M a 2026-09-30 y quema ~$525.2M/año → unos 14 meses de vida. Riesgo de ampliación de capital que diluya tu participación."
+        "🎯 En Suelo Histórico de 3 Años (6.0 - 8.5 USD vs precio actual 7.06 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "📉 Caída fuerte hoy (-6.12%): Cuando una empresa sólida cae así en un solo día, suele ser una sobrerreacción de Wall Street que te permite comprar más acciones con los mismos euros.",
+        "Termómetro RSI en 33/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido.",
+        "⚠️ Cuidado con la caja: $84.5M a 2026-09-30 y quema ~$167.0M/año → unos 6 meses de vida. Riesgo de ampliación de capital que diluya tu participación."
       ],
-      "thesis": "Anticuerpo biespecífico Ivonescimab (bloqueo simultáneo PD-1 y VEGF) que ha desafiado a Keytruda en ensayos de cáncer de pulmón.",
-      "sell_rule": "Altísima volatilidad binaria: vigilar caja necesaria para comercialización global y decisiones FDA.",
+      "thesis": "Foundry de biología sintética, diseño de cepas para agricultura celular y microbioma agrícola (acuerdo con Bayer/Corteva). Alto riesgo de quema de caja.",
+      "sell_rule": "Estricto control anti-dilución (Market Cap vs Cash y Cash Burn).",
       "clinical_vitals": {
         "available": true,
         "source": "SEC EDGAR",
-        "cik": 1599298,
+        "cik": 1830214,
         "balance_date": "2026-09-30",
-        "total_cash_musd": 629.8,
-        "annual_burn_musd": 525.2,
+        "total_cash_musd": 84.5,
+        "annual_burn_musd": 167.0,
         "burn_method": "TTM (anual + acumulado del año - mismo periodo anterior)",
         "cash_flow_positive": false,
-        "cash_runway_months": 14,
-        "shares_outstanding": 799763918.0,
-        "market_cap_musd": 8621.5,
+        "cash_runway_months": 6,
+        "shares_outstanding": 64497031.0,
+        "market_cap_musd": 455.3,
         "trading_below_cash": false,
-        "dilution_risk": "Medio",
+        "dilution_risk": "Alto",
         "insiders": {
           "buy_usd": 0.0,
-          "sell_usd": 0.0,
+          "sell_usd": 1377787.256,
           "buy_tx": 0,
-          "sell_tx": 0,
+          "sell_tx": 8,
           "filings": 6,
           "errors": 0,
           "window_days": 90
         },
-        "insider_activity": "Sin compras ni ventas en mercado abierto en 90 días (6 Form 4 revisados: concesiones, opciones, etc.)."
+        "insider_activity": "Últimos 90 días: compras $0.00M (0 op.) · ventas $1.38M (8 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
       },
       "recent_history": {
-        "2026-11-11": 16.64,
-        "2026-11-12": 15.07,
-        "2026-11-13": 14.15,
-        "2026-11-16": 11.82,
-        "2026-11-17": 10.67,
-        "2026-11-18": 10.5,
-        "2026-11-19": 10.57,
-        "2026-11-20": 9.95,
-        "2026-11-23": 10.32,
-        "2026-11-24": 10.78
+        "2026-11-12": 10.23,
+        "2026-11-13": 9.61,
+        "2026-11-16": 8.5,
+        "2026-11-17": 8.32,
+        "2026-11-18": 8.44,
+        "2026-11-19": 8.2,
+        "2026-11-20": 7.46,
+        "2026-11-23": 7.75,
+        "2026-11-24": 7.52,
+        "2026-11-25": 7.06
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
-      "yahoo_url": "https://finance.yahoo.com/quote/SMMT",
+      "yahoo_url": "https://finance.yahoo.com/quote/DNA",
       "price_history": [
         {
           "date": "2026-10-27",
-          "price": 15.33
+          "price": 11.27
         },
         {
           "date": "2026-10-28",
-          "price": 15.77
+          "price": 13.32
         },
         {
           "date": "2026-10-29",
-          "price": 16.2
+          "price": 12.74
         },
         {
           "date": "2026-10-30",
-          "price": 16.03
+          "price": 11.21
         },
         {
           "date": "2026-11-02",
-          "price": 14.8
+          "price": 9.85
         },
         {
           "date": "2026-11-03",
-          "price": 15.8
+          "price": 10.76
         },
         {
           "date": "2026-11-04",
-          "price": 16.17
+          "price": 11.65
         },
         {
           "date": "2026-11-05",
-          "price": 14.19
+          "price": 9.96
         },
         {
           "date": "2026-11-06",
-          "price": 16.33
+          "price": 11.29
         },
         {
           "date": "2026-11-09",
-          "price": 17.84
+          "price": 12.37
         },
         {
           "date": "2026-11-10",
-          "price": 17.83
+          "price": 12.01
         },
         {
           "date": "2026-11-11",
-          "price": 16.64
+          "price": 10.25
         },
         {
           "date": "2026-11-12",
-          "price": 15.07
+          "price": 10.23
         },
         {
           "date": "2026-11-13",
-          "price": 14.15
+          "price": 9.61
         },
         {
           "date": "2026-11-16",
-          "price": 11.82
+          "price": 8.5
         },
         {
           "date": "2026-11-17",
-          "price": 10.67
+          "price": 8.32
         },
         {
           "date": "2026-11-18",
-          "price": 10.5
+          "price": 8.44
         },
         {
           "date": "2026-11-19",
-          "price": 10.57
+          "price": 8.2
         },
         {
           "date": "2026-11-20",
-          "price": 9.95
+          "price": 7.46
         },
         {
           "date": "2026-11-23",
-          "price": 10.32
+          "price": 7.75
         },
         {
           "date": "2026-11-24",
-          "price": 10.78
-        }
-      ]
-    },
-    {
-      "ticker": "KURE",
-      "name": "KraneShares MSCI All China Health Care ETF (Incluye Mindray)",
-      "category": "sat1_ivd_diagnostics",
-      "category_label": "Satélite 1 · Diagnóstico In Vitro, NGS y Laboratorio",
-      "strategy_mode": "long_term_tactical",
-      "strategy_group": "long_term",
-      "strategy_label": "Largo Plazo (Core / DCA)",
-      "currency": "USD",
-      "exchange": "NYSE Arca / UCITS",
-      "in_base_dca": false,
-      "monthly_allocation_eur": 0.0,
-      "current_price": 16.99,
-      "prev_close": 17.44,
-      "change_1d_pct": -2.58,
-      "change_5d_pct": -4.6,
-      "change_1m_pct": -5.19,
-      "change_1y_pct": -10.25,
-      "change_2y_pct": 11.63,
-      "change_since_first_tracked_pct": -3.85,
-      "streak_days": 1,
-      "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -3.85% (anterior cierre registrado 17.45 USD el 2026-11-23, -2.64%)",
-      "value_of_40eur_2y": 44.65,
-      "low_3y": 12.97,
-      "high_3y": 21.84,
-      "drawdown_3y_pct": -22.21,
-      "sma_50": 18.26,
-      "sma_200": 17.45,
-      "rsi_14": 26.2,
-      "rsi_explanation": "RSI 26/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
-      "historical_support_low": 13.0,
-      "historical_support_high": 15.0,
-      "in_support_zone": false,
-      "dist_to_support_pct": 13.3,
-      "support_explanation": "En zona media-alta de los últimos 3 años (45% del recorrido entre 13.0 y 21.8 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 15.0 USD.",
-      "opportunity_score": 67,
-      "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
-      "signal_color": "green",
-      "alert_level": "low",
-      "reasons": [
-        "Cotizando por encima de su suelo de rebajas de 3 años (13.0 - 15.0 USD). Para tu cuota fija mensual (DCA) sigue adelante sin problema; para meter dinero extra de golpe, sería mejor dejar una Orden Limitada en 15.0 USD.",
-        "Termómetro RSI en 26/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
-      ],
-      "thesis": "Vehículo institucional para invertir en Shenzhen Mindray Bio-Medical (~4.5% del fondo), el gigante chino de diagnóstico in vitro e instrumentación médica inaccesible por compra directa en Shenzhen.",
-      "sell_rule": "Alternativa táctica cuando el mercado chino de salud cotiza en mínimos.",
-      "clinical_vitals": null,
-      "recent_history": {
-        "2026-11-11": 18.45,
-        "2026-11-12": 18.3,
-        "2026-11-13": 18.11,
-        "2026-11-16": 17.81,
-        "2026-11-17": 17.81,
-        "2026-11-18": 17.46,
-        "2026-11-19": 17.45,
-        "2026-11-20": 16.81,
-        "2026-11-23": 17.44,
-        "2026-11-24": 16.99
-      },
-      "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
-      "history_sessions": 753,
-      "yahoo_url": "https://finance.yahoo.com/quote/KURE",
-      "price_history": [
-        {
-          "date": "2026-10-27",
-          "price": 17.67
+          "price": 7.52
         },
         {
-          "date": "2026-10-28",
-          "price": 17.68
-        },
-        {
-          "date": "2026-10-29",
-          "price": 17.8
-        },
-        {
-          "date": "2026-10-30",
-          "price": 17.62
-        },
-        {
-          "date": "2026-11-02",
-          "price": 17.34
-        },
-        {
-          "date": "2026-11-03",
-          "price": 17.47
-        },
-        {
-          "date": "2026-11-04",
-          "price": 18.63
-        },
-        {
-          "date": "2026-11-05",
-          "price": 18.73
-        },
-        {
-          "date": "2026-11-06",
-          "price": 18.79
-        },
-        {
-          "date": "2026-11-09",
-          "price": 18.9
-        },
-        {
-          "date": "2026-11-10",
-          "price": 18.74
-        },
-        {
-          "date": "2026-11-11",
-          "price": 18.45
-        },
-        {
-          "date": "2026-11-12",
-          "price": 18.3
-        },
-        {
-          "date": "2026-11-13",
-          "price": 18.11
-        },
-        {
-          "date": "2026-11-16",
-          "price": 17.81
-        },
-        {
-          "date": "2026-11-17",
-          "price": 17.81
-        },
-        {
-          "date": "2026-11-18",
-          "price": 17.46
-        },
-        {
-          "date": "2026-11-19",
-          "price": 17.45
-        },
-        {
-          "date": "2026-11-20",
-          "price": 16.81
-        },
-        {
-          "date": "2026-11-23",
-          "price": 17.44
-        },
-        {
-          "date": "2026-11-24",
-          "price": 16.99
-        }
-      ]
-    },
-    {
-      "ticker": "NDIA.L",
-      "name": "iShares MSCI India UCITS ETF (Exposición India)",
-      "category": "sat1_ivd_diagnostics",
-      "category_label": "Satélite 1 · Diagnóstico In Vitro, NGS y Laboratorio",
-      "strategy_mode": "long_term_tactical",
-      "strategy_group": "long_term",
-      "strategy_label": "Largo Plazo (Core / DCA)",
-      "currency": "USD",
-      "exchange": "LSE / Xetra (UCITS)",
-      "in_base_dca": false,
-      "monthly_allocation_eur": 0.0,
-      "current_price": 9.38,
-      "prev_close": 9.27,
-      "change_1d_pct": 1.19,
-      "change_5d_pct": 1.85,
-      "change_1m_pct": 14.53,
-      "change_1y_pct": -4.96,
-      "change_2y_pct": -3.89,
-      "change_since_first_tracked_pct": 13.97,
-      "streak_days": -1,
-      "support_transition": "exited_support",
-      "memory_note": "📈 Ha rebotado y salido al alza de su zona de soporte (venía de 9.27 USD el 2026-11-23).",
-      "value_of_40eur_2y": 38.44,
-      "low_3y": 7.84,
-      "high_3y": 10.72,
-      "drawdown_3y_pct": -12.5,
-      "sma_50": 8.62,
-      "sma_200": 8.75,
-      "rsi_14": 69.6,
-      "rsi_explanation": "RSI 70/100 (Zona cálida / Fuerte): La acción lleva semanas subiendo con fuerza porque hay mucho interés comprador.",
-      "historical_support_low": 8.0,
-      "historical_support_high": 9.0,
-      "in_support_zone": false,
-      "dist_to_support_pct": 4.2,
-      "support_explanation": "En zona media-alta de los últimos 3 años (53% del recorrido entre 7.8 y 10.7 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 9.0 USD.",
-      "opportunity_score": 67,
-      "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
-      "signal_color": "green",
-      "alert_level": "low",
-      "reasons": [
-        "Bastante cerca de su suelo de compra de 3 años (8.0 - 9.0 USD, a solo un +4.2% de distancia)."
-      ],
-      "thesis": "Puerta de entrada regulada UCITS al boom demográfico, farmacéutico y de diagnóstico de la India (ante la restricción de compra directa de micro-caps indias como 3B Blackbio DX).",
-      "sell_rule": "Acumulación a largo plazo por tendencia de 'Friendshoring' e infraestructura sanitaria india.",
-      "clinical_vitals": null,
-      "recent_history": {
-        "2026-11-11": 9.23,
-        "2026-11-12": 9.26,
-        "2026-11-13": 9.19,
-        "2026-11-16": 9.25,
-        "2026-11-17": 9.21,
-        "2026-11-18": 9.18,
-        "2026-11-19": 9.29,
-        "2026-11-20": 9.5,
-        "2026-11-23": 9.27,
-        "2026-11-24": 9.38
-      },
-      "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
-      "history_sessions": 759,
-      "yahoo_url": "https://finance.yahoo.com/quote/NDIA.L",
-      "price_history": [
-        {
-          "date": "2026-10-28",
-          "price": 8.23
-        },
-        {
-          "date": "2026-10-29",
-          "price": 8.36
-        },
-        {
-          "date": "2026-10-30",
-          "price": 8.41
-        },
-        {
-          "date": "2026-11-02",
-          "price": 8.61
-        },
-        {
-          "date": "2026-11-03",
-          "price": 8.65
-        },
-        {
-          "date": "2026-11-04",
-          "price": 8.89
-        },
-        {
-          "date": "2026-11-05",
-          "price": 8.95
-        },
-        {
-          "date": "2026-11-06",
-          "price": 9.1
-        },
-        {
-          "date": "2026-11-09",
-          "price": 9.22
-        },
-        {
-          "date": "2026-11-10",
-          "price": 9.24
-        },
-        {
-          "date": "2026-11-11",
-          "price": 9.23
-        },
-        {
-          "date": "2026-11-12",
-          "price": 9.26
-        },
-        {
-          "date": "2026-11-13",
-          "price": 9.19
-        },
-        {
-          "date": "2026-11-16",
-          "price": 9.25
-        },
-        {
-          "date": "2026-11-17",
-          "price": 9.21
-        },
-        {
-          "date": "2026-11-18",
-          "price": 9.18
-        },
-        {
-          "date": "2026-11-19",
-          "price": 9.29
-        },
-        {
-          "date": "2026-11-20",
-          "price": 9.5
-        },
-        {
-          "date": "2026-11-23",
-          "price": 9.27
-        },
-        {
-          "date": "2026-11-24",
-          "price": 9.38
+          "date": "2026-11-25",
+          "price": 7.06
         }
       ]
     },
@@ -2320,42 +1907,42 @@
       "exchange": "Nasdaq Copenhagen",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 435.9,
-      "prev_close": 436.0,
-      "change_1d_pct": -0.02,
-      "change_5d_pct": -3.43,
-      "change_1m_pct": -7.02,
-      "change_1y_pct": 9.17,
-      "change_2y_pct": 7.07,
-      "change_since_first_tracked_pct": -6.3,
-      "streak_days": -1,
+      "current_price": 444.8,
+      "prev_close": 435.9,
+      "change_1d_pct": 2.04,
+      "change_5d_pct": -1.37,
+      "change_1m_pct": -5.16,
+      "change_1y_pct": 12.69,
+      "change_2y_pct": 10.98,
+      "change_since_first_tracked_pct": -4.39,
+      "streak_days": -2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada -6.30% (anterior cierre registrado 436.00 DKK el 2026-11-23, -0.02%)",
-      "value_of_40eur_2y": 42.83,
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada -4.39% (anterior cierre registrado 435.90 DKK el 2026-11-24, +2.04%) · Encadena 2 sesiones seguidas corrigiendo (vigilar posible suelo).",
+      "value_of_40eur_2y": 44.39,
       "low_3y": 342.0,
       "high_3y": 487.3,
-      "drawdown_3y_pct": -10.55,
-      "sma_50": 446.28,
-      "sma_200": 409.91,
-      "rsi_14": 39.2,
-      "rsi_explanation": "RSI 39/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -8.72,
+      "sma_50": 446.54,
+      "sma_200": 410.22,
+      "rsi_14": 31.8,
+      "rsi_explanation": "RSI 32/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
       "historical_support_low": 380.0,
       "historical_support_high": 410.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 6.3,
-      "support_explanation": "En zona media-alta de los últimos 3 años (65% del recorrido entre 342.0 y 487.3 DKK). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 410.0 DKK.",
-      "opportunity_score": 67,
+      "dist_to_support_pct": 8.5,
+      "support_explanation": "En zona media-alta de los últimos 3 años (71% del recorrido entre 342.0 y 487.3 DKK). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 410.0 DKK.",
+      "opportunity_score": 79,
       "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
       "signal_color": "green",
       "alert_level": "low",
       "reasons": [
-        "Bastante cerca de su suelo de compra de 3 años (380.0 - 410.0 DKK, a solo un +6.3% de distancia)."
+        "Bastante cerca de su suelo de compra de 3 años (380.0 - 410.0 DKK, a solo un +8.5% de distancia).",
+        "Termómetro RSI en 32/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
       ],
       "thesis": "Líder mundial en microbioma agrícola, enzimas y biosoluciones (fijación biológica de nitrógeno en raíz y biofungicidas), con alianza estratégica con Corteva.",
       "sell_rule": "Complemento defensivo de biotecnología industrial y agrícola.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 452.5,
         "2026-11-12": 451.7,
         "2026-11-13": 458.9,
         "2026-11-16": 450.6,
@@ -2364,10 +1951,11 @@
         "2026-11-19": 440.0,
         "2026-11-20": 441.4,
         "2026-11-23": 436.0,
-        "2026-11-24": 435.9
+        "2026-11-24": 435.9,
+        "2026-11-25": 444.8
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 748,
       "yahoo_url": "https://finance.yahoo.com/quote/NSIS-B.CO",
       "price_history": [
@@ -2450,152 +2038,10 @@
         {
           "date": "2026-11-24",
           "price": 435.9
-        }
-      ]
-    },
-    {
-      "ticker": "RHM.DE",
-      "name": "Rheinmetall AG",
-      "category": "sat3_defense_geopolitics",
-      "category_label": "Satélite 3 · Escudo Geopolítico y Defensa OTAN",
-      "strategy_mode": "dynamic_daily",
-      "strategy_group": "dynamic",
-      "strategy_label": "Dinámica (Seguimiento Diario)",
-      "currency": "EUR",
-      "exchange": "Xetra (Alemania)",
-      "in_base_dca": false,
-      "monthly_allocation_eur": 0.0,
-      "current_price": 734.5,
-      "prev_close": 725.2,
-      "change_1d_pct": 1.28,
-      "change_5d_pct": -3.47,
-      "change_1m_pct": -28.98,
-      "change_1y_pct": -50.89,
-      "change_2y_pct": 19.24,
-      "change_since_first_tracked_pct": -27.42,
-      "streak_days": 1,
-      "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada -27.42% (anterior cierre registrado 725.20 EUR el 2026-11-23, +1.28%)",
-      "value_of_40eur_2y": 47.7,
-      "low_3y": 274.0,
-      "high_3y": 1988.5,
-      "drawdown_3y_pct": -63.06,
-      "sma_50": 934.93,
-      "sma_200": 1191.04,
-      "rsi_14": 19.5,
-      "rsi_explanation": "RSI 20/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
-      "historical_support_low": 460.0,
-      "historical_support_high": 510.0,
-      "in_support_zone": false,
-      "dist_to_support_pct": 44.0,
-      "support_explanation": "Precio razonable en la mitad baja de los últimos 3 años (está en el 27% de su rango entre el mínimo de 274.0 EUR y el máximo de 1988.5 EUR). Su zona de 'chollo histórico' empieza si baja a 510.0 EUR.",
-      "opportunity_score": 67,
-      "signal_badge": "🔬 VIGILANCIA DIARIA (FASE CLÍNICA)",
-      "signal_color": "blue",
-      "alert_level": "medium",
-      "reasons": [
-        "Cotizando por encima de su suelo de rebajas de 3 años (460.0 - 510.0 EUR). Para tu cuota fija mensual (DCA) sigue adelante sin problema; para meter dinero extra de golpe, sería mejor dejar una Orden Limitada en 510.0 EUR.",
-        "Termómetro RSI en 20/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
-      ],
-      "thesis": "Coloso alemán del rearme terrestre europeo: munición de artillería de 155 mm, carros Leopard y defensa antiaérea.",
-      "sell_rule": "Indicador adelantado de contratos de defensa de la UE y Alemania.",
-      "clinical_vitals": null,
-      "recent_history": {
-        "2026-11-11": 794.1,
-        "2026-11-12": 772.6,
-        "2026-11-13": 765.5,
-        "2026-11-16": 769.7,
-        "2026-11-17": 760.9,
-        "2026-11-18": 744.2,
-        "2026-11-19": 725.6,
-        "2026-11-20": 693.4,
-        "2026-11-23": 725.2,
-        "2026-11-24": 734.5
-      },
-      "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
-      "history_sessions": 761,
-      "yahoo_url": "https://finance.yahoo.com/quote/RHM.DE",
-      "price_history": [
-        {
-          "date": "2026-10-28",
-          "price": 1012.0
         },
         {
-          "date": "2026-10-29",
-          "price": 1048.2
-        },
-        {
-          "date": "2026-10-30",
-          "price": 1037.6
-        },
-        {
-          "date": "2026-11-02",
-          "price": 1000.0
-        },
-        {
-          "date": "2026-11-03",
-          "price": 1004.8
-        },
-        {
-          "date": "2026-11-04",
-          "price": 1003.4
-        },
-        {
-          "date": "2026-11-05",
-          "price": 841.5
-        },
-        {
-          "date": "2026-11-06",
-          "price": 812.7
-        },
-        {
-          "date": "2026-11-09",
-          "price": 845.4
-        },
-        {
-          "date": "2026-11-10",
-          "price": 853.3
-        },
-        {
-          "date": "2026-11-11",
-          "price": 794.1
-        },
-        {
-          "date": "2026-11-12",
-          "price": 772.6
-        },
-        {
-          "date": "2026-11-13",
-          "price": 765.5
-        },
-        {
-          "date": "2026-11-16",
-          "price": 769.7
-        },
-        {
-          "date": "2026-11-17",
-          "price": 760.9
-        },
-        {
-          "date": "2026-11-18",
-          "price": 744.2
-        },
-        {
-          "date": "2026-11-19",
-          "price": 725.6
-        },
-        {
-          "date": "2026-11-20",
-          "price": 693.4
-        },
-        {
-          "date": "2026-11-23",
-          "price": 725.2
-        },
-        {
-          "date": "2026-11-24",
-          "price": 734.5
+          "date": "2026-11-25",
+          "price": 444.8
         }
       ]
     },
@@ -2611,43 +2057,43 @@
       "exchange": "Xetra (Alemania)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 52.04,
-      "prev_close": 52.98,
-      "change_1d_pct": -1.77,
-      "change_5d_pct": -7.3,
-      "change_1m_pct": 14.22,
-      "change_1y_pct": 71.41,
-      "change_2y_pct": 171.61,
-      "change_since_first_tracked_pct": 13.06,
-      "streak_days": -5,
+      "current_price": 50.68,
+      "prev_close": 52.04,
+      "change_1d_pct": -2.61,
+      "change_5d_pct": -9.4,
+      "change_1m_pct": 9.82,
+      "change_1y_pct": 65.51,
+      "change_2y_pct": 161.64,
+      "change_since_first_tracked_pct": 10.1,
+      "streak_days": -6,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada +13.06% (anterior cierre registrado 52.98 EUR el 2026-11-23, -1.77%) · Encadena 5 sesiones seguidas corrigiendo (vigilar posible suelo).",
-      "value_of_40eur_2y": 108.64,
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada +10.10% (anterior cierre registrado 52.04 EUR el 2026-11-24, -2.61%) · Encadena 6 sesiones seguidas corrigiendo (vigilar posible suelo).",
+      "value_of_40eur_2y": 104.66,
       "low_3y": 18.87,
       "high_3y": 57.08,
-      "drawdown_3y_pct": -8.83,
-      "sma_50": 49.23,
-      "sma_200": 44.41,
-      "rsi_14": 39.1,
-      "rsi_explanation": "RSI 39/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -11.21,
+      "sma_50": 49.27,
+      "sma_200": 44.43,
+      "rsi_14": 20.8,
+      "rsi_explanation": "RSI 21/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
       "historical_support_low": 24.0,
       "historical_support_high": 27.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 92.7,
-      "support_explanation": "Cotizando cerca de sus máximos de 3 años (87% del rango entre 18.9 y 57.1 EUR). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
-      "opportunity_score": 65,
+      "dist_to_support_pct": 87.7,
+      "support_explanation": "Cotizando cerca de sus máximos de 3 años (83% del rango entre 18.9 y 57.1 EUR). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
+      "opportunity_score": 77,
       "signal_badge": "🔬 VIGILANCIA DIARIA (FASE CLÍNICA)",
       "signal_color": "blue",
       "alert_level": "medium",
       "reasons": [
         "Cotizando por encima de su suelo de rebajas de 3 años (24.0 - 27.0 EUR). Para tu cuota fija mensual (DCA) sigue adelante sin problema; para meter dinero extra de golpe, sería mejor dejar una Orden Limitada en 27.0 EUR.",
-        "Retroceso acumulado de -7.30% en los últimos 5 días bursátiles (posible descuento a corto plazo)."
+        "Retroceso acumulado de -9.40% en los últimos 5 días bursátiles (posible descuento a corto plazo).",
+        "Termómetro RSI en 21/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
       ],
       "thesis": "Heredera de las patentes CRISPR y RNAi de Monsanto, pero lastrada por los litigios multimillonarios de Roundup (glifosato) en EE. UU. y su división farma.",
       "sell_rule": "Solo en vigilancia comparativa frente a Corteva (CTVA).",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 56.76,
         "2026-11-12": 56.56,
         "2026-11-13": 56.52,
         "2026-11-16": 57.0,
@@ -2656,10 +2102,11 @@
         "2026-11-19": 54.68,
         "2026-11-20": 53.36,
         "2026-11-23": 52.98,
-        "2026-11-24": 52.04
+        "2026-11-24": 52.04,
+        "2026-11-25": 50.68
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 761,
       "yahoo_url": "https://finance.yahoo.com/quote/BAYN.DE",
       "price_history": [
@@ -2742,6 +2189,10 @@
         {
           "date": "2026-11-24",
           "price": 52.04
+        },
+        {
+          "date": "2026-11-25",
+          "price": 50.68
         }
       ]
     },
@@ -2757,36 +2208,37 @@
       "exchange": "NASDAQ (EE. UU.)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 157.52,
-      "prev_close": 154.17,
-      "change_1d_pct": 2.17,
-      "change_5d_pct": 9.94,
-      "change_1m_pct": -9.08,
-      "change_1y_pct": 41.59,
-      "change_2y_pct": 413.43,
-      "change_since_first_tracked_pct": -11.54,
-      "streak_days": 4,
+      "current_price": 152.43,
+      "prev_close": 158.0,
+      "change_1d_pct": -3.53,
+      "change_5d_pct": 5.02,
+      "change_1m_pct": -14.39,
+      "change_1y_pct": 40.09,
+      "change_2y_pct": 392.03,
+      "change_since_first_tracked_pct": -14.39,
+      "streak_days": 5,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -11.54% (anterior cierre registrado 154.77 USD el 2026-11-23, +1.78%) · Encadena 4 sesiones seguidas subiendo.",
-      "value_of_40eur_2y": 205.37,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -14.39% (anterior cierre registrado 157.52 USD el 2026-11-24, -3.23%) · Encadena 5 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 196.81,
       "low_3y": 16.07,
       "high_3y": 187.22,
-      "drawdown_3y_pct": -15.86,
-      "sma_50": 166.46,
-      "sma_200": 134.2,
-      "rsi_14": 40.0,
-      "rsi_explanation": "RSI 40/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -18.58,
+      "sma_50": 166.02,
+      "sma_200": 134.43,
+      "rsi_14": 48.9,
+      "rsi_explanation": "RSI 49/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 22.0,
       "historical_support_high": 26.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 505.8,
-      "support_explanation": "Cotizando cerca de sus máximos de 3 años (83% del rango entre 16.1 y 187.2 USD). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
-      "opportunity_score": 61,
-      "signal_badge": "🔬 VIGILANCIA DIARIA (FASE CLÍNICA)",
-      "signal_color": "blue",
-      "alert_level": "medium",
+      "dist_to_support_pct": 486.3,
+      "support_explanation": "Cotizando cerca de sus máximos de 3 años (80% del rango entre 16.1 y 187.2 USD). Significa que la empresa va como un tiro y el mercado la premia, pero no está 'barata' hoy: mantén solo tu pequeña cuota automática mensual sin meter dinero extra de golpe.",
+      "opportunity_score": 77,
+      "signal_badge": "📉 REBAJA BRUSCA HOY (OPORTUNIDAD)",
+      "signal_color": "amber",
+      "alert_level": "high",
       "reasons": [
         "Cotizando por encima de su suelo de rebajas de 3 años (22.0 - 26.0 USD). Para tu cuota fija mensual (DCA) sigue adelante sin problema; para meter dinero extra de golpe, sería mejor dejar una Orden Limitada en 26.0 USD.",
+        "📉 Caída fuerte hoy (-3.53%): Cuando una empresa sólida cae así en un solo día, suele ser una sobrerreacción de Wall Street que te permite comprar más acciones con los mismos euros.",
         "✅ Caja holgada: $1026.8M a 2026-09-30 frente a una quema de ~$173.5M/año → unos 71 meses de vida sin necesitar ampliar capital.",
         "👔 Directivos: Últimos 90 días: compras $0.00M (0 op.) · ventas $3.35M (11 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
       ],
@@ -2803,7 +2255,7 @@
         "cash_flow_positive": false,
         "cash_runway_months": 71,
         "shares_outstanding": 135285975.0,
-        "market_cap_musd": 21310.2,
+        "market_cap_musd": 20621.6,
         "trading_below_cash": false,
         "dilution_risk": "Bajo",
         "insiders": {
@@ -2818,7 +2270,6 @@
         "insider_activity": "Últimos 90 días: compras $0.00M (0 op.) · ventas $3.35M (11 op.). Muchas ventas son planes 10b5-1 o pago de impuestos; las compras con dinero propio son la señal fuerte."
       },
       "recent_history": {
-        "2026-11-11": 154.78,
         "2026-11-12": 154.86,
         "2026-11-13": 151.7,
         "2026-11-16": 144.03,
@@ -2827,10 +2278,11 @@
         "2026-11-19": 145.59,
         "2026-11-20": 145.83,
         "2026-11-23": 154.17,
-        "2026-11-24": 157.52
+        "2026-11-24": 158.0,
+        "2026-11-25": 152.43
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
       "yahoo_url": "https://finance.yahoo.com/quote/GH",
       "price_history": [
@@ -2916,7 +2368,642 @@
         },
         {
           "date": "2026-11-24",
-          "price": 157.52
+          "price": 158.0
+        },
+        {
+          "date": "2026-11-25",
+          "price": 152.43
+        }
+      ]
+    },
+    {
+      "ticker": "KURE",
+      "name": "KraneShares MSCI All China Health Care ETF (Incluye Mindray)",
+      "category": "sat1_ivd_diagnostics",
+      "category_label": "Satélite 1 · Diagnóstico In Vitro, NGS y Laboratorio",
+      "strategy_mode": "long_term_tactical",
+      "strategy_group": "long_term",
+      "strategy_label": "Largo Plazo (Core / DCA)",
+      "currency": "USD",
+      "exchange": "NYSE Arca / UCITS",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0.0,
+      "current_price": 16.96,
+      "prev_close": 17.12,
+      "change_1d_pct": -0.91,
+      "change_5d_pct": -2.84,
+      "change_1m_pct": -3.99,
+      "change_1y_pct": -11.08,
+      "change_2y_pct": 11.76,
+      "change_since_first_tracked_pct": -4.02,
+      "streak_days": -1,
+      "support_transition": "unchanged",
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -4.02% (anterior cierre registrado 16.99 USD el 2026-11-24, -0.18%)",
+      "value_of_40eur_2y": 44.7,
+      "low_3y": 12.97,
+      "high_3y": 21.84,
+      "drawdown_3y_pct": -22.32,
+      "sma_50": 18.24,
+      "sma_200": 17.44,
+      "rsi_14": 23.8,
+      "rsi_explanation": "RSI 24/100 (Muy barato / 'Sobreventa'): El mercado ha vendido con pánico exagerado. Históricamente suele ser una gran oportunidad de rebote al alza.",
+      "historical_support_low": 13.0,
+      "historical_support_high": 15.0,
+      "in_support_zone": false,
+      "dist_to_support_pct": 13.1,
+      "support_explanation": "En zona media-alta de los últimos 3 años (45% del recorrido entre 13.0 y 21.8 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 15.0 USD.",
+      "opportunity_score": 67,
+      "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
+      "signal_color": "green",
+      "alert_level": "low",
+      "reasons": [
+        "Cotizando por encima de su suelo de rebajas de 3 años (13.0 - 15.0 USD). Para tu cuota fija mensual (DCA) sigue adelante sin problema; para meter dinero extra de golpe, sería mejor dejar una Orden Limitada en 15.0 USD.",
+        "Termómetro RSI en 24/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
+      ],
+      "thesis": "Vehículo institucional para invertir en Shenzhen Mindray Bio-Medical (~4.5% del fondo), el gigante chino de diagnóstico in vitro e instrumentación médica inaccesible por compra directa en Shenzhen.",
+      "sell_rule": "Alternativa táctica cuando el mercado chino de salud cotiza en mínimos.",
+      "clinical_vitals": null,
+      "recent_history": {
+        "2026-11-12": 18.3,
+        "2026-11-13": 18.11,
+        "2026-11-16": 17.81,
+        "2026-11-17": 17.81,
+        "2026-11-18": 17.46,
+        "2026-11-19": 17.45,
+        "2026-11-20": 16.81,
+        "2026-11-23": 17.44,
+        "2026-11-24": 17.12,
+        "2026-11-25": 16.96
+      },
+      "quote_source": "Yahoo Finance",
+      "last_session_date": "2026-11-25",
+      "history_sessions": 753,
+      "yahoo_url": "https://finance.yahoo.com/quote/KURE",
+      "price_history": [
+        {
+          "date": "2026-10-27",
+          "price": 17.67
+        },
+        {
+          "date": "2026-10-28",
+          "price": 17.68
+        },
+        {
+          "date": "2026-10-29",
+          "price": 17.8
+        },
+        {
+          "date": "2026-10-30",
+          "price": 17.62
+        },
+        {
+          "date": "2026-11-02",
+          "price": 17.34
+        },
+        {
+          "date": "2026-11-03",
+          "price": 17.47
+        },
+        {
+          "date": "2026-11-04",
+          "price": 18.63
+        },
+        {
+          "date": "2026-11-05",
+          "price": 18.73
+        },
+        {
+          "date": "2026-11-06",
+          "price": 18.79
+        },
+        {
+          "date": "2026-11-09",
+          "price": 18.9
+        },
+        {
+          "date": "2026-11-10",
+          "price": 18.74
+        },
+        {
+          "date": "2026-11-11",
+          "price": 18.45
+        },
+        {
+          "date": "2026-11-12",
+          "price": 18.3
+        },
+        {
+          "date": "2026-11-13",
+          "price": 18.11
+        },
+        {
+          "date": "2026-11-16",
+          "price": 17.81
+        },
+        {
+          "date": "2026-11-17",
+          "price": 17.81
+        },
+        {
+          "date": "2026-11-18",
+          "price": 17.46
+        },
+        {
+          "date": "2026-11-19",
+          "price": 17.45
+        },
+        {
+          "date": "2026-11-20",
+          "price": 16.81
+        },
+        {
+          "date": "2026-11-23",
+          "price": 17.44
+        },
+        {
+          "date": "2026-11-24",
+          "price": 17.12
+        },
+        {
+          "date": "2026-11-25",
+          "price": 16.96
+        }
+      ]
+    },
+    {
+      "ticker": "NDIA.L",
+      "name": "iShares MSCI India UCITS ETF (Exposición India)",
+      "category": "sat1_ivd_diagnostics",
+      "category_label": "Satélite 1 · Diagnóstico In Vitro, NGS y Laboratorio",
+      "strategy_mode": "long_term_tactical",
+      "strategy_group": "long_term",
+      "strategy_label": "Largo Plazo (Core / DCA)",
+      "currency": "USD",
+      "exchange": "LSE / Xetra (UCITS)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0.0,
+      "current_price": 9.42,
+      "prev_close": 9.38,
+      "change_1d_pct": 0.39,
+      "change_5d_pct": 2.58,
+      "change_1m_pct": 14.56,
+      "change_1y_pct": -4.49,
+      "change_2y_pct": -3.02,
+      "change_since_first_tracked_pct": 14.46,
+      "streak_days": 1,
+      "support_transition": "unchanged",
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada +14.46% (anterior cierre registrado 9.38 USD el 2026-11-24, +0.43%)",
+      "value_of_40eur_2y": 38.79,
+      "low_3y": 7.84,
+      "high_3y": 10.72,
+      "drawdown_3y_pct": -12.15,
+      "sma_50": 8.63,
+      "sma_200": 8.75,
+      "rsi_14": 69.1,
+      "rsi_explanation": "RSI 69/100 (Zona cálida / Fuerte): La acción lleva semanas subiendo con fuerza porque hay mucho interés comprador.",
+      "historical_support_low": 8.0,
+      "historical_support_high": 9.0,
+      "in_support_zone": false,
+      "dist_to_support_pct": 4.7,
+      "support_explanation": "En zona media-alta de los últimos 3 años (55% del recorrido entre 7.8 y 10.7 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 9.0 USD.",
+      "opportunity_score": 67,
+      "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
+      "signal_color": "green",
+      "alert_level": "low",
+      "reasons": [
+        "Bastante cerca de su suelo de compra de 3 años (8.0 - 9.0 USD, a solo un +4.7% de distancia)."
+      ],
+      "thesis": "Puerta de entrada regulada UCITS al boom demográfico, farmacéutico y de diagnóstico de la India (ante la restricción de compra directa de micro-caps indias como 3B Blackbio DX).",
+      "sell_rule": "Acumulación a largo plazo por tendencia de 'Friendshoring' e infraestructura sanitaria india.",
+      "clinical_vitals": null,
+      "recent_history": {
+        "2026-11-12": 9.26,
+        "2026-11-13": 9.19,
+        "2026-11-16": 9.25,
+        "2026-11-17": 9.21,
+        "2026-11-18": 9.18,
+        "2026-11-19": 9.29,
+        "2026-11-20": 9.5,
+        "2026-11-23": 9.27,
+        "2026-11-24": 9.38,
+        "2026-11-25": 9.42
+      },
+      "quote_source": "Yahoo Finance",
+      "last_session_date": "2026-11-25",
+      "history_sessions": 759,
+      "yahoo_url": "https://finance.yahoo.com/quote/NDIA.L",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 8.23
+        },
+        {
+          "date": "2026-10-29",
+          "price": 8.36
+        },
+        {
+          "date": "2026-10-30",
+          "price": 8.41
+        },
+        {
+          "date": "2026-11-02",
+          "price": 8.61
+        },
+        {
+          "date": "2026-11-03",
+          "price": 8.65
+        },
+        {
+          "date": "2026-11-04",
+          "price": 8.89
+        },
+        {
+          "date": "2026-11-05",
+          "price": 8.95
+        },
+        {
+          "date": "2026-11-06",
+          "price": 9.1
+        },
+        {
+          "date": "2026-11-09",
+          "price": 9.22
+        },
+        {
+          "date": "2026-11-10",
+          "price": 9.24
+        },
+        {
+          "date": "2026-11-11",
+          "price": 9.23
+        },
+        {
+          "date": "2026-11-12",
+          "price": 9.26
+        },
+        {
+          "date": "2026-11-13",
+          "price": 9.19
+        },
+        {
+          "date": "2026-11-16",
+          "price": 9.25
+        },
+        {
+          "date": "2026-11-17",
+          "price": 9.21
+        },
+        {
+          "date": "2026-11-18",
+          "price": 9.18
+        },
+        {
+          "date": "2026-11-19",
+          "price": 9.29
+        },
+        {
+          "date": "2026-11-20",
+          "price": 9.5
+        },
+        {
+          "date": "2026-11-23",
+          "price": 9.27
+        },
+        {
+          "date": "2026-11-24",
+          "price": 9.38
+        },
+        {
+          "date": "2026-11-25",
+          "price": 9.42
+        }
+      ]
+    },
+    {
+      "ticker": "RHM.DE",
+      "name": "Rheinmetall AG",
+      "category": "sat3_defense_geopolitics",
+      "category_label": "Satélite 3 · Escudo Geopolítico y Defensa OTAN",
+      "strategy_mode": "dynamic_daily",
+      "strategy_group": "dynamic",
+      "strategy_label": "Dinámica (Seguimiento Diario)",
+      "currency": "EUR",
+      "exchange": "Xetra (Alemania)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0.0,
+      "current_price": 735.8,
+      "prev_close": 734.5,
+      "change_1d_pct": 0.18,
+      "change_5d_pct": -1.13,
+      "change_1m_pct": -28.23,
+      "change_1y_pct": -51.4,
+      "change_2y_pct": 18.6,
+      "change_since_first_tracked_pct": -27.29,
+      "streak_days": 2,
+      "support_transition": "unchanged",
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada -27.29% (anterior cierre registrado 734.50 EUR el 2026-11-24, +0.18%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 47.44,
+      "low_3y": 274.0,
+      "high_3y": 1988.5,
+      "drawdown_3y_pct": -63.0,
+      "sma_50": 929.39,
+      "sma_200": 1186.67,
+      "rsi_14": 31.1,
+      "rsi_explanation": "RSI 31/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "historical_support_low": 460.0,
+      "historical_support_high": 510.0,
+      "in_support_zone": false,
+      "dist_to_support_pct": 44.3,
+      "support_explanation": "Precio razonable en la mitad baja de los últimos 3 años (está en el 27% de su rango entre el mínimo de 274.0 EUR y el máximo de 1988.5 EUR). Su zona de 'chollo histórico' empieza si baja a 510.0 EUR.",
+      "opportunity_score": 67,
+      "signal_badge": "🔬 VIGILANCIA DIARIA (FASE CLÍNICA)",
+      "signal_color": "blue",
+      "alert_level": "medium",
+      "reasons": [
+        "Cotizando por encima de su suelo de rebajas de 3 años (460.0 - 510.0 EUR). Para tu cuota fija mensual (DCA) sigue adelante sin problema; para meter dinero extra de golpe, sería mejor dejar una Orden Limitada en 510.0 EUR.",
+        "Termómetro RSI en 31/100 (Sobreventa): Ha habido demasiadas ventas seguidas y el precio está estadísticamente comprimido."
+      ],
+      "thesis": "Coloso alemán del rearme terrestre europeo: munición de artillería de 155 mm, carros Leopard y defensa antiaérea.",
+      "sell_rule": "Indicador adelantado de contratos de defensa de la UE y Alemania.",
+      "clinical_vitals": null,
+      "recent_history": {
+        "2026-11-12": 772.6,
+        "2026-11-13": 765.5,
+        "2026-11-16": 769.7,
+        "2026-11-17": 760.9,
+        "2026-11-18": 744.2,
+        "2026-11-19": 725.6,
+        "2026-11-20": 693.4,
+        "2026-11-23": 725.2,
+        "2026-11-24": 734.5,
+        "2026-11-25": 735.8
+      },
+      "quote_source": "Yahoo Finance",
+      "last_session_date": "2026-11-25",
+      "history_sessions": 761,
+      "yahoo_url": "https://finance.yahoo.com/quote/RHM.DE",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 1012.0
+        },
+        {
+          "date": "2026-10-29",
+          "price": 1048.2
+        },
+        {
+          "date": "2026-10-30",
+          "price": 1037.6
+        },
+        {
+          "date": "2026-11-02",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-11-03",
+          "price": 1004.8
+        },
+        {
+          "date": "2026-11-04",
+          "price": 1003.4
+        },
+        {
+          "date": "2026-11-05",
+          "price": 841.5
+        },
+        {
+          "date": "2026-11-06",
+          "price": 812.7
+        },
+        {
+          "date": "2026-11-09",
+          "price": 845.4
+        },
+        {
+          "date": "2026-11-10",
+          "price": 853.3
+        },
+        {
+          "date": "2026-11-11",
+          "price": 794.1
+        },
+        {
+          "date": "2026-11-12",
+          "price": 772.6
+        },
+        {
+          "date": "2026-11-13",
+          "price": 765.5
+        },
+        {
+          "date": "2026-11-16",
+          "price": 769.7
+        },
+        {
+          "date": "2026-11-17",
+          "price": 760.9
+        },
+        {
+          "date": "2026-11-18",
+          "price": 744.2
+        },
+        {
+          "date": "2026-11-19",
+          "price": 725.6
+        },
+        {
+          "date": "2026-11-20",
+          "price": 693.4
+        },
+        {
+          "date": "2026-11-23",
+          "price": 725.2
+        },
+        {
+          "date": "2026-11-24",
+          "price": 734.5
+        },
+        {
+          "date": "2026-11-25",
+          "price": 735.8
+        }
+      ]
+    },
+    {
+      "ticker": "SMMT",
+      "name": "Summit Therapeutics (Fase Clínica · Biespecífico Ivonescimab)",
+      "category": "sat4_clinical_biotech_dynamic",
+      "category_label": "Satélite 4 · Dinámica Diaria (Biotech Fase Clínica y Biopsia Líquida)",
+      "strategy_mode": "dynamic_daily",
+      "strategy_group": "dynamic",
+      "strategy_label": "Dinámica (Seguimiento Diario)",
+      "currency": "USD",
+      "exchange": "NASDAQ (EE. UU.)",
+      "in_base_dca": false,
+      "monthly_allocation_eur": 0.0,
+      "current_price": 10.42,
+      "prev_close": 10.5,
+      "change_1d_pct": -0.76,
+      "change_5d_pct": -0.76,
+      "change_1m_pct": -32.03,
+      "change_1y_pct": -40.93,
+      "change_2y_pct": -43.43,
+      "change_since_first_tracked_pct": -32.03,
+      "streak_days": 2,
+      "support_transition": "unchanged",
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -32.03% (anterior cierre registrado 10.78 USD el 2026-11-24, -3.34%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 22.63,
+      "low_3y": 1.95,
+      "high_3y": 36.7,
+      "drawdown_3y_pct": -71.61,
+      "sma_50": 15.3,
+      "sma_200": 15.99,
+      "rsi_14": 34.7,
+      "rsi_explanation": "RSI 35/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "historical_support_low": 14.0,
+      "historical_support_high": 18.0,
+      "in_support_zone": true,
+      "dist_to_support_pct": -42.1,
+      "support_explanation": "🎯 ¡EN ZONA DE REBAJAS HISTÓRICAS! Hoy cotiza a 10.42 USD, que está en el 24% más bajo de todo su recorrido de los últimos 3 años (suelo entre 14.0 y 18.0 USD, frente a un máximo de 36.7 USD). En bolsa, a este suelo donde la caída suele frenarse porque los grandes fondos ven el precio irresistible se le llama 'Soporte Histórico'.",
+      "opportunity_score": 63,
+      "signal_badge": "⚠️ VIGILAR CAJA (<15 MESES)",
+      "signal_color": "amber",
+      "alert_level": "high",
+      "reasons": [
+        "🎯 En Suelo Histórico de 3 Años (14.0 - 18.0 USD vs precio actual 10.42 USD): Está en la franja más barata de los últimos 3 años, donde históricamente deja de caer y rebota.",
+        "⚠️ Cuidado con la caja: $629.8M a 2026-09-30 y quema ~$525.2M/año → unos 14 meses de vida. Riesgo de ampliación de capital que diluya tu participación."
+      ],
+      "thesis": "Anticuerpo biespecífico Ivonescimab (bloqueo simultáneo PD-1 y VEGF) que ha desafiado a Keytruda en ensayos de cáncer de pulmón.",
+      "sell_rule": "Altísima volatilidad binaria: vigilar caja necesaria para comercialización global y decisiones FDA.",
+      "clinical_vitals": {
+        "available": true,
+        "source": "SEC EDGAR",
+        "cik": 1599298,
+        "balance_date": "2026-09-30",
+        "total_cash_musd": 629.8,
+        "annual_burn_musd": 525.2,
+        "burn_method": "TTM (anual + acumulado del año - mismo periodo anterior)",
+        "cash_flow_positive": false,
+        "cash_runway_months": 14,
+        "shares_outstanding": 799763918.0,
+        "market_cap_musd": 8333.5,
+        "trading_below_cash": false,
+        "dilution_risk": "Medio",
+        "insiders": {
+          "buy_usd": 0.0,
+          "sell_usd": 0.0,
+          "buy_tx": 0,
+          "sell_tx": 0,
+          "filings": 6,
+          "errors": 0,
+          "window_days": 90
+        },
+        "insider_activity": "Sin compras ni ventas en mercado abierto en 90 días (6 Form 4 revisados: concesiones, opciones, etc.)."
+      },
+      "recent_history": {
+        "2026-11-12": 15.07,
+        "2026-11-13": 14.15,
+        "2026-11-16": 11.82,
+        "2026-11-17": 10.67,
+        "2026-11-18": 10.5,
+        "2026-11-19": 10.57,
+        "2026-11-20": 9.95,
+        "2026-11-23": 10.32,
+        "2026-11-24": 10.5,
+        "2026-11-25": 10.42
+      },
+      "quote_source": "Yahoo Finance",
+      "last_session_date": "2026-11-25",
+      "history_sessions": 753,
+      "yahoo_url": "https://finance.yahoo.com/quote/SMMT",
+      "price_history": [
+        {
+          "date": "2026-10-27",
+          "price": 15.33
+        },
+        {
+          "date": "2026-10-28",
+          "price": 15.77
+        },
+        {
+          "date": "2026-10-29",
+          "price": 16.2
+        },
+        {
+          "date": "2026-10-30",
+          "price": 16.03
+        },
+        {
+          "date": "2026-11-02",
+          "price": 14.8
+        },
+        {
+          "date": "2026-11-03",
+          "price": 15.8
+        },
+        {
+          "date": "2026-11-04",
+          "price": 16.17
+        },
+        {
+          "date": "2026-11-05",
+          "price": 14.19
+        },
+        {
+          "date": "2026-11-06",
+          "price": 16.33
+        },
+        {
+          "date": "2026-11-09",
+          "price": 17.84
+        },
+        {
+          "date": "2026-11-10",
+          "price": 17.83
+        },
+        {
+          "date": "2026-11-11",
+          "price": 16.64
+        },
+        {
+          "date": "2026-11-12",
+          "price": 15.07
+        },
+        {
+          "date": "2026-11-13",
+          "price": 14.15
+        },
+        {
+          "date": "2026-11-16",
+          "price": 11.82
+        },
+        {
+          "date": "2026-11-17",
+          "price": 10.67
+        },
+        {
+          "date": "2026-11-18",
+          "price": 10.5
+        },
+        {
+          "date": "2026-11-19",
+          "price": 10.57
+        },
+        {
+          "date": "2026-11-20",
+          "price": 9.95
+        },
+        {
+          "date": "2026-11-23",
+          "price": 10.32
+        },
+        {
+          "date": "2026-11-24",
+          "price": 10.5
+        },
+        {
+          "date": "2026-11-25",
+          "price": 10.42
         }
       ]
     },
@@ -2932,30 +3019,30 @@
       "exchange": "NASDAQ (EE. UU.)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 206.76,
-      "prev_close": 205.28,
-      "change_1d_pct": 0.72,
-      "change_5d_pct": 2.05,
-      "change_1m_pct": -23.72,
-      "change_1y_pct": 64.15,
-      "change_2y_pct": 57.02,
-      "change_since_first_tracked_pct": -26.02,
-      "streak_days": 1,
+      "current_price": 201.47,
+      "prev_close": 204.52,
+      "change_1d_pct": -1.49,
+      "change_5d_pct": -4.07,
+      "change_1m_pct": -27.91,
+      "change_1y_pct": 55.41,
+      "change_2y_pct": 47.07,
+      "change_since_first_tracked_pct": -27.91,
+      "streak_days": 2,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (20 sesiones guardadas): evolución acumulada -26.02% (anterior cierre registrado 205.56 USD el 2026-11-23, +0.58%)",
-      "value_of_40eur_2y": 62.81,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (21 sesiones guardadas): evolución acumulada -27.91% (anterior cierre registrado 206.76 USD el 2026-11-24, -2.56%) · Encadena 2 sesiones seguidas subiendo.",
+      "value_of_40eur_2y": 58.83,
       "low_3y": 70.3,
       "high_3y": 293.69,
-      "drawdown_3y_pct": -29.6,
-      "sma_50": 247.9,
-      "sma_200": 181.97,
-      "rsi_14": 39.8,
-      "rsi_explanation": "RSI 40/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -31.4,
+      "sma_50": 247.3,
+      "sma_200": 182.36,
+      "rsi_14": 46.0,
+      "rsi_explanation": "RSI 46/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 105.0,
       "historical_support_high": 120.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 72.3,
-      "support_explanation": "En zona media-alta de los últimos 3 años (61% del recorrido entre 70.3 y 293.7 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 120.0 USD.",
+      "dist_to_support_pct": 67.9,
+      "support_explanation": "En zona media-alta de los últimos 3 años (59% del recorrido entre 70.3 y 293.7 USD). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 120.0 USD.",
       "opportunity_score": 55,
       "signal_badge": "🟢 MANTENER PLAN DCA NORMAL",
       "signal_color": "green",
@@ -2967,7 +3054,6 @@
       "sell_rule": "Vigilar competencia con Thermo Fisher en NGS hospitalario y recompras en caídas fuertes.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 212.93,
         "2026-11-12": 209.55,
         "2026-11-13": 207.01,
         "2026-11-16": 198.0,
@@ -2976,10 +3062,11 @@
         "2026-11-19": 200.66,
         "2026-11-20": 192.82,
         "2026-11-23": 205.28,
-        "2026-11-24": 206.76
+        "2026-11-24": 204.52,
+        "2026-11-25": 201.47
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 753,
       "yahoo_url": "https://finance.yahoo.com/quote/ILMN",
       "price_history": [
@@ -3065,7 +3152,11 @@
         },
         {
           "date": "2026-11-24",
-          "price": 206.76
+          "price": 204.52
+        },
+        {
+          "date": "2026-11-25",
+          "price": 201.47
         }
       ]
     },
@@ -3081,29 +3172,29 @@
       "exchange": "London Stock Exchange (Reino Unido)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 194.9,
-      "prev_close": 196.2,
-      "change_1d_pct": -0.66,
-      "change_5d_pct": -1.22,
-      "change_1m_pct": -9.35,
-      "change_1y_pct": 42.47,
-      "change_2y_pct": 37.16,
-      "change_since_first_tracked_pct": -17.06,
-      "streak_days": 1,
+      "current_price": 195.3,
+      "prev_close": 194.9,
+      "change_1d_pct": 0.21,
+      "change_5d_pct": -0.66,
+      "change_1m_pct": -13.43,
+      "change_1y_pct": 40.6,
+      "change_2y_pct": 32.95,
+      "change_since_first_tracked_pct": -16.89,
+      "streak_days": -1,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-28 (19 sesiones guardadas): evolución acumulada -17.06% (anterior cierre registrado 196.20 GBp el 2026-11-23, -0.66%)",
-      "value_of_40eur_2y": 54.86,
+      "memory_note": "🧠 Memoria desde 2026-10-28 (20 sesiones guardadas): evolución acumulada -16.89% (anterior cierre registrado 194.90 GBp el 2026-11-24, +0.21%)",
+      "value_of_40eur_2y": 53.18,
       "low_3y": 86.55,
       "high_3y": 235.0,
-      "drawdown_3y_pct": -17.06,
-      "sma_50": 203.75,
-      "sma_200": 145.67,
-      "rsi_14": 38.3,
-      "rsi_explanation": "RSI 38/100 (Zona fría / Atractiva): Hay más vendedores que compradores últimamente, lo que deja el precio en niveles interesantes para acumular.",
+      "drawdown_3y_pct": -16.89,
+      "sma_50": 204.43,
+      "sma_200": 145.97,
+      "rsi_14": 42.2,
+      "rsi_explanation": "RSI 42/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 110.0,
       "historical_support_high": 135.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 44.4,
+      "dist_to_support_pct": 44.7,
       "support_explanation": "En zona media-alta de los últimos 3 años (73% del recorrido entre 86.5 y 235.0 GBp). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 135.0 GBp.",
       "opportunity_score": 55,
       "signal_badge": "🔬 VIGILANCIA DIARIA (FASE CLÍNICA)",
@@ -3116,7 +3207,6 @@
       "sell_rule": "Seguimiento táctico de adopción clínica y márgenes de reactivos.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-11": 205.2,
         "2026-11-12": 201.4,
         "2026-11-13": 199.0,
         "2026-11-16": 204.2,
@@ -3125,10 +3215,11 @@
         "2026-11-19": 199.5,
         "2026-11-20": 188.7,
         "2026-11-23": 196.2,
-        "2026-11-24": 194.9
+        "2026-11-24": 194.9,
+        "2026-11-25": 195.3
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-24",
+      "last_session_date": "2026-11-25",
       "history_sessions": 759,
       "yahoo_url": "https://finance.yahoo.com/quote/ONT.L",
       "price_history": [
@@ -3211,6 +3302,10 @@
         {
           "date": "2026-11-24",
           "price": 194.9
+        },
+        {
+          "date": "2026-11-25",
+          "price": 195.3
         }
       ]
     },
@@ -3226,29 +3321,29 @@
       "exchange": "BSE / NSE (India - Solo Radar)",
       "in_base_dca": false,
       "monthly_allocation_eur": 0.0,
-      "current_price": 1345.05,
-      "prev_close": 1305.05,
-      "change_1d_pct": 3.07,
-      "change_5d_pct": 0.74,
-      "change_1m_pct": -0.31,
-      "change_1y_pct": -3.36,
-      "change_2y_pct": -6.69,
-      "change_since_first_tracked_pct": -3.09,
+      "current_price": 1337.15,
+      "prev_close": 1345.05,
+      "change_1d_pct": -0.59,
+      "change_5d_pct": -0.95,
+      "change_1m_pct": 0.32,
+      "change_1y_pct": 0.68,
+      "change_2y_pct": -7.17,
+      "change_since_first_tracked_pct": -3.66,
       "streak_days": 1,
       "support_transition": "unchanged",
-      "memory_note": "🧠 Memoria desde 2026-10-27 (18 sesiones guardadas): evolución acumulada -3.09% (anterior cierre registrado 1345.05 INR el 2026-11-20, +0.00%)",
-      "value_of_40eur_2y": 37.32,
+      "memory_note": "🧠 Memoria desde 2026-10-27 (19 sesiones guardadas): evolución acumulada -3.66% (anterior cierre registrado 1345.05 INR el 2026-11-23, -0.59%)",
+      "value_of_40eur_2y": 37.13,
       "low_3y": 676.55,
       "high_3y": 2182.7,
-      "drawdown_3y_pct": -38.38,
-      "sma_50": 1412.46,
-      "sma_200": 1324.73,
-      "rsi_14": 55.6,
-      "rsi_explanation": "RSI 56/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
+      "drawdown_3y_pct": -38.74,
+      "sma_50": 1409.76,
+      "sma_200": 1323.08,
+      "rsi_14": 50.6,
+      "rsi_explanation": "RSI 51/100 (Zona templada / Equilibrio): Ni hay fiebre compradora ni pánico vendedor. Precio moviéndose con normalidad para tu compra mensual DCA.",
       "historical_support_low": 1000.0,
       "historical_support_high": 1200.0,
       "in_support_zone": false,
-      "dist_to_support_pct": 12.1,
+      "dist_to_support_pct": 11.4,
       "support_explanation": "En zona media-alta de los últimos 3 años (44% del recorrido entre 676.5 y 2182.7 INR). Para tu compra automática mensual (DCA) está bien porque promedias precio, pero si quisieras hacer una compra extra buscando rebajas, deberías dejar puesta una 'Orden Limitada' (compra automática condicional) en torno a 1200.0 INR.",
       "opportunity_score": 55,
       "signal_badge": "🔬 VIGILANCIA DIARIA (FASE CLÍNICA)",
@@ -3261,7 +3356,6 @@
       "sell_rule": "Indicador sectorial de referencia para tu conocimiento directo de fabricante qPCR.",
       "clinical_vitals": null,
       "recent_history": {
-        "2026-11-09": 1288.35,
         "2026-11-11": 1347.6,
         "2026-11-12": 1305.1,
         "2026-11-13": 1341.55,
@@ -3270,11 +3364,12 @@
         "2026-11-18": 1321.3,
         "2026-11-19": 1316.85,
         "2026-11-20": 1305.05,
-        "2026-11-23": 1345.05
+        "2026-11-23": 1345.05,
+        "2026-11-25": 1337.15
       },
       "quote_source": "Yahoo Finance",
-      "last_session_date": "2026-11-23",
-      "history_sessions": 737,
+      "last_session_date": "2026-11-25",
+      "history_sessions": 736,
       "yahoo_url": "https://finance.yahoo.com/quote/3BBLACKBIO.BO",
       "price_history": [
         {
@@ -3352,6 +3447,10 @@
         {
           "date": "2026-11-23",
           "price": 1345.05
+        },
+        {
+          "date": "2026-11-25",
+          "price": 1337.15
         }
       ]
     }
@@ -3360,42 +3459,62 @@
     {
       "source": "FierceBiotech",
       "category": "Biotech & FDA",
-      "title": "<a href=\"https://www.fiercebiotech.com/biotech/diamedica-shares-signs-drug-extends-pregnancy-fetal-growth-restriction-trial\" hreflang=\"en\">DiaMedica shares signs that drug extends pregnancy in fetal growth restriction trial</a>",
-      "url": "https://www.fiercebiotech.com/biotech/diamedica-shares-signs-drug-extends-pregnancy-fetal-growth-restriction-trial",
-      "published": "Nov 24, 2026 9:34am",
+      "title": "<a href=\"https://www.fiercebiotech.com/biotech/bayer-becomes-latest-big-pharma-head-hansoh-33b-deal-phase-1-adc\" hreflang=\"en\">Bayer becomes latest Big Pharma to head to Hansoh in $3.3B deal for phase 1 ADC</a>",
+      "url": "https://www.fiercebiotech.com/biotech/bayer-becomes-latest-big-pharma-head-hansoh-33b-deal-phase-1-adc",
+      "published": "Nov 25, 2026 10:30am",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual."
     },
     {
       "source": "FierceBiotech",
       "category": "Biotech & FDA",
-      "title": "<a href=\"https://www.fiercebiotech.com/research/iambic-ceo-says-they-have-holy-grail-cdk-inhibitors-cancer-therapies\" hreflang=\"en\">Why Iambic’s CEO believes preclinical cancer therapy could be ‘holy grail’ for CDK inhibitors</a>",
-      "url": "https://www.fiercebiotech.com/research/iambic-ceo-says-they-have-holy-grail-cdk-inhibitors-cancer-therapies",
-      "published": "Nov 23, 2026 11:27am",
+      "title": "<a href=\"https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m\" hreflang=\"en\">Schrödinger signs €22M biologics collab with sequencing automation outfit Enpicom</a>",
+      "url": "https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m",
+      "published": "Nov 25, 2026 9:09am",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual."
     },
     {
       "source": "FierceBiotech",
       "category": "Biotech & FDA",
-      "title": "<a href=\"https://www.fiercebiotech.com/biotech/vyriad-tells-fierce-how-it-manages-quietly-attract-big-pharmas\" hreflang=\"en\">‘We’ve been a quiet company’: Why viral biotech Vyriad attracts Big Pharmas despite low profile</a>",
-      "url": "https://www.fiercebiotech.com/biotech/vyriad-tells-fierce-how-it-manages-quietly-attract-big-pharmas",
-      "published": "Oct 8, 2026 9:01am",
+      "title": "<a href=\"https://www.fiercebiotech.com/biotech/fda-issues-noncompliance-letters-biotechs-over-lack-trial-data-reporting\" hreflang=\"en\">FDA issues noncompliance letters to 2 biotechs over lack of trial data reporting</a>",
+      "url": "https://www.fiercebiotech.com/biotech/fda-issues-noncompliance-letters-biotechs-over-lack-trial-data-reporting",
+      "published": "Nov 24, 2026 6:09pm",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual."
     },
     {
       "source": "FierceBiotech",
       "category": "Biotech & FDA",
-      "title": "<a href=\"https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test\" hreflang=\"en\">FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test</a>",
-      "url": "https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test",
-      "published": "Nov 24, 2026 5:34am",
+      "title": "<a href=\"https://www.fiercebiotech.com/biotech/desentum-delivers-durable-symptom-relief-phase-2-birch-pollen-allergy-trial\" hreflang=\"en\">Finnish biotech delivers durable symptom relief in phase 2 birch pollen allergy trial</a>",
+      "url": "https://www.fiercebiotech.com/biotech/desentum-delivers-durable-symptom-relief-phase-2-birch-pollen-allergy-trial",
+      "published": "Nov 25, 2026 8:23am",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🧬 Impacto en tus Satélites 1 y 4 (Biotecnología y Diagnóstico): Movimiento relevante en el ecosistema farma/biotech internacional. Recuerda que mientras las startups clínicas (BCYC, BEAM, SMMT) se juegan el éxito en cada ensayo de la FDA, gigantes como Thermo Fisher (TMO) y Danaher (DHR) ganan dinero vendiendo los equipos, secuenciadores y reactivos a todos los laboratorios por igual."
+    },
+    {
+      "source": "AgFunderNews (AgTech & CRISPR)",
+      "category": "AgTech & Genética Vegetal",
+      "title": "Exclusive: ENOUGH Food weighs future of mycoprotein plant as production challenges force rethink",
+      "url": "https://agfundernews.com/exclusive-enough-food-weighs-future-of-mycoprotein-plant-as-production-challenges-force-rethink",
+      "published": "Wed, 25 Nov 2026 16:55:59 +0000",
+      "is_new_today": true,
+      "first_seen_date": "2026-11-25",
+      "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
+    },
+    {
+      "source": "AgFunderNews (AgTech & CRISPR)",
+      "category": "AgTech & Genética Vegetal",
+      "title": "Vertical Oceans plans $28m high-tech shrimp farm in Ireland as physical AI gains traction",
+      "url": "https://agfundernews.com/vertical-oceans-plans-28m-high-tech-shrimp-farm-in-ireland-as-physical-ai-gains-traction",
+      "published": "Wed, 25 Nov 2026 08:45:07 +0000",
+      "is_new_today": true,
+      "first_seen_date": "2026-11-25",
+      "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
     },
     {
       "source": "AgFunderNews (AgTech & CRISPR)",
@@ -3403,7 +3522,7 @@
       "title": "Exclusive: PFerrinX plans Brazil lactoferrin production launch in Q4, 2027, targets 100 tons at scale",
       "url": "https://agfundernews.com/exclusive-pferrinx-plans-brazil-lactoferrin-production-launch-in-q4-2027-targets-100-tons-at-scale",
       "published": "Tue, 24 Nov 2026 09:00:37 +0000",
-      "is_new_today": true,
+      "is_new_today": false,
       "first_seen_date": "2026-11-24",
       "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
     },
@@ -3413,108 +3532,88 @@
       "title": "‘No way’ to confront climate change without addressing fossil fuels, say leaders after botched COP31",
       "url": "https://agfundernews.com/no-way-to-confront-climate-change-without-addressing-fossil-fuels-say-leaders-after-botched-cop31",
       "published": "Mon, 23 Nov 2026 19:27:53 +0000",
-      "is_new_today": true,
-      "first_seen_date": "2026-11-24",
-      "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
-    },
-    {
-      "source": "AgFunderNews (AgTech & CRISPR)",
-      "category": "AgTech & Genética Vegetal",
-      "title": "Aqua Exchange eyes $40m revenue as shrimp farming platform scales globally",
-      "url": "https://agfundernews.com/aqua-exchange-eyes-40m-revenue-as-shrimp-farming-platform-scales-globally",
-      "published": "Mon, 23 Nov 2026 11:16:32 +0000",
-      "is_new_today": true,
-      "first_seen_date": "2026-11-24",
-      "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
-    },
-    {
-      "source": "AgFunderNews (AgTech & CRISPR)",
-      "category": "AgTech & Genética Vegetal",
-      "title": "John Deere Orchard Robotics deal signals growing value of actionable farm data, says ag robotics OG",
-      "url": "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og",
-      "published": "Fri, 20 Nov 2026 18:15:54 +0000",
       "is_new_today": false,
-      "first_seen_date": "2026-11-23",
+      "first_seen_date": "2026-11-24",
       "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
     },
     {
       "source": "Defense News",
       "category": "Geopolítica & Defensa",
-      "title": "‘A new competition space’: US Coast Guard takes icebreaker on maiden voyage to the Arctic",
-      "url": "https://www.defensenews.com/naval/2026/11/24/a-new-competition-space-us-coast-guard-takes-icebreaker-on-maiden-voyage-to-the-arctic/",
-      "published": "Tue, 24 Nov 2026 18:44:16 +0000",
+      "title": "Blast heard, smoke seen rising over farmland near Iowa Army lead azide detonation site",
+      "url": "https://www.defensenews.com/video/2026/11/25/blast-heard-smoke-seen-rising-over-farmland-near-iowa-army-lead-azide-detonation-site/",
+      "published": "Wed, 25 Nov 2026 15:55:58 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
+      "explanation_es": "🌱 Impacto en tu Satélite 2 (Agricultura y Biotecnología Vegetal): Los movimientos en cadenas de suministro agroalimentarias, proteínas alternativas y bioinsumos refuerzan la necesidad de semillas más resistentes y biopesticidas, el negocio central de Vylor (VYLR, semillas) y Novonesis (bioinsumos)."
+    },
+    {
+      "source": "Defense News",
+      "category": "Geopolítica & Defensa",
+      "title": "US Air Force buys final KC-46 lot under Boeing’s original tanker deal",
+      "url": "https://www.defensenews.com/industry/techwatch/2026/11/25/us-air-force-buys-final-kc-46-lot-under-boeings-original-tanker-deal/",
+      "published": "Wed, 25 Nov 2026 14:58:13 +0000",
+      "is_new_today": true,
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
       "source": "Defense News",
       "category": "Geopolítica & Defensa",
-      "title": "From horsepower to firepower, Japan draws auto suppliers into major arms buildup",
-      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
-      "published": "Tue, 24 Nov 2026 16:08:01 +0000",
+      "title": "Japan to use Indian ranges for long-range missile training under new pact",
+      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
+      "published": "Wed, 25 Nov 2026 14:54:29 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
       "source": "Defense News",
       "category": "Geopolítica & Defensa",
-      "title": "Russia may launch nuke-laden satellite by year’s end, German report warns",
-      "url": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
-      "published": "Tue, 24 Nov 2026 12:50:13 +0000",
+      "title": "Buried in Italy’s budget, officials see Rome meeting NATO spending target",
+      "url": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "published": "Wed, 25 Nov 2026 10:22:51 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
-      "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
-    },
-    {
-      "source": "Defense News",
-      "category": "Geopolítica & Defensa",
-      "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
-      "url": "https://www.defensenews.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
-      "published": "Mon, 23 Nov 2026 20:23:07 +0000",
-      "is_new_today": false,
-      "first_seen_date": "2026-11-23",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
       "source": "Breaking Defense",
       "category": "Geopolítica & Defensa",
-      "title": "The Army has told us how it fights. We can’t do that in an analog tank.",
-      "url": "https://breakingdefense.com/2026/11/the-army-has-told-us-how-it-fights-we-cant-do-that-in-an-analog-tank/",
-      "published": "Tue, 24 Nov 2026 17:23:00 +0000",
+      "title": "NATO sees no Russian naval buildup in the Med after strike near Libya, but analysts warn of wider risks",
+      "url": "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/",
+      "published": "Wed, 25 Nov 2026 17:45:00 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
       "source": "Breaking Defense",
       "category": "Geopolítica & Defensa",
-      "title": "Investment firm Cerberus to buy space business of US Airbus arm",
-      "url": "https://breakingdefense.com/2026/11/investment-firm-cerberus-to-buy-space-business-of-us-airbus-arm/",
-      "published": "Tue, 24 Nov 2026 16:49:45 +0000",
+      "title": "Israel increases defense budget by $5 billion as concerns continue over future funding",
+      "url": "https://breakingdefense.com/2026/11/israel-increases-defense-budget-by-5-billion-as-concerns-continue-over-future-funding/",
+      "published": "Wed, 25 Nov 2026 17:30:00 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
       "source": "Breaking Defense",
       "category": "Geopolítica & Defensa",
-      "title": "White House seeks funding exemptions for Golden Dome, Trump battleship in next funding stopgap",
-      "url": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/",
-      "published": "Tue, 24 Nov 2026 16:30:00 +0000",
+      "title": "Air Force issues Boeing $2.8 billion for more KC-46s",
+      "url": "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s/",
+      "published": "Wed, 25 Nov 2026 16:45:00 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
       "source": "Breaking Defense",
       "category": "Geopolítica & Defensa",
-      "title": "How a small Army team built a lightweight battle planning app: Odin",
-      "url": "https://breakingdefense.com/2026/11/how-a-small-army-team-built-a-lightweight-battle-planning-app-odin/",
-      "published": "Tue, 24 Nov 2026 16:03:00 +0000",
+      "title": "The US is racing to fix its missile production challenge. Will it work, and can partners help?",
+      "url": "https://breakingdefense.com/2026/11/the-us-is-racing-to-fix-its-missile-production-challenge-will-it-work-and-can-partners-help/",
+      "published": "Wed, 25 Nov 2026 16:01:00 +0000",
       "is_new_today": true,
-      "first_seen_date": "2026-11-24",
+      "first_seen_date": "2026-11-25",
       "explanation_es": "🛡️ Impacto en tu Satélite 3 (Geopolítica y Defensa): Confirma que los presupuestos de defensa, munición y despliegue militar en Europa y la OTAN siguen en fase expansiva obligatoria. Esto alimenta directamente la cartera de contratos del ETF VanEck Defense (DFNS.MI) y de Rheinmetall (RHM.DE)."
     },
     {
